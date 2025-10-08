@@ -12,10 +12,16 @@ public class MultipleChoice : MonoBehaviour
     public TMPro.TextMeshProUGUI CorrectText;
     public TMPro.TextMeshProUGUI WrongText;
     public TMPro.TextMeshProUGUI QuestionText;
+
+    [Header("Audio")]
+    public AudioClip correctClip;
+    private AudioSource audioSource;
+    public AudioClip WrongClip;
     void Start()
     {
         CorrectText.gameObject.SetActive(false);
         WrongText.gameObject.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,6 +42,7 @@ public class MultipleChoice : MonoBehaviour
             wrong.gameObject.SetActive(false);
         }
         CorrectAnswer.interactable = false; // Disable the correct answer button
+        audioSource.PlayOneShot(correctClip);
     }
 
     public void Wrong(Button pressedButton)
@@ -45,5 +52,6 @@ public class MultipleChoice : MonoBehaviour
         //pressedButton.interactable = false; // Disable only the pressed wrong answer
         //pressedButton.GetComponent<Image>().color = Color.red; // Optional: give visual feedback
         pressedButton.gameObject.SetActive(false); // Hide the pressed wrong answer
+        audioSource.PlayOneShot(WrongClip);
     }
 }

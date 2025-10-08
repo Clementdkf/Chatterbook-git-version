@@ -3,15 +3,23 @@ using UnityEngine.SceneManagement;
 
 public class PageScroller : MonoBehaviour
 {
+    [Header("Pages")]
     public GameObject[] pages;
+
+    [Header("Navigation Buttons")]
     public GameObject HomeButton;
     public GameObject NextButton;
     private int currentPage = 0;
 
+    [Header("Audio")]
+    public AudioClip pagescrollingClip;
+    private AudioSource audioSource;
+
     void Start()
     {
         ShowPage(currentPage);
-        HomeButton.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     void Update()
@@ -49,8 +57,16 @@ public class PageScroller : MonoBehaviour
         }
     }
 
-   public void ChangeScene(string sceneName)
+    public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+    
+    public void PlayPageScrollSound()
+    {
+        if (audioSource != null && pagescrollingClip != null)
+        {
+            audioSource.PlayOneShot(pagescrollingClip);
+        }
     }
 }
