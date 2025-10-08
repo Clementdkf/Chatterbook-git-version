@@ -1,13 +1,26 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PageScroller : MonoBehaviour
 {
     public GameObject[] pages;
+    public GameObject HomeButton;
+    public GameObject NextButton;
     private int currentPage = 0;
 
     void Start()
     {
         ShowPage(currentPage);
+        HomeButton.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (currentPage == pages.Length - 1)
+        {
+            HomeButton.SetActive(true);
+            NextButton.SetActive(false);
+        }
     }
 
     public void NextPage()
@@ -34,5 +47,10 @@ public class PageScroller : MonoBehaviour
         {
             pages[i].SetActive(i == index);
         }
+    }
+
+   public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
