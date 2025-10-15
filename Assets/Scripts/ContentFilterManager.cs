@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ContentFilterManager : MonoBehaviour
 {
@@ -30,18 +31,18 @@ public class ContentFilterManager : MonoBehaviour
         List<ContentItem> filteredList = index switch
         {
             0 => allItems,
-            1 => allItems.OrderByDescending(i => i.popularityScore).Take(1).ToList(),
-            2 => allItems.OrderByDescending(i => i.ParsedDate).ToList(),
-            _ => allItems
+            1 => allItems.OrderByDescending(i => i.popularityScore).Take(1).ToList(), // Top 1 by popularity
+            2 => allItems.OrderByDescending(i => i.ParsedDate).ToList(), // Sort by date descending
+            _ => allItems.Where(i => i.valueTags.Contains(filterDropdown.options[index].text)).ToList() // Filter by tag
         };
 
         foreach (Transform child in buttonContainer)
-            Destroy(child.gameObject);
+            Destroy(child.gameObject); // Clear existing buttons
 
         foreach (var item in filteredList)
         {
             GameObject btn = Instantiate(itemButtonPrefab, buttonContainer);
-            btn.GetComponent<ItemButtonUI>().Setup(item);
+            btn.GetComponent<ItemButtonUI>().Setup(item); // Assuming ItemButtonUI is a script to setup button display
         }
     }
 }
@@ -52,7 +53,9 @@ public class ContentItem
     public string title;
     public string dateString; // Assignable in Inspector, e.g. "2025-09-19"
     public int popularityScore;
+    public Sprite image;
     public string sceneName;
+    public List<string> valueTags = new List<string>();
 
     public DateTime ParsedDate
     {

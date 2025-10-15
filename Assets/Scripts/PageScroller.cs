@@ -7,7 +7,6 @@ public class PageScroller : MonoBehaviour
     public GameObject[] pages;
 
     [Header("Navigation Buttons")]
-    public GameObject HomeButton;
     public GameObject NextButton;
     private int currentPage = 0;
 
@@ -17,7 +16,11 @@ public class PageScroller : MonoBehaviour
 
     void Start()
     {
-        ShowPage(currentPage);
+        if (gameObject.tag != "UIPanels")
+        {
+            ShowPage(currentPage);
+        }
+        //ShowPage(currentPage);
         audioSource = GetComponent<AudioSource>();
 
     }
@@ -26,8 +29,9 @@ public class PageScroller : MonoBehaviour
     {
         if (currentPage == pages.Length - 1)
         {
-            HomeButton.SetActive(true);
             NextButton.SetActive(false);
+        } else {
+            NextButton.SetActive(true);
         }
     }
 

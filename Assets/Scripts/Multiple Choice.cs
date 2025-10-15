@@ -17,8 +17,17 @@ public class MultipleChoice : MonoBehaviour
     public AudioClip correctClip;
     private AudioSource audioSource;
     public AudioClip WrongClip;
+
+    [Header("Record")]
+
+    public TMPro.TextMeshProUGUI CorrectCountText;
+    public TMPro.TextMeshProUGUI WrongCountText;
+    public int CorrectCount = 0;
+    public int WrongCount = 0;
     void Start()
     {
+        Debug.Log("Clip is: " + correctClip);
+        Debug.Log("Clip is: " + WrongClip);
         CorrectText.gameObject.SetActive(false);
         WrongText.gameObject.SetActive(false);
         audioSource = GetComponent<AudioSource>();
@@ -43,6 +52,9 @@ public class MultipleChoice : MonoBehaviour
         }
         CorrectAnswer.interactable = false; // Disable the correct answer button
         audioSource.PlayOneShot(correctClip);
+        CorrectCount++; // Increment correct count
+        CorrectCountText.text = CorrectCount.ToString();
+        Debug.Log("Correct Count: " + CorrectCount);
     }
 
     public void Wrong(Button pressedButton)
@@ -53,5 +65,8 @@ public class MultipleChoice : MonoBehaviour
         //pressedButton.GetComponent<Image>().color = Color.red; // Optional: give visual feedback
         pressedButton.gameObject.SetActive(false); // Hide the pressed wrong answer
         audioSource.PlayOneShot(WrongClip);
+        WrongCount++; // Increment wrong count
+        WrongCountText.text = WrongCount.ToString();
+        Debug.Log("Wrong Count: " + WrongCount);
     }
 }
