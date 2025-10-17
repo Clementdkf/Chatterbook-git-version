@@ -8,6 +8,7 @@ public class PageScroller : MonoBehaviour
 
     [Header("Navigation Buttons")]
     public GameObject NextButton;
+    public GameObject homeButton;
     private int currentPage = 0;
 
     [Header("Audio")]
@@ -30,8 +31,12 @@ public class PageScroller : MonoBehaviour
         if (currentPage == pages.Length - 1)
         {
             NextButton.SetActive(false);
+            homeButton.SetActive(true);
+            Debug.Log("Last Page");
+
         } else {
             NextButton.SetActive(true);
+            homeButton.SetActive(false);
         }
     }
 

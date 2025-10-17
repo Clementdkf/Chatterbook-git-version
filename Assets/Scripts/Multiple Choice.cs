@@ -1,17 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MultipleChoice : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Button CorrectAnswer;
     public Button[] WrongAnswers;
-    public TMPro.TextMeshProUGUI CorrectText;
-    public TMPro.TextMeshProUGUI WrongText;
-    public TMPro.TextMeshProUGUI QuestionText;
+    public TextMeshProUGUI CorrectText;
+    public TextMeshProUGUI WrongText;
+    public TextMeshProUGUI QuestionText;
 
     [Header("Audio")]
     public AudioClip correctClip;
@@ -19,54 +19,66 @@ public class MultipleChoice : MonoBehaviour
     public AudioClip WrongClip;
 
     [Header("Record")]
+    public TextMeshProUGUI CorrectCountText;
+    public TextMeshProUGUI WrongCountText;
 
-    public TMPro.TextMeshProUGUI CorrectCountText;
-    public TMPro.TextMeshProUGUI WrongCountText;
-    public int CorrectCount = 0;
-    public int WrongCount = 0;
+    // Reference to the ScriptableObject for this specific scene's data
+    private SceneQuizData currentSceneData;
+
     void Start()
     {
-        Debug.Log("Clip is: " + correctClip);
-        Debug.Log("Clip is: " + WrongClip);
+        // Get the current scene's name
+        string currentSceneName = SceneManager.GetActiveScene().name;
+
+        // Get the specific SceneQuizData from the GameStatisticsManager
+        currentSceneData = ReceivingRecords.Instance.GetQuizDataForScene(currentSceneName);
+        if (currentSceneData == null)
+        {
+            Debug.LogError("Quiz data for scene '" + currentSceneName + "' not found!");
+            return;
+        }
+
         CorrectText.gameObject.SetActive(false);
         WrongText.gameObject.SetActive(false);
         audioSource = GetComponent<AudioSource>();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        // Update UI with current counts
+        CorrectCountText.text = currentSceneData.correctCount.ToString();
+        WrongCountText.text = currentSceneData.wrongCount.ToString();
     }
 
     public void Correct()
     {
+        if (currentSceneData == null) return;
+        
         Debug.Log("Correct");
-        CorrectText.gameObject.SetActive(true);  // Show the "Correct!" text
-        QuestionText.gameObject.SetActive(false); // Hide the question text
-        WrongText.gameObject.SetActive(false); // Hide the "Wrong!" text if it was shown
+        CorrectText.gameObject.SetActive(true);
+        QuestionText.gameObject.SetActive(false);
+        WrongText.gameObject.SetActive(false);
         CorrectAnswer.GetComponent<Image>().color = Color.green;
-        foreach (Button wrong in WrongAnswers) // Disable wrong answers
+        foreach (Button wrong in WrongAnswers)
         {
             wrong.gameObject.SetActive(false);
         }
-        CorrectAnswer.interactable = false; // Disable the correct answer button
+        CorrectAnswer.interactable = false;
         audioSource.PlayOneShot(correctClip);
-        CorrectCount++; // Increment correct count
-        CorrectCountText.text = CorrectCount.ToString();
-        Debug.Log("Correct Count: " + CorrectCount);
+
+        // Update the ScriptableObject data, not static variables
+        currentSceneData.correctCount++;
+        CorrectCountText.text = currentSceneData.correctCount.ToString();
     }
 
     public void Wrong(Button pressedButton)
     {
+        if (currentSceneData == null) return;
+
         Debug.Log("Wrong");
-        WrongText.gameObject.SetActive(true); // Show the "Wrong!" text
-        //pressedButton.interactable = false; // Disable only the pressed wrong answer
-        //pressedButton.GetComponent<Image>().color = Color.red; // Optional: give visual feedback
-        pressedButton.gameObject.SetActive(false); // Hide the pressed wrong answer
+        WrongText.gameObject.SetActive(true);
+        pressedButton.gameObject.SetActive(false);
         audioSource.PlayOneShot(WrongClip);
-        WrongCount++; // Increment wrong count
-        WrongCountText.text = WrongCount.ToString();
-        Debug.Log("Wrong Count: " + WrongCount);
+
+        // Update the ScriptableObject data
+        currentSceneData.wrongCount++;
+        WrongCountText.text = currentSceneData.wrongCount.ToString();
     }
 }
