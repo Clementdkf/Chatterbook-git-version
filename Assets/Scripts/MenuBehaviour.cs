@@ -10,16 +10,6 @@ public class MenuBehaviour : MonoBehaviour
     public GameObject settingsPanel;
     public Button settingsButton;
     public Button helpButton;
-    void Start()
-    {
-        //settingsPanel.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public void Toggle() //for settings button
     {
