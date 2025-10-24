@@ -40,8 +40,6 @@ public class ContentFilterManager : MonoBehaviour
 
     void ApplyFilter(int index)
     {
-        //Debug.Log("ApplyFilter called with index: " + index);
-
         currentPage = 0;
 
         currentFilteredItems = index switch
@@ -57,13 +55,11 @@ public class ContentFilterManager : MonoBehaviour
 
     void UpdatePage()
     {
-        //ebug.Log("Hi!");
         foreach (Transform child in buttonContainer)
             Destroy(child.gameObject); // Clear existing buttons
 
         int startIndex = currentPage * itemsPerPage; // Calculate start index based on current page
         int endIndex = Mathf.Min(startIndex + itemsPerPage, currentFilteredItems.Count); // Ensure we don't exceed the list count
-        //Debug.Log("Displaying items from " + startIndex + " to " + endIndex);
 
         for (int i = startIndex; i < endIndex; i++)
         {
@@ -71,8 +67,10 @@ public class ContentFilterManager : MonoBehaviour
             btn.GetComponent<ItemButtonUI>().Setup(currentFilteredItems[i]); // Setup button with item data
         }
 
-        previousPageButton.interactable = currentPage > 0;
-        nextPageButton.interactable = endIndex < currentFilteredItems.Count;
+        //previousPageButton.interactable = currentPage > 0;
+        //nextPageButton.interactable = endIndex < currentFilteredItems.Count;
+        previousPageButton.gameObject.SetActive(currentPage > 0);
+        nextPageButton.gameObject.SetActive(endIndex < currentFilteredItems.Count);
     }
 
     public void NextPage()
