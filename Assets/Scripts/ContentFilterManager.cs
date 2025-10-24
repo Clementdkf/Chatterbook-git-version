@@ -10,39 +10,89 @@ public class ContentFilterManager : MonoBehaviour
     public TMP_Dropdown filterDropdown;
     public Transform buttonContainer;
     public GameObject itemButtonPrefab;
+    public Button nextPageButton;
+    public Button previousPageButton;
+
     public List<ContentItem> allItems = new List<ContentItem>();
+    private List<ContentItem> currentFilteredItems = new List<ContentItem>();
+
+    private int currentPage = 0;
+    private const int itemsPerPage = 4;
 
     void Start()
     {
         SetupDropdown();
-        ApplyFilter(0); // Default to "All"
+        filterDropdown.onValueChanged.AddListener(ApplyFilter);
+        nextPageButton.onClick.AddListener(NextPage);
+        previousPageButton.onClick.AddListener(PreviousPage);
+
+        ApplyFilter(0); // Default to "全部"
     }
 
     void SetupDropdown()
     {
         filterDropdown.ClearOptions();
-        filterDropdown.AddOptions(new List<string> { "全部", "最受歡迎", "最新", "堅毅", "尊重他人", "責任感", "國民身份認同", "承擔精神", "誠信", 
-  "仁愛", "守法", "同理心", "勤勞", "團結", "孝親", "其他正確價值觀"});
-        filterDropdown.onValueChanged.AddListener(ApplyFilter);
+        filterDropdown.AddOptions(new List<string> {
+            "全部", "最受歡迎", "最新", "堅毅", "尊重他人", "責任感", "國民身份認同", "承擔精神", "誠信",
+            "仁愛", "守法", "同理心", "勤勞", "團結", "孝親", "其他正確價值觀"
+        });
     }
 
     void ApplyFilter(int index)
     {
-        List<ContentItem> filteredList = index switch
+        //Debug.Log("ApplyFilter called with index: " + index);
+
+        currentPage = 0;
+
+        currentFilteredItems = index switch
         {
             0 => allItems,
-            1 => allItems.OrderByDescending(i => i.popularityScore).Take(1).ToList(), // Top 1 by popularity
-            2 => allItems.OrderByDescending(i => i.ParsedDate).ToList(), // Sort by date descending
-            _ => allItems.Where(i => i.valueTags.Contains(filterDropdown.options[index].text)).ToList() // Filter by tag
+            1 => allItems.OrderByDescending(i => i.popularityScore).Take(1).ToList(),
+            2 => allItems.OrderByDescending(i => i.ParsedDate).ToList(),
+            _ => allItems.Where(i => i.valueTags.Contains(filterDropdown.options[index].text)).ToList()
         };
 
+        UpdatePage();
+    }
+
+    void UpdatePage()
+    {
+        //ebug.Log("Hi!");
         foreach (Transform child in buttonContainer)
             Destroy(child.gameObject); // Clear existing buttons
 
-        foreach (var item in filteredList)
+        int startIndex = currentPage * itemsPerPage; // Calculate start index based on current page
+        int endIndex = Mathf.Min(startIndex + itemsPerPage, currentFilteredItems.Count); // Ensure we don't exceed the list count
+        //Debug.Log("Displaying items from " + startIndex + " to " + endIndex);
+
+        for (int i = startIndex; i < endIndex; i++)
         {
-            GameObject btn = Instantiate(itemButtonPrefab, buttonContainer);
-            btn.GetComponent<ItemButtonUI>().Setup(item); // Assuming ItemButtonUI is a script to setup button display
+            GameObject btn = Instantiate(itemButtonPrefab, buttonContainer); // Create button
+            btn.GetComponent<ItemButtonUI>().Setup(currentFilteredItems[i]); // Setup button with item data
+        }
+
+        previousPageButton.interactable = currentPage > 0;
+        nextPageButton.interactable = endIndex < currentFilteredItems.Count;
+    }
+
+    public void NextPage()
+    {
+        int maxPage = Mathf.CeilToInt((float)currentFilteredItems.Count / itemsPerPage) - 1;
+        if (currentPage < maxPage)
+        {
+            currentPage++;
+            UpdatePage();
+            //Debug.Log("Current Page: " + currentPage);
+            //Debug.Log("Max Page: " + maxPage);
+        }
+    }
+
+    public void PreviousPage()
+    {
+        if (currentPage > 0)
+        {
+            currentPage--;
+            UpdatePage();
         }
     }
 }
