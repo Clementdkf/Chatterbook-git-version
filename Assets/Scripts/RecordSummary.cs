@@ -1,49 +1,82 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class RecordSummary : MonoBehaviour
 {
-    public TextMeshProUGUI scene1ResultsText;
-    public TextMeshProUGUI scene2ResultsText;   
-    public TextMeshProUGUI scene3ResultsText;
+    [Header("Record text prefabs")]
+    public GameObject recordTextPrefab;
+    public Transform contentContainer;
+    private List<TextMeshProUGUI> recordTextObjects = new List<TextMeshProUGUI>();
 
-void Start()
-{
-    // Ensure there are enough data entries before accessing them by index
-    var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData;
+    [Header("Buttons")]
+    public Button PreviousButton;
+    public Button NextButton; 
+    private int currentPage = 0;
+    private const int itemsPerPage = 4;
 
-    // Display results for the first scene
-    if (allSceneQuizData.Count > 0)
+    void Start()
     {
-        var sceneData = allSceneQuizData[0];
-        scene1ResultsText.text = $"正確: {sceneData.correctCount}             錯誤: {sceneData.wrongCount}";
-    }
-    else
-    {
-        scene1ResultsText.text = "第一關: 沒有資料";
+        UpdateRecordPage();
+        UpdateSceneResults();
     }
 
-    // Display results for the second scene
-    if (allSceneQuizData.Count > 1)
+    void UpdateRecordPage()
     {
-        var sceneData = allSceneQuizData[1];
-        scene2ResultsText.text = $"正確: {sceneData.correctCount}             錯誤: {sceneData.wrongCount}";
+        PreviousButton.gameObject.SetActive(currentPage > 0);
+        NextButton.gameObject.SetActive(currentPage < (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage);
     }
-    else
+
+    void UpdateSceneResults()
     {
-        scene2ResultsText.text = "沒有資料";
+        var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData; // Get all quiz data
+
+        // Clear previous text elements
+        foreach (var textElement in recordTextObjects)
+        {
+            Destroy(textElement.gameObject); // Destroy the GameObjects
+        }
+        recordTextObjects.Clear(); // Clear the list
+
+        // Display current page items
+        for (int i = 0; i < itemsPerPage; i++)
+        {
+            int dataIndex = currentPage * itemsPerPage + i; // Calculate the index in the full data list
+
+            GameObject newTextObj = Instantiate(recordTextPrefab, contentContainer); // Create new text object
+            TextMeshProUGUI textComponent = newTextObj.GetComponent<TextMeshProUGUI>(); // Get the TextMeshProUGUI component
+
+            if (dataIndex < allSceneQuizData.Count)
+            {
+                var sceneData = allSceneQuizData[dataIndex]; // Get the corresponding scene data
+                textComponent.text = $"{sceneData.sceneName}:<space=25>正確: {sceneData.correctCount,2}<space=20>錯誤: {sceneData.wrongCount,2}"; // Set text with formatting
+            }
+
+            recordTextObjects.Add(textComponent); // Add to the list for future reference
+        }
     }
-    
-    // Display results for the third scene
-    if (allSceneQuizData.Count > 2)
+
+    public void PreviousPage()
     {
-        var sceneData = allSceneQuizData[2];
-        scene3ResultsText.text = $"正確: {sceneData.correctCount}             錯誤: {sceneData.wrongCount}";
+        if (currentPage > 0)
+        {
+            currentPage--;
+            UpdateRecordPage();
+            UpdateSceneResults();
+        }
     }
-    else
+
+    public void NextPage()
     {
-        scene3ResultsText.text = "沒有資料";
+        int maxPage = (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage;
+        if (currentPage < maxPage)
+        {
+            currentPage++;
+            UpdateRecordPage();
+            UpdateSceneResults();
+        }
     }
-}
+
 
 }
