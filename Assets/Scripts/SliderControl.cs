@@ -32,7 +32,7 @@ public class SliderControl : MonoBehaviour
         // Load saved values or use defaults
         float savedVolume = PlayerPrefs.GetFloat("volume", 1f);
         float savedBrightness = PlayerPrefs.GetFloat("brightness", 0f);
-        float savedTextSize = PlayerPrefs.GetFloat("textSize", 36f);
+        float savedTextSize = PlayerPrefs.GetFloat("textSize", 34f);
 
         // Apply to sliders
         volumeSlider.value = savedVolume;
