@@ -8,13 +8,24 @@ using TMPro;
 
 public class SliderControl : MonoBehaviour
 {
+    [Header("UI Sliders")]
     public Slider volumeSlider;
     public Slider brightnessSlider;
     public Slider textsizeSlider;
+
+    [Header("Text Prefab")]
+    public GameObject textPrefab;
+
+    [Header("Static Text Elements")]
     public TextMeshProUGUI[] textElements;
+
+    [Header("Post Processing")]
     public Volume volume;
 
     private ColorAdjustments colorAdjustments;
+
+    // Track all dynamic text instances (e.g., record summaries)
+    private List<TextMeshProUGUI> dynamicTextInstances = new List<TextMeshProUGUI>();
 
     void Start()
     {
@@ -28,23 +39,28 @@ public class SliderControl : MonoBehaviour
         brightnessSlider.value = savedBrightness;
         textsizeSlider.value = savedTextSize;
 
-        // Apply to system
+        // Apply system volume
         AudioListener.volume = savedVolume;
 
+        // Apply brightness
         if (volume.profile.TryGet(out colorAdjustments))
         {
             colorAdjustments.postExposure.value = savedBrightness;
         }
 
+        // Apply font size to static text elements
         if (textElements != null)
         {
-            UpdateFontSizes(savedTextSize);
+            foreach (var text in textElements)
+            {
+                text.fontSize = savedTextSize;
+            }
         }
 
         // Add listeners
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         brightnessSlider.onValueChanged.AddListener(SetBrightness);
-        textsizeSlider.onValueChanged.AddListener(UpdateFontSizes);
+        textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
 
         Debug.Log("Volume: " + savedVolume + ", Brightness: " + savedBrightness + ", Text Size: " + savedTextSize);
     }
@@ -66,13 +82,38 @@ public class SliderControl : MonoBehaviour
         }
     }
 
-    public void UpdateFontSizes(float newSize)
+    public void UpdateAllFontSizes(float newSize)
     {
+        // Update static text
         foreach (var text in textElements)
         {
             text.fontSize = newSize;
         }
+
+        // Update dynamic text
+        foreach (var text in dynamicTextInstances)
+        {
+            if (text != null)
+                text.fontSize = newSize;
+        }
+
         PlayerPrefs.SetFloat("textSize", newSize);
         PlayerPrefs.Save();
+    }
+
+    // Call this when instantiating a new text prefab
+    public void RegisterDynamicText(TextMeshProUGUI text)
+    {
+        if (text != null && !dynamicTextInstances.Contains(text))
+        {
+            text.fontSize = textsizeSlider.value;
+            dynamicTextInstances.Add(text);
+        }
+    }
+
+    // Optional: Clear dynamic list when switching pages
+    public void ClearDynamicText()
+    {
+        dynamicTextInstances.Clear();
     }
 }

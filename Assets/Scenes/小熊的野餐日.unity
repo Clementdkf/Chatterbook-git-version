@@ -1114,11 +1114,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1383132979}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpUIButton
+      value: 
+      objectReference: {fileID: 1383132979}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: panelManager
+      value: 
+      objectReference: {fileID: 1744835644}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: settingsPanel
       value: 
       objectReference: {fileID: 1514433251}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: settingsButton
+      value: 
+      objectReference: {fileID: 1171346604}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: settingsUIButton
       value: 
       objectReference: {fileID: 1171346604}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
@@ -1241,10 +1253,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b37c4c888ac9e4482ce77f1594e122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelManager: {fileID: 0}
   helpPanels: []
   settingsPanel: {fileID: 1600626378}
-  settingsButton: {fileID: 0}
-  helpButton: {fileID: 0}
+  settingsUIButton: {fileID: 0}
+  helpUIButton: {fileID: 0}
 --- !u!224 &1600626380 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5640539466608509409, guid: 820b6a8f8c398fd40804ebdfdd629827, type: 3}
@@ -1542,7 +1555,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 400
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1406866940682200864, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
+    - {fileID: 4498611300174751644, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
+    - {fileID: 8664593598833596530, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1552,6 +1568,52 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7918049771820195596, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
   m_PrefabInstance: {fileID: 1721003743}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1744835643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744835645}
+  - component: {fileID: 1744835644}
+  m_Layer: 0
+  m_Name: PanelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1744835644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744835643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fca805e182fb0b45b2f04a1d6dd0ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 1514433251}
+--- !u!4 &1744835645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744835643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 700.00854, y: 267.24063, z: 20283.307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1779736547 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8673963669657546590, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
@@ -2058,6 +2120,7 @@ MonoBehaviour:
   volumeSlider: {fileID: 406669914}
   brightnessSlider: {fileID: 510982142}
   textsizeSlider: {fileID: 2125286250}
+  textPrefab: {fileID: 0}
   textElements:
   - {fileID: 221329949}
   - {fileID: 1236695684}
@@ -3394,3 +3457,4 @@ SceneRoots:
   - {fileID: 1617741872}
   - {fileID: 1201258382150306587}
   - {fileID: 1455137056}
+  - {fileID: 1744835645}

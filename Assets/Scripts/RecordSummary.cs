@@ -5,6 +5,8 @@ using System.Collections.Generic;
 
 public class RecordSummary : MonoBehaviour
 {
+    public SliderControl sliderControl;
+    
     [Header("Record text prefabs")]
     public GameObject recordTextPrefab;
     public Transform contentContainer;
@@ -45,7 +47,8 @@ public class RecordSummary : MonoBehaviour
             int dataIndex = currentPage * itemsPerPage + i; // Calculate the index in the full data list
 
             GameObject newTextObj = Instantiate(recordTextPrefab, contentContainer); // Create new text object
-            TextMeshProUGUI textComponent = newTextObj.GetComponent<TextMeshProUGUI>(); // Get the TextMeshProUGUI component
+            TextMeshProUGUI textComponent = newTextObj.GetComponent<TextMeshProUGUI>();
+            sliderControl.RegisterDynamicText(textComponent);// Refresh the text prefab settings
 
             if (dataIndex < allSceneQuizData.Count)
             {

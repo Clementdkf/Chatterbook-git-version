@@ -357,7 +357,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 400
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1406866940682200864, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
+    - {fileID: 4498611300174751644, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
+    - {fileID: 8664593598833596530, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1678,11 +1681,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1728465252}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpUIButton
+      value: 
+      objectReference: {fileID: 1728465252}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: panelManager
+      value: 
+      objectReference: {fileID: 703074369}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: settingsPanel
       value: 
       objectReference: {fileID: 212539074}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: settingsButton
+      value: 
+      objectReference: {fileID: 1656677614}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: settingsUIButton
       value: 
       objectReference: {fileID: 1656677614}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
@@ -1784,6 +1799,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &703074368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703074370}
+  - component: {fileID: 703074369}
+  m_Layer: 0
+  m_Name: PanelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &703074369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703074368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fca805e182fb0b45b2f04a1d6dd0ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 212539074}
+--- !u!4 &703074370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703074368}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 700.00854, y: 267.24063, z: 20283.307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &717957723 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7918049771820195596, guid: 33c4d85d53254774dbe083c1ba04823f, type: 3}
@@ -2487,10 +2548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b37c4c888ac9e4482ce77f1594e122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelManager: {fileID: 0}
   helpPanels: []
   settingsPanel: {fileID: 1292522360}
-  settingsButton: {fileID: 0}
-  helpButton: {fileID: 0}
+  settingsUIButton: {fileID: 0}
+  helpUIButton: {fileID: 0}
 --- !u!224 &1292522362 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5640539466608509409, guid: 820b6a8f8c398fd40804ebdfdd629827, type: 3}
@@ -2693,6 +2755,7 @@ MonoBehaviour:
   volumeSlider: {fileID: 851321141}
   brightnessSlider: {fileID: 373719433}
   textsizeSlider: {fileID: 193362724}
+  textPrefab: {fileID: 0}
   textElements:
   - {fileID: 1328696997}
   - {fileID: 42254994}
@@ -3095,3 +3158,4 @@ SceneRoots:
   - {fileID: 40560054}
   - {fileID: 1864858780}
   - {fileID: 557202784}
+  - {fileID: 703074370}
