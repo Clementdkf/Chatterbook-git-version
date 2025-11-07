@@ -691,9 +691,17 @@ PrefabInstance:
       value: "\uFF08\u5BB6\u9577/\u8001\u5E2B\u53EF\u554F\uFF09\u300C\u6545\u4E8B\u88E1\u7E3D\u5171\u6709\u54EA\u4E9B\u52D5\u7269\u670B\u53CB\u5462\uFF1F\u300D\u3001\u300C\u91CE\u9910\u6642\uFF0C\u4ED6\u5011\u53EF\u80FD\u6703\u73A9\u4EC0\u9EBC\u904A\u6232\uFF1F\u300D"
       objectReference: {fileID: 0}
     - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: db1df3a825955634e9b073e773bd362d, type: 2}
+    - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 1
@@ -2739,12 +2747,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: db1df3a825955634e9b073e773bd362d, type: 2}
     - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5909519559530546082, guid: db1df3a825955634e9b073e773bd362d, type: 2}
+    - target: {fileID: 5136196520471450006, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5217623596950554346, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
       propertyPath: m_Name
@@ -2903,6 +2923,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2.0000038
       objectReference: {fileID: 0}
+    - target: {fileID: 2093110271928714964, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: helpUIButton
+      value: 
+      objectReference: {fileID: 1383132979}
+    - target: {fileID: 2093110271928714964, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: settingsUIButton
+      value: 
+      objectReference: {fileID: 1171346604}
     - target: {fileID: 2168835736829485897, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -76.59997
