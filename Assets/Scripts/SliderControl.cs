@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering;
 using TMPro;
+using Unity.VisualScripting;
 
 public class SliderControl : MonoBehaviour
 {
@@ -30,9 +31,9 @@ public class SliderControl : MonoBehaviour
     void Start()
     {
         // Load saved values or use defaults
-        float savedVolume = PlayerPrefs.GetFloat("volume", 1f);
+        float savedVolume = SettingsManager.Instance?.CurrentVolume ?? PlayerPrefs.GetFloat("volume", 1f);
         float savedBrightness = PlayerPrefs.GetFloat("brightness", 0f);
-        float savedTextSize = PlayerPrefs.GetFloat("textSize", 34f);
+        float savedTextSize = SettingsManager.Instance?.CurrentTextSize ?? PlayerPrefs.GetFloat("textSize", 36f);
 
         // Apply to sliders
         volumeSlider.value = savedVolume;
@@ -57,6 +58,9 @@ public class SliderControl : MonoBehaviour
             }
         }
 
+        OnVolumeChanged(savedVolume);
+        UpdateAllFontSizes(savedTextSize);
+
         // Add listeners
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         brightnessSlider.onValueChanged.AddListener(SetBrightness);
@@ -68,8 +72,9 @@ public class SliderControl : MonoBehaviour
     public void OnVolumeChanged(float value)
     {
         AudioListener.volume = value;
-        PlayerPrefs.SetFloat("volume", value);
-        PlayerPrefs.Save();
+        //PlayerPrefs.SetFloat("volume", value);
+        //PlayerPrefs.Save();
+        SettingsManager.Instance.SetVolume(value);
     }
 
     public void SetBrightness(float value)
@@ -97,8 +102,10 @@ public class SliderControl : MonoBehaviour
                 text.fontSize = newSize;
         }
 
-        PlayerPrefs.SetFloat("textSize", newSize);
-        PlayerPrefs.Save();
+        //PlayerPrefs.SetFloat("textSize", newSize);
+        //PlayerPrefs.Save();
+        SettingsManager.Instance.SetTextSize(newSize);
+        Debug.Log("Text size updated to: " + newSize);
     }
 
     // Call this when instantiating a new text prefab
