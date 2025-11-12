@@ -6,6 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 public class LoginOrRegisterForm : MonoBehaviour
 {
@@ -29,16 +30,20 @@ public class LoginOrRegisterForm : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Strapi == null)
+        if (Strapi == null || HeaderText == null)
         {
             Debug.LogError("No Strapi component found. Please make sure you've got an active Strapi component assigned to the LoginOrRegisterForm");
             return;
         }
+
+        LoginToggleButton.onClick.AddListener(OnLoginToggle);
+        RegisterToggleButton.onClick.AddListener(OnRegisterToggle);
         
         LoginToggleButton.onClick.Invoke();
         LoadingObject.SetActive(false);
-        
+
         registerEventHandlers();
+        Debug.Log(HeaderText);
     }
 
     private void registerEventHandlers()
@@ -71,7 +76,8 @@ public class LoginOrRegisterForm : MonoBehaviour
         EmailInput.transform.parent.gameObject.SetActive(false);
         RegisterToggleButton.gameObject.SetActive(true);
         LoginToggleButton.gameObject.SetActive(false);
-        HeaderText.text = "Login";
+        HeaderText.text = "登入";
+        Debug.Log(HeaderText.text);
         
         forceLayoutUpdate();
     }
@@ -83,7 +89,8 @@ public class LoginOrRegisterForm : MonoBehaviour
         EmailInput.transform.parent.gameObject.SetActive(true);
         RegisterToggleButton.gameObject.SetActive(false);
         LoginToggleButton.gameObject.SetActive(true);
-        HeaderText.text = "Register";
+        HeaderText.text = "登記";
+        Debug.Log(HeaderText.text);
         
         forceLayoutUpdate();
     }

@@ -140,7 +140,7 @@ public class StrapiComponent : MonoBehaviour
                          "\"password\":\"" + password + "\"" +
                          "}";
 
-        PostAuthRequest("auth/local", jsonString);
+        PostAuthRequest("api/auth/local", jsonString);
     }
 
     public void Register(string username, string email, string password, bool rememberMe = false, Dictionary<string,string> extraAttributes = null)
@@ -162,7 +162,7 @@ public class StrapiComponent : MonoBehaviour
         }
         jsonString += "}";
         
-        PostAuthRequest("auth/local/register", jsonString);
+        PostAuthRequest("api/auth/local/register", jsonString);
     }
 
     public virtual void PostAuthRequest(string endpoint, string jsonString)
