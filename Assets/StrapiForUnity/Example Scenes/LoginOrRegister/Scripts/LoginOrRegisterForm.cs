@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using StrapiForUnity;
 using UnityEditor;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 
 public class LoginOrRegisterForm : MonoBehaviour
@@ -15,7 +16,7 @@ public class LoginOrRegisterForm : MonoBehaviour
     public InputField UsernameInput;
     public InputField EmailInput;
     public InputField PasswordInput;
-    public Text HeaderText;
+    public TextMeshProUGUI HeaderText;
     public VerticalLayoutGroup ContainerLayout;
     public GameObject LoadingObject;
     public Toggle RememberMeToggle;
