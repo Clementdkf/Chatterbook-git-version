@@ -3968,6 +3968,10 @@ PrefabInstance:
       propertyPath: BaseURL
       value: http://appapi.dctit.hk:1575/
       objectReference: {fileID: 0}
+    - target: {fileID: 5284322547429482461, guid: ba1577f85bff8544d84884125fd81d2e, type: 3}
+      propertyPath: JWTSecret
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5284322547429482466, guid: ba1577f85bff8544d84884125fd81d2e, type: 3}
       propertyPath: m_Name
       value: Strapi
