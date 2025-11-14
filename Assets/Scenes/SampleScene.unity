@@ -999,6 +999,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 30.000004
       objectReference: {fileID: 0}
+    - target: {fileID: 2093110271928714964, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: panelManager
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2168835736829485897, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -139.59999
