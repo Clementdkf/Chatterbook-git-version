@@ -69,6 +69,11 @@ public class SliderControl : MonoBehaviour
         Debug.Log("Volume: " + savedVolume + ", Brightness: " + savedBrightness + ", Text Size: " + savedTextSize);
     }
 
+    void Update()
+    {
+        Debug.Log("Current Brightness: " + colorAdjustments.postExposure.value);
+    }
+
     public void OnVolumeChanged(float value)
     {
         AudioListener.volume = value;
