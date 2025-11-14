@@ -3899,6 +3899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pages
       objectReference: {fileID: 0}
+    - target: {fileID: 7969700802554539591, guid: ed2a1e4993bdd5c44868c4f2242cd59c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 213.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8513395203219031639, guid: ed2a1e4993bdd5c44868c4f2242cd59c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
