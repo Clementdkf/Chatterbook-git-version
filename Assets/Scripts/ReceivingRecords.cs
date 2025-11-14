@@ -34,6 +34,7 @@ public class ReceivingRecords : MonoBehaviour
 
     public void ResetAllQuizData()
     {
+        Debug.Log("ResetAllQuizData called. Count: " + allSceneQuizData.Count);
         foreach (var data in allSceneQuizData)
         {
             data.correctCount = 0;
