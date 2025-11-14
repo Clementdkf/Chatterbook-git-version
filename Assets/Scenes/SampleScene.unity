@@ -1687,10 +1687,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 39e7bd5d40da32641bb9a6103e05af35, type: 2}
   - {fileID: 11400000, guid: cc722b8cd7483254680126ca0edd8443, type: 2}
   - {fileID: 11400000, guid: f3bf31911ac2b2d4a80ca8e5f44c74f7, type: 2}
-  - {fileID: 11400000, guid: cccacc366d4127f40bb728259c3f52b7, type: 2}
-  - {fileID: 11400000, guid: 7589a0a3a83d47b4e909b3c77fca048c, type: 2}
-  - {fileID: 11400000, guid: 1abdfaeafda22a04d8bd94949a35a71a, type: 2}
-  - {fileID: 11400000, guid: 011c650154368714a855461d6f3ce20f, type: 2}
 --- !u!4 &612426702
 Transform:
   m_ObjectHideFlags: 0
@@ -3439,36 +3435,6 @@ MonoBehaviour:
     dateString: 2025-09-19
     popularityScore: 20
     image: {fileID: 21300000, guid: e1c39bc51aad1064fa2c719edd5eba1a, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: b6d548421a624f74090acab41eaffa11, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: adcf33d016f5d69408b0404dc33f3103, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: 790bfbd071d5a7c4cbe42d8dbb611edd, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: f0c315f41b139f949835c9f64100cb0b, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: adcf33d016f5d69408b0404dc33f3103, type: 3}
     sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
     valueTags: []
 --- !u!4 &1720216452
