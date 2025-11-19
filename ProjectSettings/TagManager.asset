@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - UIPanels
+  - pages
   layers:
   - Default
   - TransparentFX
