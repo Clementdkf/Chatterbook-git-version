@@ -304,6 +304,7 @@ MonoBehaviour:
   LoadingObject: {fileID: 1743265674}
   RememberMeToggle: {fileID: 585340210}
   Strapi: {fileID: 1919872012}
+  isLoading: 0
 --- !u!1 &231962630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,16 +1348,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 165153874}
-        m_TargetAssemblyTypeName: LoginOrRegisterForm, Assembly-CSharp
-        m_MethodName: OnLoginSubmit
-        m_Mode: 1
+      - m_Target: {fileID: 1929813981}
+        m_TargetAssemblyTypeName: MenuBehaviour, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &491887337
@@ -2465,7 +2466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5207\u56DE\u767B\u8A18\u9801\u9762"
+  m_text: "\u5207\u56DE\u767B\u5165\u9801\u9762"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db1df3a825955634e9b073e773bd362d, type: 2}
   m_sharedMaterial: {fileID: -5909519559530546082, guid: db1df3a825955634e9b073e773bd362d, type: 2}
@@ -3458,7 +3459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5207\u56DE\u767B\u5165\u9801\u9762"
+  m_text: "\u5207\u56DE\u767B\u8A18\u9801\u9762"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db1df3a825955634e9b073e773bd362d, type: 2}
   m_sharedMaterial: {fileID: -5909519559530546082, guid: db1df3a825955634e9b073e773bd362d, type: 2}
@@ -3894,7 +3895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1821021843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4126,6 +4127,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7873fd1c08015174bb8e847a9d7aae39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1929813981 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+  m_PrefabInstance: {fileID: 1449729281}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b37c4c888ac9e4482ce77f1594e122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098219534
 GameObject:
   m_ObjectHideFlags: 0
@@ -4281,7 +4293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2103653480
 RectTransform:
   m_ObjectHideFlags: 0
