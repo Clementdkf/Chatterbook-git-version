@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Register Page.unity
     guid: e8172293a60208d47a3899e4df8c698b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Login and Register Page.unity
     guid: ff77225668aec544b99407dce6f77645
   - enabled: 1
