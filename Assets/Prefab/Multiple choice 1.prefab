@@ -539,8 +539,10 @@ MonoBehaviour:
   CorrectText: {fileID: 5391260384918714875}
   WrongText: {fileID: 5954588796072656773}
   QuestionText: {fileID: 7568155969411523477}
-  correctClip: {fileID: 8300000, guid: 4cfe7a6260d1f634fab7bc4256f7983e, type: 3}
+  correctClip: {fileID: 8300000, guid: f1cb36c80c4649c43ab2514d2a39fcf4, type: 3}
   WrongClip: {fileID: 8300000, guid: 50c694a80801ea3479be13b04c6d8450, type: 3}
+  CorrectCountText: {fileID: 0}
+  WrongCountText: {fileID: 0}
 --- !u!82 &557883443411167301
 AudioSource:
   m_ObjectHideFlags: 0
