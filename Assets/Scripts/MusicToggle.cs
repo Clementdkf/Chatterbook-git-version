@@ -11,13 +11,6 @@ public class MusicToggle : MonoBehaviour
     void Start()
     {
         audioSource = toggleObject.GetComponent<AudioSource>();
-        /*Toggle toggle = GetComponent<Toggle>();
-        if (toggle == null)
-        {
-            Debug.LogError("Toggle component not found on this GameObject.");
-            return;
-        }*/
-        //toggle.onValueChanged.AddListener(ToggleMusic);
     }
 
     // Update is called once per frame

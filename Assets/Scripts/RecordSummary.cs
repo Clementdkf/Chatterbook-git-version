@@ -58,7 +58,7 @@ public class RecordSummary : MonoBehaviour
 
             recordTextObjects.Add(textComponent); // Add to the list for future reference
         }
-    }
+    } 
 
     public void PreviousPage()
     {

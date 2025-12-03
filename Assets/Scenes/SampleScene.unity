@@ -4679,6 +4679,7 @@ MonoBehaviour:
   - {fileID: 970978930}
   - {fileID: 1904567211}
   - {fileID: 98977521}
+  - {fileID: 316129231}
   volume: {fileID: 1608256915}
 --- !u!1 &1720216450
 GameObject:
@@ -4751,31 +4752,6 @@ MonoBehaviour:
     sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
     valueTags:
     - 
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: e1c39bc51aad1064fa2c719edd5eba1a, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags:
-    - 
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: e1c39bc51aad1064fa2c719edd5eba1a, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: e1c39bc51aad1064fa2c719edd5eba1a, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: e1c39bc51aad1064fa2c719edd5eba1a, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags: []
 --- !u!4 &1720216452
 Transform:
   m_ObjectHideFlags: 0
@@ -6949,6 +6925,10 @@ PrefabInstance:
     - target: {fileID: 3329255516315105799, guid: a9f51a03b9a911e4b8889c3391999ebb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334819746444057558, guid: a9f51a03b9a911e4b8889c3391999ebb, type: 3}
+      propertyPath: m_text
+      value: Chatterbook
       objectReference: {fileID: 0}
     - target: {fileID: 7334819746444057558, guid: a9f51a03b9a911e4b8889c3391999ebb, type: 3}
       propertyPath: m_fontSize
