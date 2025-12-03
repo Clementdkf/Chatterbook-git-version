@@ -6,7 +6,6 @@ using UnityEditor;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 public class LoginOrRegisterForm : MonoBehaviour
 {
