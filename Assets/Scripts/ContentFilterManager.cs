@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class ContentFilterManager : MonoBehaviour
 {
     public TMP_Dropdown filterDropdown1;
-
     public TMP_Dropdown filterDropdown2;
     public Transform buttonContainer;
     public GameObject itemButtonPrefab;
