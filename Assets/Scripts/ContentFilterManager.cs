@@ -7,7 +7,9 @@ using UnityEngine.UI;
 
 public class ContentFilterManager : MonoBehaviour
 {
-    public TMP_Dropdown filterDropdown;
+    public TMP_Dropdown filterDropdown1;
+
+    public TMP_Dropdown filterDropdown2;
     public Transform buttonContainer;
     public GameObject itemButtonPrefab;
     public Button nextPageButton;
@@ -17,12 +19,13 @@ public class ContentFilterManager : MonoBehaviour
     private List<ContentItem> currentFilteredItems = new List<ContentItem>();
 
     private int currentPage = 0;
-    private const int itemsPerPage = 4;
+    private const int itemsPerPage = 8;
 
     void Start()
     {
         SetupDropdown();
-        filterDropdown.onValueChanged.AddListener(ApplyFilter);
+        filterDropdown1.onValueChanged.AddListener(ApplyFilter);
+        filterDropdown2.onValueChanged.AddListener(ApplyFilter);
         nextPageButton.onClick.AddListener(NextPage);
         previousPageButton.onClick.AddListener(PreviousPage);
 
@@ -31,25 +34,52 @@ public class ContentFilterManager : MonoBehaviour
 
     void SetupDropdown()
     {
-        filterDropdown.ClearOptions();
-        filterDropdown.AddOptions(new List<string> {
-            "全部", "最受歡迎", "最新", "堅毅", "尊重他人", "責任感", "國民身份認同", "承擔精神", "誠信",
+        filterDropdown1.ClearOptions();
+        filterDropdown1.AddOptions(new List<string> {
+            "全部", "最受歡迎", "最新"
+        });
+        filterDropdown2.ClearOptions();
+        filterDropdown2.AddOptions(new List<string> {
+            "全部", "堅毅", "尊重他人", "責任感", "國民身份認同", "承擔精神", "誠信",
             "仁愛", "守法", "同理心", "勤勞", "團結", "孝親", "其他正確價值觀"
         });
     }
 
-    void ApplyFilter(int index)
+    void ApplyFilter(int _)
     {
         currentPage = 0;
 
-        currentFilteredItems = index switch
-        {
-            0 => allItems,
-            1 => allItems.OrderByDescending(i => i.popularityScore).Take(1).ToList(),
-            2 => allItems.OrderByDescending(i => i.ParsedDate).ToList(),
-            _ => allItems.Where(i => i.valueTags.Contains(filterDropdown.options[index].text)).ToList()
-        };
+        // Get selected values from both dropdowns
+        string filter1 = filterDropdown1.options[filterDropdown1.value].text;
+        string filter2 = filterDropdown2.options[filterDropdown2.value].text;
 
+        // Start with all items
+        IEnumerable<ContentItem> filtered = allItems;
+
+        // Apply filterDropdown1 logic
+        switch (filter1)
+        {
+            case "全部":
+                break; // no filter
+            case "最受歡迎":
+                filtered = filtered.OrderByDescending(i => i.popularityScore).Take(1);
+                break;
+            case "最新":
+                filtered = filtered.OrderByDescending(i => i.ParsedDate);
+                break;
+        }
+
+        // Apply filterDropdown2 logic
+        switch (filter2)
+        {
+            case "全部":
+                break; // no filter
+            default:
+                filtered = filtered.Where(i => i.valueTags.Contains(filter2));
+                break;
+        }
+
+        currentFilteredItems = filtered.ToList();
         UpdatePage();
     }
 
