@@ -130,6 +130,7 @@ public class LoginOrRegisterForm : MonoBehaviour
         RegisterToggleButton.gameObject.SetActive(false);
         LoginToggleButton.gameObject.SetActive(false);
         RememberMeToggle.gameObject.SetActive(false);
+        //AuthManager.Instance.SetUser(authUser);
         SceneManager.LoadScene("SampleScene");
     }
 

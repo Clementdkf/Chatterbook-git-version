@@ -5,6 +5,8 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using StrapiForUnity;
+
 public class MenuBehaviour : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -19,6 +21,8 @@ public class MenuBehaviour : MonoBehaviour
     public Button settingsUIButton;
     public Button helpUIButton;
     [SerializeField] private SceneQuizData currentSceneData;
+
+    private StrapiUser strapiuser;
     public void Toggle() //for settings button
     {
         panelManager.OpenPanel(settingsPanel);
@@ -97,6 +101,7 @@ public class MenuBehaviour : MonoBehaviour
 
     public void SaveButton()
     {
+        //var username = AuthManager.Instance.CurrentUser.user.username;
         DateTime currentTime = DateTime.Now;
         Debug.Log("Current time: "+ currentTime.ToString() + " Scene Name: " + currentSceneData.sceneName + " Wrong count: " + currentSceneData.wrongCount.ToString() + " Correct count: " + currentSceneData.correctCount.ToString());
 
