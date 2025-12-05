@@ -719,6 +719,34 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1172747939}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SaveButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476668006383866747, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5818267445226460926, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
       propertyPath: m_SizeDelta.x
       value: 80
@@ -2104,6 +2132,10 @@ PrefabInstance:
       propertyPath: settingsButton
       value: 
       objectReference: {fileID: 1845392314}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: currentSceneData
+      value: 
+      objectReference: {fileID: 11400000, guid: 39e7bd5d40da32641bb9a6103e05af35, type: 2}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: settingsUIButton
       value: 
@@ -5215,6 +5247,7 @@ MonoBehaviour:
   settingsPanel: {fileID: 2128532724}
   settingsUIButton: {fileID: 0}
   helpUIButton: {fileID: 0}
+  currentSceneData: {fileID: 0}
 --- !u!1 &2137922916
 GameObject:
   m_ObjectHideFlags: 0

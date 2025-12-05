@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -17,6 +18,7 @@ public class MenuBehaviour : MonoBehaviour
     [Header("Buttons")]
     public Button settingsUIButton;
     public Button helpUIButton;
+    [SerializeField] private SceneQuizData currentSceneData;
     public void Toggle() //for settings button
     {
         panelManager.OpenPanel(settingsPanel);
@@ -87,11 +89,17 @@ public class MenuBehaviour : MonoBehaviour
             }
         }
     }
-
     public void DisableButton() 
     {
         settingsUIButton.gameObject.SetActive(false); 
         helpUIButton.gameObject.SetActive(false);   
+    }
+
+    public void SaveButton()
+    {
+        DateTime currentTime = DateTime.Now;
+        Debug.Log("Current time: "+ currentTime.ToString() + " Scene Name: " + currentSceneData.sceneName + " Wrong count: " + currentSceneData.wrongCount.ToString() + " Correct count: " + currentSceneData.correctCount.ToString());
+
     }
 
 }

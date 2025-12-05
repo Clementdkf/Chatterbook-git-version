@@ -848,6 +848,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1171346604}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: currentSceneData
+      value: 
+      objectReference: {fileID: 11400000, guid: dc61ed57cb358c04abec391f9103efd5, type: 2}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: settingsUIButton
       value: 
       objectReference: {fileID: 1171346604}
@@ -981,6 +985,7 @@ MonoBehaviour:
   settingsPanel: {fileID: 1600626378}
   settingsUIButton: {fileID: 0}
   helpUIButton: {fileID: 0}
+  currentSceneData: {fileID: 0}
 --- !u!224 &1600626380 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5640539466608509409, guid: 820b6a8f8c398fd40804ebdfdd629827, type: 3}
@@ -1735,6 +1740,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2065124349}
     m_Modifications:
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 516080889}
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SaveButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 222060443642021112, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 656971095783923532, guid: 0fa32c9f7958ee94fb4c368cddca9bae, type: 3}
       propertyPath: m_fontSize
       value: 36

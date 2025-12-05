@@ -41,10 +41,6 @@ public class MultipleChoice : MonoBehaviour
         CorrectText.gameObject.SetActive(false);
         WrongText.gameObject.SetActive(false);
         audioSource = GetComponent<AudioSource>();
-
-        // Update UI with current counts
-        CorrectCountText.text = currentSceneData.correctCount.ToString();
-        WrongCountText.text = currentSceneData.wrongCount.ToString();
     }
 
     public void Correct()
@@ -65,7 +61,6 @@ public class MultipleChoice : MonoBehaviour
 
         // Update the ScriptableObject data, not static variables
         currentSceneData.correctCount++;
-        CorrectCountText.text = currentSceneData.correctCount.ToString();
     }
 
     public void Wrong(Button pressedButton)
@@ -79,6 +74,5 @@ public class MultipleChoice : MonoBehaviour
 
         // Update the ScriptableObject data
         currentSceneData.wrongCount++;
-        WrongCountText.text = currentSceneData.wrongCount.ToString();
     }
 }
