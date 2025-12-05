@@ -6,6 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LoginOrRegisterForm : MonoBehaviour
 {
@@ -129,6 +130,7 @@ public class LoginOrRegisterForm : MonoBehaviour
         RegisterToggleButton.gameObject.SetActive(false);
         LoginToggleButton.gameObject.SetActive(false);
         RememberMeToggle.gameObject.SetActive(false);
+        SceneManager.LoadScene("SampleScene");
     }
 
     private void handleUnsuccessfulAuthentication(Exception error)
