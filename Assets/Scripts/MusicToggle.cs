@@ -14,10 +14,6 @@ public class MusicToggle : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void ToggleMusic(bool isOn)
     {
         if (audioSource != null)
