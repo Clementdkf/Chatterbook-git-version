@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 166961646}
   - component: {fileID: 166961645}
   m_Layer: 5
-  m_Name: Login page button
+  m_Name: Log out button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +630,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -194.4}
-  m_SizeDelta: {x: 225, y: 40}
+  m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166961645
 MonoBehaviour:
@@ -678,8 +678,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 923518886}
         m_TargetAssemblyTypeName: MenuBehaviour, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 5
+        m_MethodName: Logout
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2456,7 +2456,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b5ec393603b542647bc11ff3c463b606, type: 2}
   - {fileID: 11400000, guid: 39e7bd5d40da32641bb9a6103e05af35, type: 2}
   - {fileID: 11400000, guid: cc722b8cd7483254680126ca0edd8443, type: 2}
-  - {fileID: 11400000, guid: f3bf31911ac2b2d4a80ca8e5f44c74f7, type: 2}
 --- !u!4 &612426702
 Transform:
   m_ObjectHideFlags: 0
@@ -4746,13 +4745,6 @@ MonoBehaviour:
     sceneName: "\u6CE2\u5B50\u751F\u6C23\u4E86"
     valueTags:
     - "\u8CAC\u4EFB\u611F"
-  - title: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    dateString: 2025-09-19
-    popularityScore: 20
-    image: {fileID: 21300000, guid: e1c39bc51aad1064fa2c719edd5eba1a, type: 3}
-    sceneName: "\u5C0F\u5C0F\u592A\u7A7A\u4EBA"
-    valueTags:
-    - 
 --- !u!4 &1720216452
 Transform:
   m_ObjectHideFlags: 0
@@ -5148,7 +5140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u8FD4\u56DE\u767B\u5165\u9801\u9762"
+  m_text: "\u767B\u51FA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db1df3a825955634e9b073e773bd362d, type: 2}
   m_sharedMaterial: {fileID: -5909519559530546082, guid: db1df3a825955634e9b073e773bd362d, type: 2}

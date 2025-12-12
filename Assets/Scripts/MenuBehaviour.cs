@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using StrapiForUnity;
+using Proyecto26;
 
 public class MenuBehaviour : MonoBehaviour
 {
@@ -22,7 +23,41 @@ public class MenuBehaviour : MonoBehaviour
     public Button helpUIButton;
     [SerializeField] private SceneQuizData currentSceneData;
 
-    private StrapiUser strapiuser;
+    private StrapiComponent strapiComponent;
+
+    private void Awake()
+    {
+        strapiComponent = StrapiComponent.Instance;
+    }
+
+    public void Logout()
+    {
+        if (strapiComponent != null)
+        {
+            // Clear authentication state
+            strapiComponent.AuthenticatedUser = null;
+            strapiComponent.IsAuthenticated = false;
+
+            // Remove JWT from PlayerPrefs
+            if (PlayerPrefs.HasKey("jwt"))
+            {
+                PlayerPrefs.DeleteKey("jwt");
+            }
+
+            // Clear Authorization header
+            if (RestClient.DefaultRequestHeaders.ContainsKey("Authorization"))
+            {
+                RestClient.DefaultRequestHeaders.Remove("Authorization");
+            }
+
+            Debug.Log("User logged out successfully.");
+            SceneManager.LoadScene("Login and Register Page");
+        }
+        else
+        {
+            Debug.LogWarning("StrapiComponent instance not found. Cannot log out.");
+        }
+    }
     public void Toggle() //for settings button
     {
         panelManager.OpenPanel(settingsPanel);

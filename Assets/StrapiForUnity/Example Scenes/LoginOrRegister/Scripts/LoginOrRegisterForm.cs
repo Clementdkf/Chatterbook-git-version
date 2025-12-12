@@ -18,6 +18,7 @@ public class LoginOrRegisterForm : MonoBehaviour
     public InputField EmailInput;
     public InputField PasswordInput;
     public TextMeshProUGUI HeaderText;
+    public TextMeshProUGUI WrongText; 
     public VerticalLayoutGroup ContainerLayout;
     public GameObject LoadingObject;
     public Toggle RememberMeToggle;
@@ -41,6 +42,7 @@ public class LoginOrRegisterForm : MonoBehaviour
         
         LoginToggleButton.onClick.Invoke();
         LoadingObject.SetActive(false);
+        WrongText.gameObject.SetActive(false);
 
         registerEventHandlers();
         Debug.Log(HeaderText);
@@ -138,5 +140,10 @@ public class LoginOrRegisterForm : MonoBehaviour
     {
         toggleLoading();
         HeaderText.text = $"Authentication Error: {error.Message}";
+        //TestingText.text = strapiComponent.AuthenticatedUser.username;
+        if (UsernameInput.text != Strapi.AuthenticatedUser.username)
+        {
+            WrongText.gameObject.SetActive(true);
+        }
     }
 }
