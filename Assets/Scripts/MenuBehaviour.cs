@@ -42,6 +42,7 @@ public class MenuBehaviour : MonoBehaviour
             if (PlayerPrefs.HasKey("jwt"))
             {
                 PlayerPrefs.DeleteKey("jwt");
+                PlayerPrefs.Save();
             }
 
             // Clear Authorization header
