@@ -2259,6 +2259,7 @@ MonoBehaviour:
   settingsPanel: {fileID: 7558084509421817549}
   settingsUIButton: {fileID: 0}
   helpUIButton: {fileID: 0}
+  currentSceneData: {fileID: 0}
 --- !u!1 &7610588827295202881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,7 +2689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -186.59998, y: -50.99994}
+  m_AnchoredPosition: {x: -186.59998, y: -48.99994}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3143920389650524009
@@ -2989,7 +2990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 894641893860645207, guid: 4bb7c15b807f45c43bd8b7d080fcf79e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: -53
       objectReference: {fileID: 0}
     - target: {fileID: 894641893860645207, guid: 4bb7c15b807f45c43bd8b7d080fcf79e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
