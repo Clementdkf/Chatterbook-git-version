@@ -2808,7 +2808,15 @@ PrefabInstance:
     - target: {fileID: 1718045307212802646, guid: d056cd31f57f3e34e87fe80705448e3e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 197634074}
+      objectReference: {fileID: 516080889}
+    - target: {fileID: 1718045307212802646, guid: d056cd31f57f3e34e87fe80705448e3e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718045307212802646, guid: d056cd31f57f3e34e87fe80705448e3e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8117847092575731776, guid: d056cd31f57f3e34e87fe80705448e3e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

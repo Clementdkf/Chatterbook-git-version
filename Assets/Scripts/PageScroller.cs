@@ -74,11 +74,6 @@ public class PageScroller : MonoBehaviour
             pages[i].SetActive(i == index);
         }
     }
-
-    public void ChangeScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-    }
     
     public void PlayPageScrollSound()
     {

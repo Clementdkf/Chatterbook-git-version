@@ -31,7 +31,7 @@ public class MultipleChoice : MonoBehaviour
         string currentSceneName = SceneManager.GetActiveScene().name;
 
         // Get the specific SceneQuizData from the GameStatisticsManager
-        currentSceneData = ReceivingRecords.Instance.GetQuizDataForScene(currentSceneName);
+        currentSceneData = ReceivingRecords.Instance.GetQuizDataForScene(currentSceneName); 
         if (currentSceneData == null)
         {
             Debug.LogError("Quiz data for scene '" + currentSceneName + "' not found!");
