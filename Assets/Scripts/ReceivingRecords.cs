@@ -4,8 +4,9 @@ using UnityEngine;
 public class ReceivingRecords : MonoBehaviour
 {
     public static ReceivingRecords Instance;
-
     public List<SceneQuizData> allSceneQuizData = new List<SceneQuizData>();
+    public delegate void QuizDataRestHandler();
+    public static event QuizDataRestHandler OnQuizDataReset;
 
     private void Awake()
     {
@@ -40,6 +41,7 @@ public class ReceivingRecords : MonoBehaviour
             data.correctCount = 0;
             data.wrongCount = 0;
         }
+        OnQuizDataReset?.Invoke();
         Debug.Log("All quiz data has been reset.");
     }
 }

@@ -22,6 +22,12 @@ public class RecordSummary : MonoBehaviour
     {
         UpdateRecordPage();
         UpdateSceneResults();
+        ReceivingRecords.OnQuizDataReset += UpdateSceneResults;
+    }
+
+    void OnDestroy()
+    {
+        ReceivingRecords.OnQuizDataReset -= UpdateSceneResults;
     }
 
     void UpdateRecordPage()
@@ -30,7 +36,7 @@ public class RecordSummary : MonoBehaviour
         NextButton.gameObject.SetActive(currentPage < (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage);
     }
 
-    void UpdateSceneResults()
+    public void UpdateSceneResults()
     {
         var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData; // Get all quiz data
 
