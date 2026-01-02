@@ -47,6 +47,8 @@ public class PageScroller : MonoBehaviour
             progressBar.maxValue = pages.Length - 1;
             progressBar.value = currentPage;
         }
+
+        progressBar.onValueChanged.AddListener(OnProgressBarChanged);
     }
 
     void Update()
@@ -91,6 +93,16 @@ public class PageScroller : MonoBehaviour
         if (progressBar != null)
         {
             progressBar.value = index;
+        }
+    }
+
+    void OnProgressBarChanged(float value)
+    {
+        int newPage = Mathf.RoundToInt(value);
+        if (newPage != currentPage)
+        {
+            currentPage = newPage;
+            ShowPage(currentPage);
         }
     }
     
