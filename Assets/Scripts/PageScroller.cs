@@ -1,6 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using System;
+//using UnityEngine.UIElements;
+using UnityEngine.Localization.SmartFormat.Utilities;
 
 public class PageScroller : MonoBehaviour
 {
@@ -18,6 +22,9 @@ public class PageScroller : MonoBehaviour
     public AudioClip pagescrollingClip;
     private AudioSource audioSource;
 
+    [Header("Progress bar")]
+    public Slider progressBar;
+
     void Start()
     {
         pages = FindGameObjectsWithTagInHierarchy(targetTag).ToArray();
@@ -33,6 +40,13 @@ public class PageScroller : MonoBehaviour
         }
         //ShowPage(currentPage);
         audioSource = GetComponent<AudioSource>();
+
+        if (progressBar != null)
+        {
+            progressBar.minValue = 0;
+            progressBar.maxValue = pages.Length - 1;
+            progressBar.value = currentPage;
+        }
     }
 
     void Update()
@@ -72,6 +86,11 @@ public class PageScroller : MonoBehaviour
         for (int i = 0; i < pages.Length; i++)
         {
             pages[i].SetActive(i == index);
+        }
+
+        if (progressBar != null)
+        {
+            progressBar.value = index;
         }
     }
     
