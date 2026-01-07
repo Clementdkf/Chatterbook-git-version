@@ -38,7 +38,7 @@ public class PageScroller : MonoBehaviour
         {
             ShowPage(currentPage);
         }
-        //ShowPage(currentPage);
+        
         audioSource = GetComponent<AudioSource>();
 
         if (progressBar != null)
