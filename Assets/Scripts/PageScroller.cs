@@ -46,9 +46,9 @@ public class PageScroller : MonoBehaviour
             progressBar.minValue = 0;
             progressBar.maxValue = pages.Length - 1;
             progressBar.value = currentPage;
+            progressBar.onValueChanged.AddListener(OnProgressBarChanged);
         }
 
-        progressBar.onValueChanged.AddListener(OnProgressBarChanged);
     }
 
     void Update()

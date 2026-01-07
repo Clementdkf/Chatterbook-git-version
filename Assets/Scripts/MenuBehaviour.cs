@@ -62,8 +62,8 @@ public class MenuBehaviour : MonoBehaviour
     public void Toggle() //for settings button
     {
         panelManager.OpenPanel(settingsPanel);
-        settingsUIButton.gameObject.SetActive(true);
-        helpUIButton.gameObject.SetActive(true);   
+        //settingsUIButton.gameObject.SetActive(true);
+        //helpUIButton.gameObject.SetActive(true);   
     }
 
     public void ChangeScene(string sceneName)
