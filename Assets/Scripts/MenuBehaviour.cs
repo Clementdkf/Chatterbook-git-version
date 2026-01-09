@@ -30,6 +30,19 @@ public class MenuBehaviour : MonoBehaviour
         strapiComponent = StrapiComponent.Instance;
     }
 
+    /*void OnApplicationPause(bool pause)
+    {
+        if (pause)
+        {
+            Logout();
+        }
+    }
+
+    void OnApplicationQuit()
+    {
+        Logout();
+    }*/
+
     public void Logout()
     {
         if (strapiComponent != null)

@@ -188,7 +188,7 @@ public class StrapiComponent : MonoBehaviour
         
         RestClient.DefaultRequestHeaders["Authorization"] = "Bearer " + jwt;
         
-        RestClient.Get<StrapiUser>(BaseURL + "users/me").Then(response => {
+        RestClient.Get<StrapiUser>(BaseURL + "api/users/me").Then(response => {
             Debug.Log(response);
             AuthResponse authResponse = new AuthResponse()
             {
