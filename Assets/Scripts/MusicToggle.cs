@@ -6,26 +6,19 @@ using UnityEngine.UI;
 public class MusicToggle : MonoBehaviour
 {
     private AudioSource audioSource;
-    public GameObject toggleObject;
+    //public GameObject toggleObject;
     // Start is called before the first frame updates
     void Start()
     {
-        audioSource = toggleObject.GetComponent<AudioSource>();
+        //audioSource = toggleObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     public void ToggleMusic(bool isOn)
     {
-        if (audioSource != null)
+        if (BackgroundMusic.Instance != null)
         {
-            if (isOn == true)
-            {
-                audioSource.enabled = true;
-            }
-            else
-            {
-                audioSource.enabled = false;
-            }
+            BackgroundMusic.Instance.ToggleMusic(isOn);
         }
     }
 }

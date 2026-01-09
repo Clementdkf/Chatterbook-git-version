@@ -2812,7 +2812,7 @@ MonoBehaviour:
   m_text: "\u4ECA\u5929\u662F\u500B\u6674\u6717\u7684\u597D\u5929\u6C23\uFF0C\u5C0F\u718A\u63C9\u4E86\u63C9\u773C\u775B\uFF0C\u5F9E\u6696\u6696\u7684\u88AB\u7AA9\u88E1\u722C\u4E86\u51FA\u4F86\u3002"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db1df3a825955634e9b073e773bd362d, type: 2}
-  m_sharedMaterial: {fileID: -2250813334462886495, guid: db1df3a825955634e9b073e773bd362d, type: 2}
+  m_sharedMaterial: {fileID: -5909519559530546082, guid: db1df3a825955634e9b073e773bd362d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

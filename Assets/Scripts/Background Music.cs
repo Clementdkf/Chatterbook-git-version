@@ -6,26 +6,26 @@ public class BackgroundMusic : MonoBehaviour
 {
     // Start is called before the first frame update
     public static BackgroundMusic Instance;
+    private AudioSource audioSource;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            audioSource = GetComponent<AudioSource>();
         }
         else
         {
             Destroy(gameObject);
         }
     }
-    void Start()
+    public void ToggleMusic(bool isOn)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (audioSource != null)
+        {
+            audioSource.enabled = isOn;
+        }
     }
 }
