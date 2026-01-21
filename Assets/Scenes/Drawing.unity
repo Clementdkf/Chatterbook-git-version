@@ -2118,6 +2118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Help Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3487195665144902345, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5150410806049894397, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2208,7 +2212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7817420906928281900, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       propertyPath: m_text
-      value: "\u60A8\u53EF\u4EE5\u4F7F\u7528\u91CD\u8A2D\u6309\u9215\u6E05\u9664\u624B\u5BEB\u677F\u4EE5\u53CA\u4F7F\u7528\u5132\u5B58\u6309\u9215\u5132\u5B58\u60A8\u7684\u624B\u5BEB\u9032\u5EA6\uFF0C\u4E26\u5728\u96FB\u8A71\u88DD\u7F6E\u7684\u5716\u5EAB\u4E2D\u67E5\u770B\u3002"
+      value: "\u60A8\u53EF\u4EE5\u4F7F\u7528\u91CD\u8A2D\u6309\u9215\u6E05\u9664\u624B\u5BEB\u677F\u4EE5\u53CA\u4F7F\u7528\u91CD\u64AD\u6309\u9215\u4F86\u56DE\u653E\u4E4B\u524D\u5BEB\u4E0B\u7684\u6587\u5B57\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 7817420906928281900, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       propertyPath: m_margin.z
@@ -2330,7 +2334,8 @@ PrefabInstance:
       value: OpenhelpUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 329860238106072780, guid: 09aaeeb6d5296e145bae32ff359d4a22, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09aaeeb6d5296e145bae32ff359d4a22, type: 3}
