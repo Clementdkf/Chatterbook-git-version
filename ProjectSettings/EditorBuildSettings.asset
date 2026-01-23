@@ -14,19 +14,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/3rd story.unity
     guid: 31c5e0e8ea7ff4848b827fc4dcde64a5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Login and Register Page.unity
     guid: ff77225668aec544b99407dce6f77645
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\u5C0F\u718A\u7684\u91CE\u9910\u65E5.unity"
     guid: 1f0402df540aecb469bff3db48b7b85d
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\u5C0F\u9D28\u5B50\u5B78\u6E38\u6CF3.unity"
     guid: fb0672c571cdf0d479d47c920fca9d69
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\u5C0F\u5C0F\u592A\u7A7A\u4EBA.unity"
     guid: 8e4850f122703614db7a46f470c05854
   - enabled: 0
@@ -35,13 +35,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Register Page.unity
     guid: e8172293a60208d47a3899e4df8c698b
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\u6CE2\u5B50\u751F\u6C23\u4E86.unity"
     guid: f59c8886e77cb084e86fc625b6e08b7e
   - enabled: 0
     path: Assets/Scenes/mini game scene.unity
     guid: a8f39919ea9f2764d9bb39355d708090
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\u914D\u5C0D\u5C0F\u904A\u6232.unity"
     guid: 1e667c904a40c44468a2ac821951065e
   - enabled: 1
