@@ -47,5 +47,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Drawing.unity
     guid: 3b82b4713818623479a897e19f21bd85
+  - enabled: 1
+    path: "Assets/Scenes/\u7FBD\u6BDB.unity"
+    guid: ad0efee1cd59fb940815727728d64276
+  - enabled: 1
+    path: "Assets/Scenes/\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F\_.unity"
+    guid: 3e2ea9832f5be12419790cfca32621e3
+  - enabled: 1
+    path: "Assets/Scenes/\u8A79\u5C0F\u5C0F\u7684\u523A\u8EB2\u8D77\u4F86.unity"
+    guid: 3bf835dd5581b084090141f6be9b8684
   m_configObjects:
     com.unity.localization.settings: {fileID: 11400000, guid: 17ffdaf0c99d38f4487a2b33ca71b691, type: 2}

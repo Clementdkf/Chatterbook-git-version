@@ -40,7 +40,7 @@ public class ContentFilterManager : MonoBehaviour
         filterDropdown2.ClearOptions();
         filterDropdown2.AddOptions(new List<string> {
             "全部", "堅毅", "尊重他人", "責任感", "國民身份認同", "承擔精神", "誠信",
-            "仁愛", "守法", "同理心", "勤勞", "團結", "孝親", "其他正確價值觀"
+            "仁愛", "守法", "同理心", "勤勞", "團結", "孝親", "勇氣", "其他正確價值觀"
         });
     }
 
