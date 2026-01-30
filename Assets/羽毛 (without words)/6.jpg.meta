@@ -141,7 +141,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1000
+        width: 2000
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,27 +152,6 @@ TextureImporter:
       bones: []
       spriteID: 2889c528a73dbf943af347673927f953
       internalID: 2062013172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 6_1
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf985872e6018a84ba695fe705cbb769
-      internalID: -122178322
       vertices: []
       indices: 
       edges: []
@@ -189,7 +168,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       6_0: 2062013172
-      6_1: -122178322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

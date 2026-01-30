@@ -141,7 +141,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1000
+        width: 2000
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,27 +152,6 @@ TextureImporter:
       bones: []
       spriteID: e4850bb521779e14ba82cdf274869283
       internalID: -2011853324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 18_P20,21.pdf_1
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2223b6300f105e14e9b6320365e57cf4
-      internalID: -642688262
       vertices: []
       indices: 
       edges: []
@@ -189,7 +168,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       18_P20,21.pdf_0: -2011853324
-      18_P20,21.pdf_1: -642688262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
