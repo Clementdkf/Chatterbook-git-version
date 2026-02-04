@@ -1043,6 +1043,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6366572917033016435, guid: 169dd4b31cd295542b789d925861aaa3, type: 3}
   m_PrefabInstance: {fileID: 949813725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1478936453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8937127284858246035, guid: 71df055e4486336439b69f1c68bc4aaa, type: 3}
+  m_PrefabInstance: {fileID: 87119087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1607002226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2336,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9065169172021371581, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: NextButton
+      value: 
+      objectReference: {fileID: 1478936453}
     - target: {fileID: 9065169172021371581, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: homeButton
       value: 
