@@ -1682,15 +1682,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 22689560046251938, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_Value
-      value: 24
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22689560046251938, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_MaxValue
-      value: 28
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 22689560046251938, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_MinValue
-      value: 20
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2129168419038587523, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2248,6 +2248,14 @@ PrefabInstance:
     - target: {fileID: 3485890039343854175, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_TagString
       value: Book Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279936311964995262, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5778201727518399258, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -62
       objectReference: {fileID: 0}
     - target: {fileID: 5803160441194759791, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_Name

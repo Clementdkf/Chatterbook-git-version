@@ -3,7 +3,7 @@ using UnityEngine;
 public class SettingsManager : MonoBehaviour
 {
     public static SettingsManager Instance { get; private set; }
-    public float CurrentTextSize { get; private set; } = 36f; // Default
+    public float CurrentTextScale { get; private set; } = 1f; // Default = 100%
 
     public float CurrentVolume { get; private set; } = 1f; // Default   
 
@@ -16,18 +16,18 @@ public class SettingsManager : MonoBehaviour
         else
         {
             Instance = this;
-            DontDestroyOnLoad(this.gameObject); // Persist across scenes/pages
-            CurrentTextSize = PlayerPrefs.GetFloat("textSize", 36f);
+            DontDestroyOnLoad(this.gameObject);
+            CurrentTextScale = PlayerPrefs.GetFloat("textScale", 1f);
             CurrentVolume = PlayerPrefs.GetFloat("volume", 1f);
         }
     }
 
-    public void SetTextSize(float newSize)
+    public void SetTextScale(float newScale)
     {
-        CurrentTextSize = newSize;
-        PlayerPrefs.SetFloat("textSize", newSize);
+        CurrentTextScale = newScale;
+        PlayerPrefs.SetFloat("textScale", newScale);
         PlayerPrefs.Save();
-        // Optional: Trigger an event here for all active texts to update immediately
+        // Optional: trigger event to update all texts
     }
 
     public void SetVolume(float newVolume)

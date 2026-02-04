@@ -29,49 +29,45 @@ public class SliderControl : MonoBehaviour
 
     // Track all dynamic text instances (e.g., record summaries)
     private List<TextMeshProUGUI> dynamicTextInstances = new List<TextMeshProUGUI>();
+    private Dictionary<TextMeshProUGUI, float> baseFontSizes = new Dictionary<TextMeshProUGUI, float>();
+    private float newScale;
 
     void Start()
     {
-        // Load saved values or use defaults
         float savedVolume = SettingsManager.Instance?.CurrentVolume ?? PlayerPrefs.GetFloat("volume", 1f);
         float savedBrightness = PlayerPrefs.GetFloat("brightness", 0f);
-        float savedTextSize = SettingsManager.Instance?.CurrentTextSize ?? PlayerPrefs.GetFloat("textSize", 36f);
+        float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
 
-        // Apply to sliders
         volumeSlider.value = savedVolume;
         brightnessSlider.value = savedBrightness;
-        textsizeSlider.value = savedTextSize;
+        textsizeSlider.value = savedScale;
 
-        // Apply system volume
         AudioListener.volume = savedVolume;
 
-        // Apply brightness
         if (volume.profile.TryGet(out colorAdjustments))
         {
             colorAdjustments.postExposure.value = savedBrightness;
         }
 
         textElements = FindTMPWithTagInHierarchy(targetTag).ToArray();
-        // Apply font size to static text elements
-        if (textElements != null)
+
+        // Store base sizes BEFORE applying scaling
+        foreach (var text in textElements)
         {
-            foreach (var text in textElements)
+            if (text != null && !baseFontSizes.ContainsKey(text))
             {
-                text.fontSize = savedTextSize;
+                baseFontSizes[text] = text.fontSize; // keep the original design size
             }
         }
 
-        OnVolumeChanged(savedVolume);
-        UpdateAllFontSizes(savedTextSize);
+        // Apply saved scale factor
+        UpdateAllFontSizes(savedScale);
 
-        // Add listeners
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         brightnessSlider.onValueChanged.AddListener(SetBrightness);
         textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
 
-        Debug.Log("Volume: " + savedVolume + ", Brightness: " + savedBrightness + ", Text Size: " + savedTextSize);
-
-
+        Debug.Log($"Volume: {savedVolume}, Brightness: {savedBrightness}, Text Scale: {savedScale}");
     }
     public void OnVolumeChanged(float value)
     {
@@ -91,27 +87,22 @@ public class SliderControl : MonoBehaviour
         }
     }
 
-    public void UpdateAllFontSizes(float newSize)
+    public void UpdateAllFontSizes(float scale)
     {
-        // Update static text
-        foreach (var text in textElements)
+        foreach (var kvp in baseFontSizes)
         {
-            text.fontSize = newSize;
+            kvp.Key.fontSize = kvp.Value * scale; // scale relative to original
         }
 
-        // Update dynamic text
         foreach (var text in dynamicTextInstances)
         {
-            if (text != null)
-                text.fontSize = newSize;
+            if (text != null && baseFontSizes.ContainsKey(text))
+                text.fontSize = baseFontSizes[text] * scale;
         }
 
-        //PlayerPrefs.SetFloat("textSize", newSize);
-        //PlayerPrefs.Save();
-        SettingsManager.Instance.SetTextSize(newSize);
-        Debug.Log("Text size updated to: " + newSize);
+        SettingsManager.Instance.SetTextScale(scale);
+        Debug.Log("Text scale updated to: " + scale);
     }
-
     // Call this when instantiating a new text prefab
     public void RegisterDynamicText(TextMeshProUGUI text)
     {
