@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using TMPro;
 using Unity.VisualScripting;
 
 public class SliderControl : MonoBehaviour
 {
+    public string targetTag = "Book Text";
     [Header("UI Sliders")]
     public Slider volumeSlider;
     public Slider brightnessSlider;
@@ -49,6 +51,7 @@ public class SliderControl : MonoBehaviour
             colorAdjustments.postExposure.value = savedBrightness;
         }
 
+        textElements = FindTMPWithTagInHierarchy(targetTag).ToArray();
         // Apply font size to static text elements
         if (textElements != null)
         {
@@ -67,6 +70,8 @@ public class SliderControl : MonoBehaviour
         textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
 
         Debug.Log("Volume: " + savedVolume + ", Brightness: " + savedBrightness + ", Text Size: " + savedTextSize);
+
+
     }
     public void OnVolumeChanged(float value)
     {
@@ -121,5 +126,35 @@ public class SliderControl : MonoBehaviour
     public void ClearDynamicText()
     {
         dynamicTextInstances.Clear();
+    }
+
+    public static List<TextMeshProUGUI> FindTMPWithTagInHierarchy(string tag)
+    {
+        List<TextMeshProUGUI> foundTexts = new List<TextMeshProUGUI>();
+        Scene activeScene = SceneManager.GetActiveScene();
+        GameObject[] rootObjects = activeScene.GetRootGameObjects();
+
+        foreach (GameObject rootObj in rootObjects)
+        {
+            TraverseHierarchyAndAddTMP(rootObj.transform, tag, foundTexts);
+        }
+        return foundTexts;
+    }
+
+    private static void TraverseHierarchyAndAddTMP(Transform parent, string tag, List<TextMeshProUGUI> list)
+    {
+        if (parent.CompareTag(tag))
+        {
+            TextMeshProUGUI tmp = parent.GetComponent<TextMeshProUGUI>();
+            if (tmp != null)
+            {
+                list.Add(tmp);
+            }
+        }
+
+        for (int i = 0; i < parent.childCount; i++)
+        {
+            TraverseHierarchyAndAddTMP(parent.GetChild(i), tag, list);
+        }
     }
 }

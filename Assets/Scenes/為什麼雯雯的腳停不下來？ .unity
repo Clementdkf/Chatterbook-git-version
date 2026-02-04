@@ -313,6 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1739fbefdb3d44bb4fac5e52d6c63f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetTag: Book Text
   volumeSlider: {fileID: 1621885457}
   brightnessSlider: {fileID: 1621885456}
   textsizeSlider: {fileID: 1621885455}
@@ -1236,7 +1237,7 @@ GameObject:
   - component: {fileID: 1151412461}
   m_Layer: 5
   m_Name: Text (TMP)
-  m_TagString: Untagged
+  m_TagString: Book Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1370,7 +1371,7 @@ GameObject:
   - component: {fileID: 1362937248}
   m_Layer: 5
   m_Name: Text (TMP) (1)
-  m_TagString: Untagged
+  m_TagString: Book Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1809,7 +1810,7 @@ GameObject:
   - component: {fileID: 1614693905}
   m_Layer: 5
   m_Name: Text (TMP) (1)
-  m_TagString: Untagged
+  m_TagString: Book Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1938,6 +1939,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 80441589}
     m_Modifications:
+    - target: {fileID: 22689560046251938, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
+      propertyPath: m_Value
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 22689560046251938, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
+      propertyPath: m_MaxValue
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 22689560046251938, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
+      propertyPath: m_MinValue
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2129168419038587523, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2446,6 +2459,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 524095100}
     m_Modifications:
+    - target: {fileID: 40528303198341203, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 248111700463271951, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     - target: {fileID: 333728186765822671, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_SizeDelta.x
       value: 940
@@ -2453,6 +2474,14 @@ PrefabInstance:
     - target: {fileID: 333728186765822671, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446252968096327966, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 554442682516548220, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     - target: {fileID: 585122503717954250, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_IsActive
@@ -2489,6 +2518,10 @@ PrefabInstance:
     - target: {fileID: 1307773730986659764, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385653846560021745, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     - target: {fileID: 1507888715809778760, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2530,9 +2563,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3032363061913986235, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     - target: {fileID: 3364547167208366808, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485890039343854175, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_text
@@ -2654,6 +2695,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -145534063, guid: 3eb37a7f743934f488a5a0ccf777adb4, type: 3}
+    - target: {fileID: 6792955827060829672, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     - target: {fileID: 6898698853419015203, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

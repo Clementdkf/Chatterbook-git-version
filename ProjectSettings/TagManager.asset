@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UIPanels
   - pages
+  - Book Text
   layers:
   - Default
   - TransparentFX
