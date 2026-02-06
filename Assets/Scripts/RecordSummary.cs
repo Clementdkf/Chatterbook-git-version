@@ -59,6 +59,7 @@ public class RecordSummary : MonoBehaviour
             if (dataIndex < allSceneQuizData.Count)
             {
                 var sceneData = allSceneQuizData[dataIndex]; // Get the corresponding scene data
+                textComponent.fontSize = 30;
                 textComponent.text = $"{sceneData.sceneName}:<space=25>正確: {sceneData.correctCount,2}<space=20>錯誤: {sceneData.wrongCount,2}"; // Set text with formatting
             }
 
