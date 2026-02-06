@@ -79,11 +79,13 @@ public class SliderControl : MonoBehaviour
 
     public void SetBrightness(float value)
     {
+        //Debug.Log("Set brightness: " + value);
         if (colorAdjustments != null)
         {
             colorAdjustments.postExposure.value = value;
             PlayerPrefs.SetFloat("brightness", value);
             PlayerPrefs.Save();
+            Debug.Log("brightness: " + value);
         }
     }
 
