@@ -601,6 +601,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: pages
       objectReference: {fileID: 0}
+    - target: {fileID: 8876734630158365222, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1873,6 +1877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1739fbefdb3d44bb4fac5e52d6c63f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetTag: Book Text
   volumeSlider: {fileID: 406669914}
   brightnessSlider: {fileID: 510982142}
   textsizeSlider: {fileID: 2125286250}
@@ -2466,6 +2471,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 1.2521
       objectReference: {fileID: 0}
+    - target: {fileID: 481515000468125443, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 525568902510226806, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     - target: {fileID: 1168266272241041951, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_margin.x
       value: -103.21248
@@ -2646,6 +2659,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 229
       objectReference: {fileID: 0}
+    - target: {fileID: 4195744176245429934, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     - target: {fileID: 4339135243868196912, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -2653,6 +2670,10 @@ PrefabInstance:
     - target: {fileID: 4339135243868196912, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658578513399002940, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     - target: {fileID: 5321044690219090514, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2890,6 +2911,10 @@ PrefabInstance:
       propertyPath: pages.Array.data[10]
       value: 
       objectReference: {fileID: 1600626378}
+    - target: {fileID: 7142898982010872665, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
+      objectReference: {fileID: 0}
     - target: {fileID: 7168539753901985370, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3001,6 +3026,10 @@ PrefabInstance:
     - target: {fileID: 8446373834148423000, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 229
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539521123420721879, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     - target: {fileID: 8673963669657546590, guid: c7a9e1a8bb52ebb41a18827e81cba12f, type: 3}
       propertyPath: m_IsActive
@@ -3286,6 +3315,10 @@ PrefabInstance:
     - target: {fileID: 8850199004592343933, guid: d802277ed1606344c838649d87c1ccf4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157985760089207541, guid: d802277ed1606344c838649d87c1ccf4, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3629,6 +3662,10 @@ PrefabInstance:
     - target: {fileID: 5217623596950554346, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
       propertyPath: m_TagString
       value: pages
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876734630158365222, guid: 789079bf284ccf94b9095c8d78bfcdb7, type: 3}
+      propertyPath: m_TagString
+      value: Book Text
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
