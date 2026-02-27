@@ -13,10 +13,12 @@ public class PageScroller : MonoBehaviour
     [Header("Pages")]
     public GameObject[] pages;
 
-    [Header("Navigation Buttons")]
+    [Header("Buttons")]
     public GameObject NextButton;
     public GameObject homeButton;
+    public GameObject bookMarkButton;
     private int currentPage = 0;
+    private bool isPressed;
 
     [Header("Audio")]
     public AudioClip pagescrollingClip;
@@ -34,8 +36,22 @@ public class PageScroller : MonoBehaviour
         }
         pages[0].SetActive(true);
 
+        string bookmarkKey = SceneManager.GetActiveScene().name + "_BookmarkedPage";
+
         if (gameObject.tag != "UIPanels")
         {
+            if (PlayerPrefs.HasKey(bookmarkKey))
+            {
+                currentPage = PlayerPrefs.GetInt(bookmarkKey);
+                isPressed = true;
+                bookMarkButton.GetComponent<Image>().color = new Color(100f/255f, 230f/255f, 255f/255f);
+            }
+            else
+            {
+                currentPage = 0;
+                isPressed = false;
+                bookMarkButton.GetComponent<Image>().color = Color.white;
+            }
             ShowPage(currentPage);
         }
         
@@ -113,7 +129,31 @@ public class PageScroller : MonoBehaviour
             audioSource.PlayOneShot(pagescrollingClip);
         }
     }
+    public void BookMark()
+    {
+        Image buttonImage = bookMarkButton.GetComponent<Image>();
+        isPressed = !isPressed;
 
+        // Create a unique key based on the scene name
+        string bookmarkKey = SceneManager.GetActiveScene().name + "_BookmarkedPage";
+
+        if (isPressed)
+        {
+            PlayerPrefs.SetInt(bookmarkKey, currentPage);
+            PlayerPrefs.Save();
+            Debug.Log("Bookmarked Page in " + SceneManager.GetActiveScene().name + ": " + currentPage);
+
+            buttonImage.color = new Color(100f/255f, 230f/255f, 255f/255f); // light blue
+        }
+        else
+        {
+            PlayerPrefs.DeleteKey(bookmarkKey);
+            PlayerPrefs.Save();
+            Debug.Log("Bookmark cleared for " + SceneManager.GetActiveScene().name);
+
+            buttonImage.color = Color.white;
+        }
+    }
     public static List<GameObject> FindGameObjectsWithTagInHierarchy(string tag)
     {
 
