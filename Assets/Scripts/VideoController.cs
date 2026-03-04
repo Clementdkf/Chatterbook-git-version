@@ -13,6 +13,11 @@ public class VideoController : MonoBehaviour
         {
             videoPlayer = GetComponent<VideoPlayer>();
             videoPlayer.Prepare();
+            videoPlayer.prepareCompleted += (source) =>
+            {
+                videoPlayer.Play();
+                videoPlayer.Pause(); // shows first frame without playing
+            };
         }
     }
 
