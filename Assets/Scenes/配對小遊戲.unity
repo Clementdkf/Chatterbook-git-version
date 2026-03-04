@@ -2358,6 +2358,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: HelpPreviousUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6711136681847018062, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 47
+      objectReference: {fileID: 0}
     - target: {fileID: 7771054659954421919, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

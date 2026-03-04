@@ -12,6 +12,7 @@ public class VideoController : MonoBehaviour
         if (videoPlayer == null)
         {
             videoPlayer = GetComponent<VideoPlayer>();
+            videoPlayer.Prepare();
         }
     }
 
