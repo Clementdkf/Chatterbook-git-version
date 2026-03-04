@@ -1760,7 +1760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262, y: 147}
+  m_AnchoredPosition: {x: 274, y: 147}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151412461
@@ -1818,7 +1818,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -1846,7 +1846,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -100.16809, y: 0, z: 39.04717, w: 0}
+  m_margin: {x: -128.97787, y: -65.851006, z: 39.04717, w: -363.55234}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2150,7 +2150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -142, y: 186}
+  m_AnchoredPosition: {x: -142, y: 201}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1362937248
@@ -2208,7 +2208,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2218,7 +2218,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -188.96992, y: 0, z: 136.19626, w: 0}
+  m_margin: {x: -188.96992, y: 0, z: 64.85762, w: -48.016357}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2512,7 +2512,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2522,7 +2522,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -2540,7 +2540,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -108.818184, y: 0, z: -119.11176, w: -173.52078}
+  m_margin: {x: -108.818184, y: -85.05756, z: -119.11176, w: -246.2313}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2858,7 +2858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -210, y: 194}
+  m_AnchoredPosition: {x: -210, y: 218}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614693905
@@ -2908,15 +2908,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -2944,7 +2944,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 68.872734, y: 0, z: -102.33243, w: 0}
+  m_margin: {x: 72.98842, y: -16.46282, z: -98.21675, w: -153.65233}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3828,17 +3828,45 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u5979\u8D8A\u64D4\u5FC3\uFF0C\u5FC3\u88E1\u7684\u300C\u4E0D\u5B89\u6C7D\u6C34\u300D\u5C31\u5192\u6CE1\u5F97\u50CF\u8981\u6EA2\u51FA\u4F86\u4E00\u6A23\u3002\r\n\r\n\u7126\u616E\u7684\u96D9\u8173\u4E5F\u958B\u59CB\u6296\u52D5\uFF0C\u767C\u51FA\u300C\u5660\u5660\u5660\u300D\u7684\u8072\u97F3\u3002\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 891574098025177973, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -252.42888
+      objectReference: {fileID: 0}
+    - target: {fileID: 891574098025177973, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 891574098025177973, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_text
       value: "\u600E\u6599\u7DCA\u7E43\u7684\u808C\u8089\u537B\u7A81\u7136\u4E00\u5F48\uFF0C\u628A\u7A4D\u6728\u57CE\u5821\u8E22\u5012\u4E86\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -61.735306
       objectReference: {fileID: 0}
     - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.x
       value: -61.749725
       objectReference: {fileID: 0}
     - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.y
+      value: -86.42945
+      objectReference: {fileID: 0}
+    - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.z
       value: -102.33243
+      objectReference: {fileID: 0}
+    - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 952822898809945504, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 961549110703621359, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_Sprite
@@ -3917,6 +3945,14 @@ PrefabInstance:
       value: "\u4F01\u9D5D\u96EF\u96EF\u7684\u96D9\u8173\uFF0C\u539F\u4F86\u6697\u85CF\u8457\u5FC3\u88E1\u7684\u79D8\u5BC6\u3002\u6BCF\u7576\u5979\u611F\u5230\u7DCA\u5F35\u3001\u64D4\u5FC3\u6216\u4E0D\u77E5\u6240\u63AA\u6642\uFF0C\u96D9\u8173\u5C31\u6703\u4E0D\u7531\u81EA\u4E3B\u5730\u52D5\u8D77\u4F86\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -145.42091
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -3926,6 +3962,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3599027137768100823, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
@@ -3953,12 +3997,20 @@ PrefabInstance:
       value: "\u5C31\u5728\u9019\u6642\uFF0C\u523A\u875F\u5927\u5927\u905E\u4F86\u4E00\u500B\u6C23\u7403\uFF1A\u300C\u96EF\u96EF\uFF0C\u628A\u59B3\u5FC3\u88E1\u7684\u7DCA\u5F35\uFF0C\u7D71\u7D71\u5439\u9032\u53BB\u5427\u3002\u300D"
       objectReference: {fileID: 0}
     - target: {fileID: 4260136248101698399, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -183.83405
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260136248101698399, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.x
       value: -70.97008
       objectReference: {fileID: 0}
     - target: {fileID: 4260136248101698399, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.z
       value: 8.312523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260136248101698399, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4266867915723411941, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_IsActive
@@ -3971,6 +4023,18 @@ PrefabInstance:
     - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_text
       value: "\u96EF\u96EF\u5FC3\u88E1\u537B\u50CF\u6709\u8774\u8776\u5728\u98DB\uFF1A\u300C\u5982\u679C\u6211\u5750\u4E0D\u597D\u600E\u9EBC\u8FA6\uFF1F\u5927\u5BB6\u6703\u4E0D\u6703\u89BA\u5F97\u6211\u5F88\u5947\u602A\uFF1F\u300D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -138.56143
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.y
+      value: -78.19805
       objectReference: {fileID: 0}
     - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.z
@@ -3989,8 +4053,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888415867494475711, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 5140328293803832018, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_Sprite
@@ -4161,12 +4237,32 @@ PrefabInstance:
       value: "\u96EF\u96EF\u63A5\u904E\u6C23\u7403\u5F8C\u6DF1\u6DF1\u5438\u6C23\uFF0C\u7528\u529B\u5439\u4E86\u9032\u53BB\u3002\u96A8\u8457\u6C23\u7403\u6162\u6162\u8B8A\u5927\uFF0C\u5FC3\u88E1\u7684\u8774\u8776\u6D88\u5931\u4E86\uFF0C\u5C0F\u8173\u4E5F\u5B89\u975C\u4E86\u4E0B\u4F86\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 8315972955729281202, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315972955729281202, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -214.01573
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315972955729281202, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.z
       value: -33.179382
       objectReference: {fileID: 0}
+    - target: {fileID: 8315972955729281202, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315972955729281202, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8504793225050290463, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_text
-      value: "\u5927\u8C61\u5411\u5979\u793A\u610F\uFF1A\u300C\u5653\u2014\u2014\u96EF\u96EF\uFF0C\u597D\u5B69\u5B50\u5C31\u8981\u5B89\u975C\u5594\u3002"
+      value: "\u5927\u8C61\u5411\u5979\u793A\u610F\uFF1A\u300C\u5653\u2014\u2014\u96EF\u96EF\uFF0C\u597D\u5B69\u5B50\u5C31\u8981\u5B89\u975C\u5594\u3002\u300D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504793225050290463, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -97.40459
       objectReference: {fileID: 0}
     - target: {fileID: 8504793225050290463, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_margin.z
@@ -4185,6 +4281,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8504793225050290463, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504793225050290463, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4194,7 +4294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8672176409310568724, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 63
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8883120451992850809, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_IsActive
@@ -4203,6 +4303,14 @@ PrefabInstance:
     - target: {fileID: 8916515097110390563, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_text
       value: "\u300C\u5C0D\u4E0D\u8D77\u2026\u2026\u300D\u96EF\u96EF\u773C\u7736\u7D05\u4E86\uFF0C\u7126\u616E\u611F\u50CF\u6D77\u6D6A\u4E00\u6A23\u6DF9\u6C92\u4E86\u5979\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916515097110390563, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_margin.w
+      value: -105.63595
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916515097110390563, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9009503709298027510, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4249,7 +4357,7 @@ PrefabInstance:
       insertIndex: 1
       addedObject: {fileID: 1362937247}
     - targetCorrespondingSourceObject: {fileID: 1809423439388295861, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
-      insertIndex: -1
+      insertIndex: 1
       addedObject: {fileID: 1614693904}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
