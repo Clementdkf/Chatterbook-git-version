@@ -3287,6 +3287,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b5ec393603b542647bc11ff3c463b606, type: 2}
   - {fileID: 11400000, guid: 39e7bd5d40da32641bb9a6103e05af35, type: 2}
   - {fileID: 11400000, guid: cc722b8cd7483254680126ca0edd8443, type: 2}
+  - {fileID: 11400000, guid: e2cb01e07c93ffe49b0509b50365d975, type: 2}
+  - {fileID: 11400000, guid: 90102ba54b39114479dcbbf686eef652, type: 2}
   - {fileID: 11400000, guid: 920aaefa89cd7b643a94e8e9a831c9ec, type: 2}
 --- !u!4 &612426702
 Transform:
