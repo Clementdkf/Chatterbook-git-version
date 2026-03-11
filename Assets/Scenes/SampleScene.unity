@@ -620,6 +620,7 @@ RectTransform:
   m_Children:
   - {fileID: 3106750462430634182}
   - {fileID: 9011922459126087024}
+  - {fileID: 184904637}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -685,7 +686,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -1114,7 +1115,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1623320480}
+    m_TransformParent: {fileID: 154146685}
     m_Modifications:
     - target: {fileID: 579437711924641926, guid: 7c0b78d8c362c26429f19b5480824023, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -3287,7 +3288,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b5ec393603b542647bc11ff3c463b606, type: 2}
   - {fileID: 11400000, guid: 39e7bd5d40da32641bb9a6103e05af35, type: 2}
   - {fileID: 11400000, guid: cc722b8cd7483254680126ca0edd8443, type: 2}
+  - {fileID: 11400000, guid: fe056086f043d3e4582afa066422f9d9, type: 2}
+  - {fileID: 11400000, guid: f6f11486254ba5c4684416d9088e8656, type: 2}
   - {fileID: 11400000, guid: e2cb01e07c93ffe49b0509b50365d975, type: 2}
+  - {fileID: 11400000, guid: b58b364896b657f4d90e1fda6b94875e, type: 2}
   - {fileID: 11400000, guid: 90102ba54b39114479dcbbf686eef652, type: 2}
   - {fileID: 11400000, guid: 920aaefa89cd7b643a94e8e9a831c9ec, type: 2}
 --- !u!4 &612426702
@@ -6722,7 +6726,6 @@ RectTransform:
   - {fileID: 961501327}
   - {fileID: 1808144124}
   - {fileID: 1630318681}
-  - {fileID: 184904637}
   - {fileID: 1741701538}
   - {fileID: 2095070367}
   - {fileID: 2110106450}
@@ -7079,11 +7082,11 @@ MonoBehaviour:
     sceneName: "\u7FBD\u6BDB"
     valueTags:
     - "\u52C7\u6C23"
-  - title: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F\_"
+  - title: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F"
     dateString: 2025-11-14
     popularityScore: 75
     image: {fileID: 1574471449, guid: 446308e398313064692a5b285c440207, type: 3}
-    sceneName: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F\_"
+    sceneName: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F"
     valueTags:
     - "\u5176\u4ED6\u6B63\u78BA\u50F9\u503C\u89C0"
   - title: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F"
