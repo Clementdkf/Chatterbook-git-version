@@ -7,18 +7,18 @@ public class VideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (videoPlayer == null)
         {
             videoPlayer = GetComponent<VideoPlayer>();
-            videoPlayer.Prepare();
-            videoPlayer.prepareCompleted += (source) =>
-            {
-                videoPlayer.Play();
-                videoPlayer.Pause(); // shows first frame without playing
-            };
         }
+        videoPlayer.prepareCompleted += OnVideoPrepared;
+        videoPlayer.Prepare();
+    }
+    private void OnVideoPrepared(VideoPlayer source)
+    {
+        videoPlayer.StepForward();
     }
 
     // Update is called once per frame
