@@ -30,6 +30,7 @@ public class MenuBehaviour : MonoBehaviour
         strapiComponent = StrapiComponent.Instance;
     }
 
+    //Logging out from the log out button
     public void Logout()
     {
         if (strapiComponent != null)
@@ -59,13 +60,14 @@ public class MenuBehaviour : MonoBehaviour
             Debug.LogWarning("StrapiComponent instance not found. Cannot log out.");
         }
     }
-    public void Toggle() //for settings button
+    public void Toggle() //toggling settings panel 
     {
         panelManager.OpenPanel(settingsPanel);
         //settingsUIButton.gameObject.SetActive(true);
         //helpUIButton.gameObject.SetActive(true);   
     }
 
+    //change scenes 
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -98,6 +100,7 @@ public class MenuBehaviour : MonoBehaviour
         }
     }
 
+    //opening the help panel
     public void OpenhelpUI()
     {
         settingsPanel.SetActive(false);
@@ -105,6 +108,7 @@ public class MenuBehaviour : MonoBehaviour
         helpPanels[1].SetActive(false);
     }
 
+    //opening the next page of the help panel
     public void HelpNextUI()
     {
         for (int i = 0; i < helpPanels.Length; i++)
@@ -117,6 +121,8 @@ public class MenuBehaviour : MonoBehaviour
             }
         }
     }
+
+    //opening the previous page of help panel
     public void HelpPreviousUI()
     {
         for (int i = 0; i < helpPanels.Length; i++)

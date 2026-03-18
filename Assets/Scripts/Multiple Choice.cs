@@ -43,6 +43,7 @@ public class MultipleChoice : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    //controlling the behaviour when the user chooses the correct ansdwer
     public void Correct()
     {
         if (currentSceneData == null) return;
@@ -63,6 +64,7 @@ public class MultipleChoice : MonoBehaviour
         currentSceneData.correctCount++;
     }
 
+    //controlling the behaviour when the user chooses the wrong choices
     public void Wrong(Button pressedButton)
     {
         if (currentSceneData == null) return;

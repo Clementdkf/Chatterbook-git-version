@@ -5,6 +5,7 @@ public class ButtonFix : MonoBehaviour
 {
     public Button resetButton;
 
+    // adding the listener back to the reset button when switching scenes
     void Start()
     {
         if (resetButton != null)

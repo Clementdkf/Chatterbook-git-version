@@ -8,6 +8,7 @@ public class PanelManager : MonoBehaviour
     public GameObject[] panels;
     private GameObject currentPanel;
 
+    //controlling the behaviour of the panles (when one is opened, another one would be closed)
     public void OpenPanel(GameObject panelToOpen)
     {
         if (currentPanel != null)

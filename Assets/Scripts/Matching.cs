@@ -20,18 +20,19 @@ public class Matching : MonoBehaviour
 
     void Start()
     {
-                // Get the current scene's name
+        // Get the current scene's name
         string currentSceneName = SceneManager.GetActiveScene().name;
 
         audioSource = GetComponent<AudioSource>();
 
-        // Get the specific SceneQuizData from the GameStatisticsManager
+        // Get the specific SceneQuizData from the ReceivingRecords script
         currentSceneData = ReceivingRecords.Instance.GetQuizDataForScene(currentSceneName); 
         if (currentSceneData == null)
         {
             Debug.LogError("Quiz data for scene '" + currentSceneName + "' not found!");
             return;
         }
+        // Adding listeners to the buttons
         foreach (var pair in MatchingPairs)
         {
             pair.button.onClick.AddListener(() => OnButtonClicked(pair.matchKey, pair.button));
@@ -40,7 +41,7 @@ public class Matching : MonoBehaviour
     }
     void OnButtonClicked(string key, Button clickedButton) //clickedButton is the button that the player just pressed
     {
-        ResetOutlines();
+        ResetOutlines(); //resetting when a new button is pressed (i.e. a pair is already selected)
         if (selectedKey == null)
         {
             selectedKey = key;
@@ -77,6 +78,7 @@ public class Matching : MonoBehaviour
         }
     }
 
+    // not allowing users to interact to a pair that is correctly selected
     void DisablePair(string key)
     {
         var pair = MatchingPairs.Find(p => p.matchKey == key); 
@@ -87,6 +89,7 @@ public class Matching : MonoBehaviour
         }
     }
 
+    //Controlling the outline behaviourt of the buttons
     void ResetOutlines()
     {
         foreach (var pair in MatchingPairs)

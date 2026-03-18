@@ -81,6 +81,7 @@ public class PageScroller : MonoBehaviour
         }
     }
 
+    //move to the next page of the book
     public void NextPage()
     {
         if (currentPage < pages.Length - 1)
@@ -90,6 +91,7 @@ public class PageScroller : MonoBehaviour
         }
     }
 
+    //move to the previous page of the book
     public void PreviousPage()
     {
         if (currentPage > 0)
@@ -112,6 +114,7 @@ public class PageScroller : MonoBehaviour
         }
     }
 
+    //controlling the behaviour of the progress bar
     void OnProgressBarChanged(float value)
     {
         int newPage = Mathf.RoundToInt(value);
@@ -122,6 +125,7 @@ public class PageScroller : MonoBehaviour
         }
     }
     
+    //controlling the page scrolling sound
     public void PlayPageScrollSound()
     {
         if (audioSource != null && pagescrollingClip != null)
@@ -129,6 +133,8 @@ public class PageScroller : MonoBehaviour
             audioSource.PlayOneShot(pagescrollingClip);
         }
     }
+
+    //allowing users to book mark a certain page
     public void BookMark()
     {
         Image buttonImage = bookMarkButton.GetComponent<Image>();
@@ -154,6 +160,8 @@ public class PageScroller : MonoBehaviour
             buttonImage.color = Color.white;
         }
     }
+
+    //Finding the game objects in the hierachy with the required tag
     public static List<GameObject> FindGameObjectsWithTagInHierarchy(string tag)
     {
 
@@ -169,6 +177,7 @@ public class PageScroller : MonoBehaviour
         return foundObjects;
     }
 
+    //adding the gameobjects to the list according to the hierarchy
     private static void TraverseHierarchyAndAddTagged(Transform parent, string tag, List<GameObject> list)
     {
         if (parent.CompareTag(tag))

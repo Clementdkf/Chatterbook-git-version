@@ -21,6 +21,8 @@ public class BackgroundMusic : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    //toggle the background music on/off from the settings panel
     public void ToggleMusic(bool isOn)
     {
         if (audioSource != null)

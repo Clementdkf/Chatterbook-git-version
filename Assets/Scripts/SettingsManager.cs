@@ -22,6 +22,7 @@ public class SettingsManager : MonoBehaviour
         }
     }
 
+    //saving the newly set text scale to playerPrefs
     public void SetTextScale(float newScale)
     {
         CurrentTextScale = newScale;
@@ -30,6 +31,7 @@ public class SettingsManager : MonoBehaviour
         // Optional: trigger event to update all texts
     }
 
+    //saving the newly set volume to playerPrefs
     public void SetVolume(float newVolume)
     {
         CurrentVolume = newVolume;

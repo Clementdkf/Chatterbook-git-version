@@ -40,6 +40,8 @@ public class RecordSummary : MonoBehaviour
         NextButton.gameObject.SetActive(currentPage < (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage);
     }
 
+
+    //controlling the record data for each scene and show them in the record panel
     public void UpdateSceneResults()
     {
         var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData; // Get all quiz data
@@ -66,21 +68,21 @@ public class RecordSummary : MonoBehaviour
             rowRect.sizeDelta = new UnityEngine.Vector2(600, 40); //adjust width/height
             recordGroups.Add(row);
 
-            //Scene name prefab
+            //formatting for the scene name prefab
             GameObject nameObj = Instantiate(sceneNamePrefab, row.transform);
             var nameText = nameObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(nameText);
             nameText.fontSize = 28;
             nameText.text = sceneData.sceneName + ": ";
 
-            //Correct count prefab
+            //formatting for the correct count prefab
             GameObject correctObj = Instantiate(correctCountPrefab, row.transform);
             var correctText = correctObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(correctText);
             correctText.fontSize = 28;
             correctText.text = $"正確: {sceneData.correctCount}";
 
-            //Wrong count prefab
+            //formatting for the wrong count prefab
             GameObject wrongObj = Instantiate(wrongCountPrefab, row.transform);
             var wrongText = wrongObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(wrongText);
@@ -98,6 +100,7 @@ public class RecordSummary : MonoBehaviour
         }
     } 
 
+    //move to the previous page of the record panel
     public void PreviousPage()
     {
         if (currentPage > 0)
@@ -108,6 +111,7 @@ public class RecordSummary : MonoBehaviour
         }
     }
 
+    //move to the next page of the record panel
     public void NextPage()
     {
         int maxPage = (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage;

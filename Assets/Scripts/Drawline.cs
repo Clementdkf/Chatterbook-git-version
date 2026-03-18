@@ -12,15 +12,35 @@ public class Drawline : MonoBehaviour
     public float paintSize = 0.05f;     // Stroke thickness
     public float replayDelay = 0.5f;    // Delay between strokes during replay
 
+    [Header("Slider")]
+    public Slider replayDelaySlider;
+
     private LineRenderer currentLine;
     private List<Vector3> points = new List<Vector3>();
     private List<List<Vector3>> allStrokes = new List<List<Vector3>>(); // store all strokes
     private Vector3 lastMousePosition;
     private int strokeCount = 0;
 
+    void Start()
+    {
+        // Configure slider range
+        replayDelaySlider.minValue = 0.25f;
+        replayDelaySlider.maxValue = 0.75f;
+
+        // Load saved delay or default to 0.5
+        float savedDelay = PlayerPrefs.GetFloat("Delay", 0.5f);
+        replayDelay = Mathf.Clamp(savedDelay, replayDelaySlider.minValue, replayDelaySlider.maxValue);
+
+        // Set slider to saved value
+        replayDelaySlider.value = replayDelay;
+
+        // Register listener
+        replayDelaySlider.onValueChanged.AddListener(DelayControl);
+    }
+
     void Update()
     {
-        // Start drawing
+        // Drawing logic 
         if (Input.GetMouseButtonDown(0))
         {
             if (IsPointerOverBoard())
@@ -33,7 +53,7 @@ public class Drawline : MonoBehaviour
             }
         }
 
-        // Continue drawing
+        // continue drawing
         if (Input.GetMouseButton(0) && currentLine != null)
         {
             if (IsPointerOverBoard())
@@ -47,12 +67,12 @@ public class Drawline : MonoBehaviour
             }
         }
 
-        // Stop drawing
+        //stop drawing
         if (Input.GetMouseButtonUp(0))
         {
             if (points.Count > 0)
             {
-                // Save this stroke permanently
+                // save this stroke permanently
                 allStrokes.Add(new List<Vector3>(points));
             }
             currentLine = null;
@@ -60,9 +80,7 @@ public class Drawline : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Create a new stroke (LineRenderer)
-    /// </summary>
+    //create a new stroke (Line renderer)
     private void CreateNewLine()
     {
         GameObject newLine = new GameObject("Stroke_" + strokeCount);
@@ -74,14 +92,12 @@ public class Drawline : MonoBehaviour
         currentLine.endWidth = paintSize;
         currentLine.positionCount = 0;
 
-        // Ensure it renders above the board
+        //ensure it renders above the board
         currentLine.sortingLayerName = "UI";
         currentLine.sortingOrder = 1;
     }
 
-    /// <summary>
-    /// Add a point to the current stroke
-    /// </summary>
+    //Add a point to the current stroke
     private void AddPoint(Vector3 pos)
     {
         points.Add(pos);
@@ -89,20 +105,16 @@ public class Drawline : MonoBehaviour
         currentLine.SetPositions(points.ToArray());
     }
 
-    /// <summary>
-    /// Convert mouse position to world space (2D)
-    /// </summary>
+    //convert mouse position to world space (2D)
     private Vector3 GetWorldMousePosition()
     {
         Vector3 screenPos = Input.mousePosition;
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
-        worldPos.z = 0; // keep on 2D plane
+        worldPos.z = 0; //keep on 2D plane
         return worldPos;
     }
 
-    /// <summary>
-    /// Check if pointer is inside the board area
-    /// </summary>
+    //Check if pointer is inside the board area
     private bool IsPointerOverBoard()
     {
         Vector2 localPoint;
@@ -115,9 +127,7 @@ public class Drawline : MonoBehaviour
         return boardArea.rect.Contains(localPoint);
     }
 
-    /// <summary>
-    /// Clear only visuals, keep stroke data
-    /// </summary>
+    //Clear only visuals, keep stroke data
     public void ClearBoardVisualsOnly()
     {
         for (int i = lineParent.childCount - 1; i >= 0; i--)
@@ -126,9 +136,7 @@ public class Drawline : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Clear everything (visuals + stored strokes)
-    /// </summary>
+    //clear everything(visuals + stored strokes)
     public void ClearBoard()
     {
         ClearBoardVisualsOnly();
@@ -136,16 +144,14 @@ public class Drawline : MonoBehaviour
         strokeCount = 0;
     }
 
-    /// <summary>
-    /// Coroutine to replay all strokes sequentially
-    /// </summary>
+    //coroutine to replay all strokes sequentially
     public IEnumerator ReplayAllStrokes(float delay)
     {
         ClearBoardVisualsOnly();
 
         for (int i = 0; i < allStrokes.Count; i++)
         {
-            // Create stroke GameObject
+            //create stroke GameObject
             GameObject newLine = new GameObject("Stroke_" + (i + 1));
             newLine.transform.SetParent(lineParent);
 
@@ -161,15 +167,22 @@ public class Drawline : MonoBehaviour
 
             Debug.Log("Replayed stroke #" + (i + 1));
 
-            yield return new WaitForSeconds(delay); // wait before next stroke
+            yield return new WaitForSeconds(delay); //wait for next stroke
         }
     }
 
-    /// <summary>
-    /// Start replay coroutine from a button
-    /// </summary>
+    // start replay coroutine from a button
     public void StartReplay()
     {
         StartCoroutine(ReplayAllStrokes(replayDelay));
+    }
+
+    //control the delay time from a slider
+    public void DelayControl(float value)
+    {
+        replayDelay = value;
+        PlayerPrefs.SetFloat("Delay", replayDelay);
+        PlayerPrefs.Save();
+        Debug.Log("Replay delay set to: " + replayDelay);
     }
 }
