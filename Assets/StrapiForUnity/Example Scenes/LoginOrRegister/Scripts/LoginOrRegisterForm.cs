@@ -139,7 +139,7 @@ public class LoginOrRegisterForm : MonoBehaviour
     private void handleUnsuccessfulAuthentication(Exception error)
     {
         toggleLoading();
-        HeaderText.text = $"Authentication Error: {error.Message}";
+        Debug.Log($"Authentication Error: {error.Message}");
         //TestingText.text = strapiComponent.AuthenticatedUser.username;
         if (UsernameInput.text != Strapi.AuthenticatedUser.username)
         {

@@ -7,10 +7,14 @@ public class RecordSummary : MonoBehaviour
 {
     public SliderControl sliderControl;
     
-    [Header("Record text prefabs")]
-    public GameObject recordTextPrefab;
+    [Header("Individual text prefabs")]
+    public GameObject sceneNamePrefab;
+    public GameObject correctCountPrefab;
+    public GameObject wrongCountPrefab;
+
+    [Header("Container for all Groups")]
     public Transform contentContainer;
-    private List<TextMeshProUGUI> recordTextObjects = new List<TextMeshProUGUI>();
+    private List<GameObject> recordGroups = new List<GameObject>();
 
     [Header("Buttons")]
     public Button PreviousButton;
@@ -41,29 +45,56 @@ public class RecordSummary : MonoBehaviour
         var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData; // Get all quiz data
 
         // Clear previous text elements
-        foreach (var textElement in recordTextObjects)
+        foreach (var textElement in recordGroups)
         {
             Destroy(textElement.gameObject); // Destroy the GameObjects
         }
-        recordTextObjects.Clear(); // Clear the list
+        recordGroups.Clear(); // Clear the list
 
         // Display current page items
         for (int i = 0; i < itemsPerPage; i++)
         {
             int dataIndex = currentPage * itemsPerPage + i; // Calculate the index in the full data list
+            if (dataIndex >= allSceneQuizData.Count) break;
 
-            GameObject newTextObj = Instantiate(recordTextPrefab, contentContainer); // Create new text object
-            TextMeshProUGUI textComponent = newTextObj.GetComponent<TextMeshProUGUI>();
-            sliderControl.RegisterDynamicText(textComponent);// Refresh the text prefab settings
+            var sceneData = allSceneQuizData[dataIndex];
 
-            if (dataIndex < allSceneQuizData.Count)
-            {
-                var sceneData = allSceneQuizData[dataIndex]; // Get the corresponding scene data
-                textComponent.fontSize = 28;
-                textComponent.text = $"{sceneData.sceneName}:<space=25>正確: {sceneData.correctCount,2}<space=20>錯誤: {sceneData.wrongCount,2}"; // Set text with formatting
-            }
+            //Create a new group empty row container
+            GameObject row = new GameObject("SceneRow", typeof(RectTransform));
+            row.transform.SetParent(contentContainer, false);
+            var rowRect = row.GetComponent<RectTransform>();
+            rowRect.sizeDelta = new UnityEngine.Vector2(600, 40); //adjust width/height
+            recordGroups.Add(row);
 
-            recordTextObjects.Add(textComponent); // Add to the list for future reference
+            //Scene name prefab
+            GameObject nameObj = Instantiate(sceneNamePrefab, row.transform);
+            var nameText = nameObj.GetComponent<TextMeshProUGUI>();
+            sliderControl.RegisterDynamicText(nameText);
+            nameText.fontSize = 28;
+            nameText.text = sceneData.sceneName + ": ";
+
+            //Correct count prefab
+            GameObject correctObj = Instantiate(correctCountPrefab, row.transform);
+            var correctText = correctObj.GetComponent<TextMeshProUGUI>();
+            sliderControl.RegisterDynamicText(correctText);
+            correctText.fontSize = 28;
+            correctText.text = $"正確: {sceneData.correctCount}";
+
+            //Wrong count prefab
+            GameObject wrongObj = Instantiate(wrongCountPrefab, row.transform);
+            var wrongText = wrongObj.GetComponent<TextMeshProUGUI>();
+            sliderControl.RegisterDynamicText(wrongText);
+            wrongText.fontSize = 28;
+            wrongText.text = $"錯誤: {sceneData.wrongCount}";
+
+            //Manual Positioning
+            var nameRect = nameObj.GetComponent<RectTransform>();
+            var correctRect = correctObj.GetComponent<RectTransform>();
+            var wrongRect = wrongObj.GetComponent<RectTransform>();
+
+            nameRect.anchoredPosition = new UnityEngine.Vector2(-250, 0);
+            correctRect.anchoredPosition = new UnityEngine.Vector2(100, 0);
+            wrongRect.anchoredPosition = new UnityEngine.Vector2(250, 0); 
         }
     } 
 
