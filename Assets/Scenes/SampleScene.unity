@@ -1347,8 +1347,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sliderControl: {fileID: 1630318682}
   sceneNamePrefab: {fileID: 2733664813406318781, guid: 775ccafb69e3c8c4eb5d77a401ab7b12, type: 3}
-  correctCountPrefab: {fileID: 1735652526437926625, guid: d165d336ce744114095debeffffd2496, type: 3}
-  wrongCountPrefab: {fileID: 4803421985450645730, guid: 2993885b4bba8d84bba880586260718a, type: 3}
+  correctTextPrefab: {fileID: 1735652526437926625, guid: d165d336ce744114095debeffffd2496, type: 3}
+  correctNumberPrefab: {fileID: 6679518818363549171, guid: 862eaca5804f3ba4e96421369a61408d, type: 3}
+  wrongTextPrefab: {fileID: 4803421985450645730, guid: 2993885b4bba8d84bba880586260718a, type: 3}
+  wrongNumberPrefab: {fileID: 6679518818363549171, guid: d427eba557756b7418ba20c8d7a1bdfb, type: 3}
   contentContainer: {fileID: 184904640}
   PreviousButton: {fileID: 1336327082}
   NextButton: {fileID: 468687916}

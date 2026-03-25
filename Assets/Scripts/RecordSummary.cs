@@ -9,8 +9,10 @@ public class RecordSummary : MonoBehaviour
     
     [Header("Individual text prefabs")]
     public GameObject sceneNamePrefab;
-    public GameObject correctCountPrefab;
-    public GameObject wrongCountPrefab;
+    public GameObject correctTextPrefab;
+    public GameObject correctNumberPrefab;
+    public GameObject wrongTextPrefab;
+    public GameObject wrongNumberPrefab;
 
     [Header("Container for all Groups")]
     public Transform contentContainer;
@@ -76,27 +78,43 @@ public class RecordSummary : MonoBehaviour
             nameText.text = sceneData.sceneName + ": ";
 
             //formatting for the correct count prefab
-            GameObject correctObj = Instantiate(correctCountPrefab, row.transform);
+            GameObject correctObj = Instantiate(correctTextPrefab, row.transform);
             var correctText = correctObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(correctText);
             correctText.fontSize = 28;
-            correctText.text = $"正確: {sceneData.correctCount}";
+            correctText.text = $"正確: ";
+
+            GameObject correctNumberObj = Instantiate(correctNumberPrefab, row.transform);
+            var correctNumber = correctNumberObj.GetComponent<TextMeshProUGUI>();
+            sliderControl.RegisterDynamicText(correctNumber);
+            correctNumber.fontSize = 28;
+            correctNumber.text = $"{sceneData.correctCount}";
 
             //formatting for the wrong count prefab
-            GameObject wrongObj = Instantiate(wrongCountPrefab, row.transform);
+            GameObject wrongObj = Instantiate(wrongTextPrefab, row.transform);
             var wrongText = wrongObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(wrongText);
             wrongText.fontSize = 28;
-            wrongText.text = $"錯誤: {sceneData.wrongCount}";
+            wrongText.text = $"錯誤: ";
+
+            GameObject wrongNumberObj = Instantiate(wrongNumberPrefab, row.transform);
+            var wrongNumber = wrongNumberObj.GetComponent<TextMeshProUGUI>();
+            sliderControl.RegisterDynamicText(wrongNumber);
+            wrongNumber.fontSize = 28;
+            wrongNumber.text = $"{sceneData.wrongCount}";
 
             //Manual Positioning
             var nameRect = nameObj.GetComponent<RectTransform>();
             var correctRect = correctObj.GetComponent<RectTransform>();
+            var correctNumberRect = correctNumberObj.GetComponent<RectTransform>();
             var wrongRect = wrongObj.GetComponent<RectTransform>();
+            var WrongNumberRect = wrongNumberObj.GetComponent<RectTransform>();
 
             nameRect.anchoredPosition = new UnityEngine.Vector2(-250, 0);
             correctRect.anchoredPosition = new UnityEngine.Vector2(100, 0);
+            correctNumberRect.anchoredPosition = new UnityEngine.Vector2(250, 3);
             wrongRect.anchoredPosition = new UnityEngine.Vector2(250, 0); 
+            WrongNumberRect.anchoredPosition = new UnityEngine.Vector2(400, 3);
         }
     } 
 
