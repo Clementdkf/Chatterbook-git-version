@@ -17,10 +17,6 @@ public class MenuBehaviour : MonoBehaviour
     [Header("Panels")]
     public GameObject[] helpPanels;
     public GameObject settingsPanel;
-
-    [Header("Buttons")]
-    public Button settingsUIButton;
-    public Button helpUIButton;
     [SerializeField] private SceneQuizData currentSceneData;
 
     private StrapiComponent strapiComponent;
@@ -85,9 +81,7 @@ public class MenuBehaviour : MonoBehaviour
 
     public void ExitButton(GameObject panel) 
     {
-        panel.SetActive(false);
-        settingsUIButton.gameObject.SetActive(false); 
-        helpUIButton.gameObject.SetActive(false);   
+        panel.SetActive(false); 
     }
 
     public void SettingsUI()
@@ -134,11 +128,6 @@ public class MenuBehaviour : MonoBehaviour
                 break;
             }
         }
-    }
-    public void DisableButton() 
-    {
-        settingsUIButton.gameObject.SetActive(false); 
-        helpUIButton.gameObject.SetActive(false);   
     }
 
     public void SaveButton()

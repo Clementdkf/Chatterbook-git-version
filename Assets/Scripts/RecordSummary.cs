@@ -77,26 +77,28 @@ public class RecordSummary : MonoBehaviour
             nameText.fontSize = 28;
             nameText.text = sceneData.sceneName + ": ";
 
-            //formatting for the correct count prefab
+            //formatting for the correct text prefab
             GameObject correctObj = Instantiate(correctTextPrefab, row.transform);
             var correctText = correctObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(correctText);
             correctText.fontSize = 28;
             correctText.text = $"正確: ";
 
+            //formatting for the correct number prefab
             GameObject correctNumberObj = Instantiate(correctNumberPrefab, row.transform);
             var correctNumber = correctNumberObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(correctNumber);
             correctNumber.fontSize = 28;
             correctNumber.text = $"{sceneData.correctCount}";
 
-            //formatting for the wrong count prefab
+            //formatting for the wrong text prefab
             GameObject wrongObj = Instantiate(wrongTextPrefab, row.transform);
             var wrongText = wrongObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(wrongText);
             wrongText.fontSize = 28;
             wrongText.text = $"錯誤: ";
 
+            //formatting for the wrong number prefab
             GameObject wrongNumberObj = Instantiate(wrongNumberPrefab, row.transform);
             var wrongNumber = wrongNumberObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(wrongNumber);
