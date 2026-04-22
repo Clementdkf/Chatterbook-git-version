@@ -10,28 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-Locales
+  m_Name: Localization-Assets-Shared
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-Locales
+  m_GroupName: Localization-Assets-Shared
   m_Data:
     m_SerializedData: []
-  m_GUID: 5cfa04ec41cc1b147854f9ab40e2519c
+  m_GUID: 052019f80c823b04a98858c0b4751996
   m_SerializeEntries:
-  - m_GUID: 73ba54ea8df1a20498cc1d00ae604c11
-    m_Address: Chinese (Traditional) (zh-Hant)
+  - m_GUID: 4e0d3b8ed3e056c4b8a0e90fa3039b23
+    m_Address: "Assets/Localization/Tables/\u98A8text Shared Data.asset"
     m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f6a2d18a161281b468a480375d18a3fd
-    m_Address: English (en)
+  - m_GUID: 7e6ecbebc46d58c4eb96467a0619f848
+    m_Address: "Assets/Localization/Tables/\u98A8FontTable Shared Data.asset"
     m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 2f70efdee2fa661448041998f61707ea, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b7d1bab2d65166f428cd05a7918ebfc1, type: 2}
-    - {fileID: 11400000, guid: c41e94485be5bf044a9eeccbd23908a8, type: 2}
+    - {fileID: 11400000, guid: 81172c47ea573294d8fd21719c29bbef, type: 2}
+    - {fileID: 11400000, guid: 19d20a5888ce0d242921a098d5a6de44, type: 2}
