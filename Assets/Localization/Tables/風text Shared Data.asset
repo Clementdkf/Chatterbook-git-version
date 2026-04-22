@@ -434,6 +434,25 @@ MonoBehaviour:
       Button /Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 80594512871424
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+      1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80657280630784
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80716382568448
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80759822974976
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

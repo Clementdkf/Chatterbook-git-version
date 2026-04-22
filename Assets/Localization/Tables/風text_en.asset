@@ -513,6 +513,22 @@ MonoBehaviour:
     m_Localized: English
     m_Metadata:
       m_Items: []
+  - m_Id: 80594512871424
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80657280630784
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80716382568448
+    m_Localized: Text  size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80759822974976
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

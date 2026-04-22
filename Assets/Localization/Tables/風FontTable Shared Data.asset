@@ -854,6 +854,44 @@ MonoBehaviour:
       Button /Text (TMP) 1
     m_Metadata:
       m_Items: []
+  - m_Id: 80484437557248
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+      2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80484747935744
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+      3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80544420298752
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80544483213312
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80609587200000
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80609650114560
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1) 3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80645284921344
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80645356224512
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP) 3"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 2330313141167849484
@@ -1270,6 +1308,22 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 80484437557248
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80544420298752
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80609587200000
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80645284921344
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 2330313141167849487
@@ -1672,6 +1726,22 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 57018774683648
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80484747935744
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80544483213312
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80609650114560
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 80645356224512
           m_TableCodes:
           - zh-Hant
           - en
