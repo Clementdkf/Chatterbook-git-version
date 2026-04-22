@@ -72,11 +72,11 @@ MonoBehaviour:
   - m_Id: 18604335529984
     m_Localized: 'Four animals lived in a building in To Kwa Wan.
 
-      On the
-      first floor lived an elephant named Bos.
+      On the first
+      floor lived an elephant named Bos.
 
-      On the second floor lived
-      a giraffe named Isbert.
+      On the second floor lived a giraffe
+      named Isbert.
 
       On the third floor lived a hedgehog named Jimmie.
 
@@ -427,6 +427,90 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 35260243869696
     m_Localized: Maybe a little dinosaur singing a song.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38162840649728
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38350439284736
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38681554419712
+    m_Localized: Text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38972492316672
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39198401724416
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39289107742720
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39404371410944
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39484964962304
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47299490185216
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47351365337088
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47416532238336
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47455417630720
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47539341459456
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47702134980608
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47882968203264
+    m_Localized: Text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47989931343872
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54121278177280
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54394914570240
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54641002774528
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57085527031808
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57131681153024
+    m_Localized: English
     m_Metadata:
       m_Items: []
   references:

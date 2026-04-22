@@ -331,6 +331,109 @@ MonoBehaviour:
     m_Key: "\u98A8/Canvas/Book 2/page 23/Text (TMP) 1"
     m_Metadata:
       m_Items: []
+  - m_Id: 38162840649728
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Volume/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38350439284736
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Brightness/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38681554419712
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Text Size/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38972492316672
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39198401724416
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Chinese Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39289107742720
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/English Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39404371410944
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/SaveButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39484964962304
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/MenuButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47299490185216
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47351365337088
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47416532238336
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/SaveButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47455417630720
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47539341459456
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47702134980608
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47882968203264
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47989931343872
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54121278177280
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Volume/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54394914570240
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54641002774528
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57085527031808
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Chinese
+      Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57131681153024
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/English
+      Button /Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

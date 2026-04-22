@@ -647,6 +647,213 @@ MonoBehaviour:
     m_Key: "\u98A8/Canvas/Book 2/page 23/Text (TMP) 3"
     m_Metadata:
       m_Items: []
+  - m_Id: 38052148772864
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Volume/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38052396236800
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Volume/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38241949417472
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Brightness/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38242008137728
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Brightness/Text (TMP) (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38577145610240
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Text Size/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38577195941888
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Text Size/Text (TMP) (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38864958750720
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38865021665280
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39088007643136
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Chinese Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39088074752000
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/Chinese Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39213337640960
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/English Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39213404749824
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/English Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39304475672576
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/SaveButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39304538587136
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/SaveButton/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39381311127552
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/MenuButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39381365653504
+    m_Key: Settings panel variant actual/Canvas (Environment)/Settings panel variant
+      actual/MenuButton/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47191755292672
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47191965007872
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47252685946880
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47252753055744
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47300240965632
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/SaveButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47300303880192
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/SaveButton/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47351252090880
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47351319199744
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47446265659392
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47446328573952
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+      1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47591745093632
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47591808008192
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47772670590976
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47772729311232
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47889440014336
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47889502928896
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54014239539200
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Volume/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54014306648064
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Volume/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54288941285376
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54289004199936
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54526779293696
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54526842208256
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56975619489792
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Chinese
+      Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56975686598656
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Chinese
+      Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57018711769088
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/English
+      Button /Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57018774683648
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/English
+      Button /Text (TMP) 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 2330313141167849484
@@ -979,6 +1186,90 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 38052148772864
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38241949417472
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38577145610240
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38864958750720
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39088007643136
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39213337640960
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39304475672576
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39381311127552
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47191755292672
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47252685946880
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47300240965632
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47351252090880
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47446265659392
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47591745093632
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47772670590976
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47889440014336
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 54014239539200
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 54288941285376
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 54526779293696
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 56975619489792
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 57018711769088
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 2330313141167849487
@@ -1297,6 +1588,90 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 35146590814208
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38052396236800
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38242008137728
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38577195941888
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 38865021665280
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39088074752000
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39213404749824
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39304538587136
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 39381365653504
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47191965007872
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47252753055744
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47300303880192
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47351319199744
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47446328573952
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47591808008192
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47772729311232
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 47889502928896
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 54014306648064
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 54289004199936
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 54526842208256
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 56975686598656
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 57018774683648
           m_TableCodes:
           - zh-Hant
           - en
