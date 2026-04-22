@@ -66,4 +66,5 @@ EditorBuildSettings:
     path: "Assets/Scenes/\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F.unity"
     guid: be36ded90bded1b429f399d6b1f3f3c1
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 376be3e80852e3e41b184b63d40291b9, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 17ffdaf0c99d38f4487a2b33ca71b691, type: 2}
