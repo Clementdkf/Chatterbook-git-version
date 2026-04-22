@@ -14,9 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: "\u98A8FontTable"
   m_TableCollectionNameGuidString: 7e6ecbebc46d58c4eb96467a0619f848
-  m_Entries: []
+  m_Entries:
+  - m_Id: 5022155767808
+    m_Key: "\u98A8/Canvas/Book 2/page 2 /Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5026610118656
+    m_Key: "\u98A8/Canvas/Book 2/page 2 /Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 2330313141167849484
+    - rid: 2330313141167849487
   m_KeyGenerator:
     rid: 2330313141167849473
   references:
@@ -26,3 +36,23 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1776825166025
+    - rid: 2330313141167849484
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 5022155767808
+          m_TableCodes:
+          - zh-Hant
+          - en
+        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+    - rid: 2330313141167849487
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 5026610118656
+          m_TableCodes:
+          - zh-Hant
+          - en
+        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

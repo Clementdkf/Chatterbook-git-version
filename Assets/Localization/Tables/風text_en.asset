@@ -17,7 +17,24 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 4e0d3b8ed3e056c4b8a0e90fa3039b23, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 2841235128320
+    m_Localized: 'Four animals lived in a building in To Kwa Wan.
+
+      On the first
+      floor lived an elephant named Bos.
+
+      On the second floor lived a giraffe
+      named Isbert.
+
+      On the third floor lived a hedgehog named Jimmie.
+
+      On
+      the fourth floor lived a penguin named Orange. Their homes were not large,
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

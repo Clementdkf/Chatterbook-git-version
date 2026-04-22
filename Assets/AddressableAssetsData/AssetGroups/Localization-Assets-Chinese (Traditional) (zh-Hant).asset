@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-Asset-Tables-English (en)
+  m_Name: Localization-Assets-Chinese (Traditional) (zh-Hant)
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-Asset-Tables-English (en)
+  m_GroupName: Localization-Assets-Chinese (Traditional) (zh-Hant)
   m_Data:
     m_SerializedData: []
-  m_GUID: f416b763515f7fc4d858ffb239349d32
+  m_GUID: 107d31dfaa95d7044adc3b375ab2e0b4
   m_SerializeEntries:
-  - m_GUID: 832e3575dfbc3e0479aab4005a790e4c
-    m_Address: "\u98A8FontTable_en"
+  - m_GUID: 0eb0a8f6cadee6b49853a23bc0a9687f
+    m_Address: HanyiSentyCrayon Regular SDF
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-en
+    - Locale-zh-Hant
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 2f70efdee2fa661448041998f61707ea, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 4be390443d5d90e44b347927b3e65576, type: 2}
-    - {fileID: 11400000, guid: 9c152162d5b045942a51783ba45f5e1d, type: 2}
+    - {fileID: 11400000, guid: 0c16786cef4554f46aae82c825001546, type: 2}
+    - {fileID: 11400000, guid: b3703462dc2ef284d9522e05aaf74971, type: 2}

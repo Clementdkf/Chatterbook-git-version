@@ -17,7 +17,15 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7e6ecbebc46d58c4eb96467a0619f848, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 5022155767808
+    m_Localized: 0eb0a8f6cadee6b49853a23bc0a9687f
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5026610118656
+    m_Localized: 0eb0a8f6cadee6b49853a23bc0a9687f[HanyiSentyCrayon Regular SDF Material]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

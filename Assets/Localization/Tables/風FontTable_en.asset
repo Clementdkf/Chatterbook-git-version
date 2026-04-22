@@ -17,7 +17,15 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7e6ecbebc46d58c4eb96467a0619f848, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 5022155767808
+    m_Localized: 8622c4f0e1d69ba4dbe83fbae43450a0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5026610118656
+    m_Localized: 8622c4f0e1d69ba4dbe83fbae43450a0[SuperChildish-1jYoL Atlas Material]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

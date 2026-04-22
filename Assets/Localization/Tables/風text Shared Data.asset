@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: "\u98A8text"
   m_TableCollectionNameGuidString: 4e0d3b8ed3e056c4b8a0e90fa3039b23
-  m_Entries: []
+  m_Entries:
+  - m_Id: 2841235128320
+    m_Key: "\u98A8/Canvas/Book 2/page 2 /Text (TMP)"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
