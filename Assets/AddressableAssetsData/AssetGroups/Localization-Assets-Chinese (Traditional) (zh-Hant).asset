@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-zh-Hant
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db1df3a825955634e9b073e773bd362d
+    m_Address: NotoSansTC-Medium SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 2f70efdee2fa661448041998f61707ea, type: 2}
   m_SchemaSet:

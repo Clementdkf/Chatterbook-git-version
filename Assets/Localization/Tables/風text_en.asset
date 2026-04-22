@@ -35,6 +35,400 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 13323924897792
+    m_Localized: 'One day, something strange happened in the building. A peculiar
+      sound came from the rooftop: "Gu... Lu... Gu... Lu..." It sounded like something
+      was rolling.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14184344420352
+    m_Localized: Which animal lives on the first floor?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14407665942528
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14814945443840
+    m_Localized: Isbert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15053165133824
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15136782778368
+    m_Localized: Bos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16217793331200
+    m_Localized: Which animal lives on the first floor?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16742731448320
+    m_Localized: What did the sound coming from the rooftop sound like?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18604335529984
+    m_Localized: 'Four animals lived in a building in To Kwa Wan.
+
+      On the
+      first floor lived an elephant named Bos.
+
+      On the second floor lived
+      a giraffe named Isbert.
+
+      On the third floor lived a hedgehog named Jimmie.
+
+      On
+      the fourth floor lived a penguin named Orange. Their homes were not large,
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18762934747136
+    m_Localized: 'One day, something strange happened in the building. A peculiar
+      sound came from the rooftop: "Gu... Lu... Gu... Lu..." It sounded like something
+      was rolling.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19379585515520
+    m_Localized: Which animal lives on the first floor?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19483486814208
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19652236247040
+    m_Localized: Isbert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19750898860032
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19843093856256
+    m_Localized: Bos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20129569013760
+    m_Localized: What did the sound coming from the rooftop sound like?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20420041342976
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20518141919232
+    m_Localized: Drumming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20616431239168
+    m_Localized: Rolling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20763143798784
+    m_Localized: Singing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21433733316608
+    m_Localized: Orange, living on the fourth floor, heard the sound and was so excited
+      that his wings wouldn't stop flapping. He paced back and forth, wondering,
+      "What is this fun thing?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21624897110016
+    m_Localized: Isbert, on the third floor, thought the sound was very special.
+      He stretched his neck out the window, curiously trying to see what was on the
+      rooftop. "Where did this thing come from?" he wondered, but he couldn't see
+      it clearly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22602685841408
+    m_Localized: Jimmie, on the second floor, was frightened by the noise. He curled
+      into a ball and rolled around his home, terrified. "Is this thing coming to
+      catch me?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24586298032128
+    m_Localized: Bos, on the first floor, was kept awake by the noise. His face turned
+      red with anger, and his ears flopped incessantly. He roared loudly, "What is
+      making all this noise?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25069511213056
+    m_Localized: What was Jimmie's reaction after hearing the sound?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25205213724672
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25346423357440
+    m_Localized: Flapping wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25557799501824
+    m_Localized: Stretching his neck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25676418613248
+    m_Localized: Curling up in fear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26153612967936
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26313508225024
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26824840019968
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27251455262720
+    m_Localized: Everyone followed the stairs up to the rooftop.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27657723936768
+    m_Localized: They saw a big, round egg, and wonderful music was coming from inside
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27773763551232
+    m_Localized: "Everyone was enchanted by what they heard. 'This music is so familiar,
+      it\u2019s as if I had already heard it before I was even born."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28053062254592
+    m_Localized: What did everyone see on the rooftop?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28149237645312
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28309145485312
+    m_Localized: a big and round egg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28416821657600
+    m_Localized: a small dinosaur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28516813864960
+    m_Localized: A garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28659252428800
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29119770230784
+    m_Localized: "Suddenly, a great gust of wind blew\u2014\"Whoosh, whoosh, whoosh!\"\u2014forcing
+      everyone to close their eyes. When the wind stopped, the music disappeared.
+      They opened their eyes and cried, \"Oh no!\" The egg was gone."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29287383007232
+    m_Localized: 'Just then, a "Thump! Thump! Thump!" sounded from the stairs. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29384661499904
+    m_Localized: 'Although Jimmie was very nearsighted, his hearing was excellent.
+      He pointed to the stairs: "That egg rolled down the stairs!" Bos shouted, "Quick,
+      after it!"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29784030543872
+    m_Localized: The egg rolled out into the street, and everyone chased after it.
+      The wind blew harder, and the egg rolled faster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29945507053568
+    m_Localized: "Even though Bos got on a ferry, he couldn't catch up;Even though
+      Jimmie got on a bus, he couldn't catch up;Even though Isbert got on a tram,
+      he couldn't catch up;Even though Orange got on a taxi, he couldn't catch up;'It\u2019s
+      gone!'"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30033490968576
+    m_Localized: Everyone began to grow anxious and started to blame one another.Bos
+      said, 'Isbert is too slow!' Isbert said, 'Orange talks too much!' Orange said,
+      'Bos walks too slowly!' Jimmie whispered something softly, but his voice was
+      too quiet for anyone to hear. As their argument grew more and more heated,
+      they forgot that they were supposed to be searching for the egg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30506390355968
+    m_Localized: When everyone started arguing, who is too slow in Bos' words?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30666960896000
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30766068105216
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30863367569408
+    m_Localized: Isbert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30935102750720
+    m_Localized: Jimmie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31158210363392
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31415308615680
+    m_Localized: At that moment, a ferret mailman passed by and asked them, 'What
+      is everyone arguing about?' No one knew how to answer. Bos was the first to
+      speak up, 'We are arguing about which direction we should go.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31985062871040
+    m_Localized: 'Arguments broke out about which way to go:
+
+      Bos puffed his
+      cheeks: "Go East!"
+
+      Isbert turned his neck: "Go South!"
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32065740308480
+    m_Localized: 'Orange hopped around: "Go West!"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32202772414464
+    m_Localized: 'The ferret mailman noticed Jimmie hadn''t spoken and asked for
+      his opinion. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32272255254528
+    m_Localized: Jimmie shyly said, "That thing was blown away by the wind, so we
+      should follow the direction of the wind."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32378299842560
+    m_Localized: The others asked. "Which direction is the wind blowing?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32497195778048
+    m_Localized: 'Jimmie closed his eyes and listened intently, searching through
+      the various sounds. "Whoosh! Whoosh! Whoosh!" He heard it. "I hear the wind.
+      It was a gale that once blew away ships from the harbor."
+
+      Seeing Jimmie''s
+      sad face, Bos also closed his eyes: "I hear the wind; it once blew down an
+      umbrella on the beach." Isbert closed his eyes: "I hear the wind; it passed
+      through a village and blew down the houses there." Orange closed his eyes:
+      "I hear the wind; it sent books flying all over the sky."
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32680050655232
+    m_Localized: They opened their eyes and stopped arguing. They knew which way
+      to go because they knew they had to bring the egg home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32743221067776
+    m_Localized: They headed North. The wind grew more violent, and the path became
+      difficult. Bos used his large body to protect everyone, Isbert observed the
+      surroundings, Jimmie kept his eyes closed to track the wind's direction, and
+      Orange spoke words of encouragement. Working together, they pressed onward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33265399332864
+    m_Localized: In the end, which direction did everyone decide to go?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33408760643584
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33469578051584
+    m_Localized: East
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33567112396800
+    m_Localized: South
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33715284574208
+    m_Localized: North
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33826806923264
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34069250277376
+    m_Localized: 'Suddenly, everything became calm. They had reached the eye of the
+      wind (the eye of the storm).
+
+      The egg appeared before them, emitting
+      a melody. They were familiar with this music, as if they had heard it before
+      they were even born. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34225681039360
+    m_Localized: What did they see in the eye of the wind?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34332551905280
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34459584790528
+    m_Localized: music coming out of an egg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34574252867584
+    m_Localized: A dinosaur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34668767313920
+    m_Localized: A playground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34759867596800
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35011395813376
+    m_Localized: No longer afraid of the wind's harm, they supported one another
+      and carried the egg back to To Kwa Wan, placing it on the rooftop that looked
+      like a garden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35188340916224
+    m_Localized: 'Bos, Orange, Isbert, and Jimmie looked at the egg and imagined
+      what was inside:
+
+      Maybe countless bananas.
+
+      Maybe a playground.
+
+      Maybe
+      a peaceful garden.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35260243869696
+    m_Localized: Maybe a little dinosaur singing a song.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

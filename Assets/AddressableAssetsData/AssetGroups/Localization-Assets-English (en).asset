@@ -17,8 +17,20 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 4c8512b9473e2194590df936dfc778be
   m_SerializeEntries:
-  - m_GUID: 8622c4f0e1d69ba4dbe83fbae43450a0
-    m_Address: SuperChildish-1jYoL SDF
+  - m_GUID: 23ee3a50107652443b678e4d50a9b8fb
+    m_Address: SuperJoyful-lxwPq SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c126f7cfe62c2d84cab54feda244ca9b
+    m_Address: SuperPlayful-e91WO SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8f09e9c86ba27e45bfdbf048aa35da4
+    m_Address: Quicktext SDF
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
