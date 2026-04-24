@@ -529,6 +529,122 @@ MonoBehaviour:
     m_Localized: Music
     m_Metadata:
       m_Items: []
+  - m_Id: 726884263362560
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727214678048768
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727442311315456
+    m_Localized: Text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728093657366528
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731137694466048
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731207387021312
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734139813691392
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734187909775360
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 743701232975872
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 745648115646464
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746115319169024
+    m_Localized: The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746545885446144
+    m_Localized: You can also use the bookmark button to bookmark pages so that when
+      you return to the book later, you can start reading from the page you bookmarked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759289141493760
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759480691163136
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759670177234944
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762474119790592
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762507661639680
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 785070274084864
+    m_Localized: Login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764267230887936
+    m_Localized: 'Username:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764488761442304
+    m_Localized: 'Password:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764579345825792
+    m_Localized: 'Email:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766292790312960
+    m_Localized: Remember me
+    m_Metadata:
+      m_Items: []
+  - m_Id: 770006225747968
+    m_Localized: Incorrect username or password! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 772151025041408
+    m_Localized: Register page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 772547902668800
+    m_Localized: Login page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 773139551191040
+    m_Localized: Register
+    m_Metadata:
+      m_Items: []
+  - m_Id: 785200842768384
+    m_Localized: Register
+    m_Metadata:
+      m_Items: []
+  - m_Id: 810221015367680
+    m_Localized: Login
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -6,7 +6,10 @@ using UnityEditor;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 public class LoginOrRegisterForm : MonoBehaviour
 {
@@ -25,6 +28,11 @@ public class LoginOrRegisterForm : MonoBehaviour
     
     
     public StrapiComponent Strapi;
+    public TMP_FontAsset chineseFont;
+    public TMP_FontAsset englishFont;
+    
+    private LocalizedString loginHeader = new LocalizedString("風text", "login_header");
+    private LocalizedString registerHeader = new LocalizedString("風text", "register_header");
 
     private bool isLoading = false;
 
@@ -71,6 +79,28 @@ public class LoginOrRegisterForm : MonoBehaviour
         }
     }
 
+    void OnEnable()
+    {
+        LocalizationSettings.SelectedLocaleChanged += OnLocaleChanged;
+    }
+
+    void OnDisable()
+    {
+        LocalizationSettings.SelectedLocaleChanged -= OnLocaleChanged;
+    }
+
+    private void OnLocaleChanged(UnityEngine.Localization.Locale locale)
+    {
+        if (locale.Identifier.Code.StartsWith("en")) // English locale
+        {
+            HeaderText.font = englishFont;
+        }
+        else if (locale.Identifier.Code.StartsWith("zh")) // Chinese locale
+        {
+            HeaderText.font = chineseFont;
+        }
+    }
+
     public void OnLoginToggle()
     {
         RegisterSubmitButton.gameObject.SetActive(false);
@@ -78,8 +108,8 @@ public class LoginOrRegisterForm : MonoBehaviour
         EmailInput.transform.parent.gameObject.SetActive(false);
         RegisterToggleButton.gameObject.SetActive(true);
         LoginToggleButton.gameObject.SetActive(false);
-        HeaderText.text = "登入";
-        Debug.Log(HeaderText.text);
+        loginHeader.StringChanged += (value) => HeaderText.text = value;
+        loginHeader.RefreshString();
         
         forceLayoutUpdate();
     }
@@ -91,7 +121,8 @@ public class LoginOrRegisterForm : MonoBehaviour
         EmailInput.transform.parent.gameObject.SetActive(true);
         RegisterToggleButton.gameObject.SetActive(false);
         LoginToggleButton.gameObject.SetActive(true);
-        HeaderText.text = "登記";
+        registerHeader.StringChanged += (value) => HeaderText.text = value;
+        registerHeader.RefreshString();
         Debug.Log(HeaderText.text);
         
         forceLayoutUpdate();

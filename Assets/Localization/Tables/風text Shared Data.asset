@@ -453,6 +453,131 @@ MonoBehaviour:
     m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP) 1"
     m_Metadata:
       m_Items: []
+  - m_Id: 726884263362560
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+      2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727214678048768
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727442311315456
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text Size/Text (TMP)
+      (1) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728093657366528
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Text (TMP) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731137694466048
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/SaveButton/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731207387021312
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734139813691392
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734187909775360
+    m_Key: "\u98A8/Canvas/Settings/Settings panel variant actual/Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 743701232975872
+    m_Key: "\u98A8/Canvas/Help Variant 1/Help Panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 745648115646464
+    m_Key: "\u98A8/Canvas/Help Variant 1/Help Panel/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746115319169024
+    m_Key: "\u98A8/Canvas/Help Variant 1/Help Panel/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 746545885446144
+    m_Key: "\u98A8/Canvas/Help Variant 1/Help Panel 2/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759289141493760
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Volume/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759480691163136
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759670177234944
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762474119790592
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/Chinese
+      Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762507661639680
+    m_Key: Login and Register Page/Canvas/Settings/Settings panel variant actual/English
+      Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764267230887936
+    m_Key: Login and Register Page/Canvas/Pages/Container/Username/Username title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764488761442304
+    m_Key: Login and Register Page/Canvas/Pages/Container/Password/Password title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 764579345825792
+    m_Key: Login and Register Page/Canvas/Pages/Container/Email/Email title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766292790312960
+    m_Key: Login and Register Page/Canvas/Pages/Remember me/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 770006225747968
+    m_Key: Login and Register Page/Canvas/Pages/Wrong Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 772151025041408
+    m_Key: 'Login and Register Page/Canvas/LoginRegisterToggle /RegisterToggleButton/Text
+      (TMP) '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 772547902668800
+    m_Key: Login and Register Page/Canvas/LoginRegisterToggle /LoginToggleButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 773139551191040
+    m_Key: Login and Register Page/Canvas/Register Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 785070274084864
+    m_Key: login_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 785200842768384
+    m_Key: register_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 810221015367680
+    m_Key: Login and Register Page/Canvas/Login Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
