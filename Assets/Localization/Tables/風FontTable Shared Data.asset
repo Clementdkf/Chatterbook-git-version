@@ -1137,6 +1137,14 @@ MonoBehaviour:
     m_Key: Login and Register Page/Canvas/Login Button/Text (TMP) 1
     m_Metadata:
       m_Items: []
+  - m_Id: 2531619479977984
+    m_Key: Login and Register Page/Canvas/bypass button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2531619807133696
+    m_Key: Login and Register Page/Canvas/bypass button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 2330313141167849484
@@ -1677,6 +1685,10 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 2531619479977984
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 2330313141167849487
@@ -2203,6 +2215,10 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 810117894209536
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 2531619807133696
           m_TableCodes:
           - zh-Hant
           - en

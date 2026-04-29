@@ -578,6 +578,10 @@ MonoBehaviour:
     m_Key: Login and Register Page/Canvas/Login Button/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 2531724522127360
+    m_Key: Login and Register Page/Canvas/bypass button/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

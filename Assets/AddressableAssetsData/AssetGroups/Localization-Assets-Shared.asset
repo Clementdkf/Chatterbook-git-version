@@ -22,8 +22,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e6ef529688a8c64283890cf56744b92
+    m_Address: "Assets/Localization/Tables/\u7FBD\u6BDBasset Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e6ecbebc46d58c4eb96467a0619f848
     m_Address: "Assets/Localization/Tables/\u98A8FontTable Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee830032bfba45642bc98db1edae8ec3
+    m_Address: "Assets/Localization/Tables/\u7FBD\u6BDBtext Shared Data.asset"
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

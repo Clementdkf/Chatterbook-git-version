@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-zh-Hant
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb3050aeb35fa4b4899c9bd788eeb83c
+    m_Address: "\u7FBD\u6BDBfont_zh-Hant"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 2f70efdee2fa661448041998f61707ea, type: 2}
   m_SchemaSet:

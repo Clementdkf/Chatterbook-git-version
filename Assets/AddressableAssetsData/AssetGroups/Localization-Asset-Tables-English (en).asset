@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e1a41f59929fc649ae7441a6bfb7d54
+    m_Address: "\u7FBD\u6BDBfont_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 2f70efdee2fa661448041998f61707ea, type: 2}
   m_SchemaSet:
