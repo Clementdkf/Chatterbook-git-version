@@ -22,6 +22,272 @@ MonoBehaviour:
     m_Localized: 'Little Jimmie was a timid boy. '
     m_Metadata:
       m_Items: []
+  - m_Id: 6735797387264
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6842269794304
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6911949766656
+    m_Localized: Text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6980019126272
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7105315569664
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7148290408448
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7196642344960
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7257120014336
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8096396050432
+    m_Localized: One day, while walking home from school, he picked up a colorful
+      feather from the road and brought it home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8517403508736
+    m_Localized: 'When his father saw it, he told Jimmie that in the legends of his
+      hometown, there was a divine, multicolored bird known as the Prism. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9335389257728
+    m_Localized: What did Jimmie find on his way home from school?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9605561155584
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9814437494784
+    m_Localized: a leaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9952161660928
+    m_Localized: a feather
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10055899381760
+    m_Localized: a rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10145611350016
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10901227798528
+    m_Localized: "This creature had magnificent wings and was incredibly light\u2014"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11091460456448
+    m_Localized: with just a tiny bit of strength, it could carry children into the
+      sky.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12461798293504
+    m_Localized: What characteristics did father tell Jimmie about the prism?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12783606267904
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13059046211584
+    m_Localized: Magnificent and light wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13430305030144
+    m_Localized: Can swim in the water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13716453031936
+    m_Localized: Can speak human language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13948268019712
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14271074238464
+    m_Localized: 'That night, Jimmie dreamed of the Prism. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14446601666560
+    m_Localized: 'In the dream, he felt as though he had grown wings of his own and
+      could truly fly to explore his father''s hometown. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14923787632640
+    m_Localized: 'However, he was too timid to actually try. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15450315390976
+    m_Localized: Why didn't Jimmie try to fly in his first dream?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15641584041984
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15780373561344
+    m_Localized: Too timid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15935797690368
+    m_Localized: Too tired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16046426652672
+    m_Localized: No wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16250177552384
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16473381634048
+    m_Localized: Jimmie thought to himself, "So this is what it feels like to fly
+      freely." Despite his fear, the dream left him feeling excited. He decided to
+      keep that feather as a precious work of art.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16827380891648
+    m_Localized: 'The following night, Jimmie had another dream, and this time it
+      was incredibly vivid. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16932871831552
+    m_Localized: 'He saw a flock of Prisms; they were beautiful, gentle, and full
+      of love. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181271097344
+    m_Localized: 'In the dream, Jimmie found he could walk upon rooftops. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17376453033984
+    m_Localized: He felt a soaring sensation in his chest, knowing he could glide
+      through the heavens or tumble through the air.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17746361286656
+    m_Localized: What did Jimmie see in his second dream?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18003719585792
+    m_Localized: 'Incorrect! Please try again! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18122334502912
+    m_Localized: A river
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18234913816576
+    m_Localized: A forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18319714254848
+    m_Localized: a flock of gold birds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18682320224256
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19079118159872
+    m_Localized: After Jimmie bravely took that first step, where did he fly to?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19370467098624
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19560544567296
+    m_Localized: School playground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19906578841600
+    m_Localized: Father's hometown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20023444733952
+    m_Localized: Mountain top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20200901541888
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20504070029312
+    m_Localized: "This time, he decided to be brave and give it a try. With a single
+      step forward, Jimmie soared all the way to his father\u2019s hometown. \nThe
+      streets below were bustling with life. People wove through the crowds past
+      stalls selling snacks, toys, clothes, and handicrafts. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20900704387072
+    m_Localized: As Jimmie flew by, he saw every face glowing with a smile, as if
+      life itself was a beautiful gift.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21027389145088
+    m_Localized: 'Jimmie was overjoyed because he had dreamed of growing wings, felt
+      the thrill of the open sky, and found the courage to take that first step.
+
+
+      His
+      eyes crinkled into thin lines as a bright smile spread across his face.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21321967697920
+    m_Localized: How does Jimmie feel about dreaming of growing wings and bravely
+      trying it out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21434966441984
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21934092812288
+    m_Localized: Very happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22042121306112
+    m_Localized: Scared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22121745973248
+    m_Localized: Bored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22470212943872
+    m_Localized: "If you had a pair of wings, where would you most want to fly?\nJimmie,
+      an introverted little hedgehog, always felt that being \"brave\" was an incredibly
+      difficult task. That is, until he picked up a shimmering, colorful feather
+      on his way home from school\u2014a feather that swept him into a dreamworld
+      filled with love and surprises.\nLet\u2019s see how Jimmie finds the courage
+      to take that very first step.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900793569280
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

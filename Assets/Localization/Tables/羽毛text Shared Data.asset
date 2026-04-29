@@ -19,6 +19,253 @@ MonoBehaviour:
     m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 2 /Text (TMP)"
     m_Metadata:
       m_Items: []
+  - m_Id: 6735797387264
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/Volume/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6842269794304
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6911949766656
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/Text Size/Text
+      (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6980019126272
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7105315569664
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7148290408448
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7196642344960
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/SaveButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7257120014336
+    m_Key: "\u7FBD\u6BDB/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8096396050432
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 3/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8517403508736
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 3/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9335389257728
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 1/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9605561155584
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 1/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9814437494784
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 1/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9952161660928
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 1/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10055899381760
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 1/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10145611350016
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 1/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10901227798528
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 4/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11091460456448
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 4/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12461798293504
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 2/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12783606267904
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 2/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13059046211584
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 2/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13430305030144
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 2/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13716453031936
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 2/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13948268019712
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 2/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14271074238464
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 5/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14446601666560
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 6/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14923787632640
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 7/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15450315390976
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 3/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15641584041984
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 3/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15780373561344
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 3/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15935797690368
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 3/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16046426652672
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 3/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16250177552384
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 3/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16473381634048
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 8/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16827380891648
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 9/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16932871831552
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 9/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17181271097344
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 10/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17376453033984
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 10/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17746361286656
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 4/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18003719585792
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 4/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18122334502912
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 4/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18234913816576
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 4/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18319714254848
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 4/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18682320224256
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 4/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19079118159872
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 5/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19370467098624
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 5/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19560544567296
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 5/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19906578841600
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 5/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20023444733952
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 5/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20200901541888
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 5/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20504070029312
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 11/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20900704387072
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 11/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21027389145088
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 12/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21321967697920
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21434966441984
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21934092812288
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22042121306112
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22121745973248
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22470212943872
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/page 13/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23900793569280
+    m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Correct text"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
