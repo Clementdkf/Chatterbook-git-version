@@ -1,0 +1,984 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: "\u6CE2\u5B50\u751F\u6C23\u4E86text Shared Data"
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: "\u6CE2\u5B50\u751F\u6C23\u4E86text"
+  m_TableCollectionNameGuidString: e6095a43ac18a7b4aaa246f15cc72267
+  m_Entries:
+  - m_Id: 309825863680
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 2/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1526807363584
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 1/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1707896438784
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 1/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1875995754496
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 1/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2307501555712
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 1/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2908004253696
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 1/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3063105421312
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 1/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3536386490368
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 2/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3671497605120
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 2/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3775486984192
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 2/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853870137344
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 2/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3941245878272
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 2/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4039229014016
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 2/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4419388145664
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 3/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4562472632320
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 4/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581906608128
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 3/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171332149248
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 3/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6570009133056
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 3/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6667837079552
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 3/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6860494045184
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 3/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7371695816704
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 3/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8348817653760
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 4/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8538433748992
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 4/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8738271363072
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 4/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8798795169792
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 4/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8848543809536
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 4/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8937517580288
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 4/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9400157700096
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 5/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9548447318016
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 6/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9942154051584
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 5/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10418396299264
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 5/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10523723661312
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 5/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10629000691712
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 5/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10719815761920
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 5/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10822874005504
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 5/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11126650667008
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 6/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11520076382208
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 6/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11606323855360
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 6/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11684757340160
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 6/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11754823188480
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 6/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11819012816896
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 6/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12075670667264
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 7/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12178494029824
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 7/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12313932300288
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 7/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12472586043392
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 7/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12584829812736
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 7/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12697014861824
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 7/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13629182148608
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 8/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13773185187840
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 8/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13888822149120
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 8/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13999602106368
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 8/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14168116658176
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 8/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14278363938816
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 8/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14744548245504
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 9/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14881550991360
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 9/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14979387326464
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 9/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15547942010880
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 9/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15728406134784
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 9/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15843879518208
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 9/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16896914063360
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 7/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17589821472768
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 7/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17717353480192
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 7/Text (TMP) (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18418586583040
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 10/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18480809082880
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 10/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18557124444160
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 10/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18638493941760
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 10/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18711739072512
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 10/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18780861202432
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 10/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19020544704512
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 11/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19107849142272
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 11/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19180100222976
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 11/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19230595448832
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 11/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19305174368256
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 11/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19360950222848
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 11/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20442594115584
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 9/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20796857614336
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 10/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21353370451968
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 12/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21453874364416
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 12/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21514519805952
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 12/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21647684763648
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 12/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21801229844480
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 12/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21939557990400
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 12/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22740238041088
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 13/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22836602175488
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 13/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22909616619520
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 13/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22978386427904
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 13/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23031909941248
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 13/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23084632342528
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 13/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27672693407744
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 14/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27774547886080
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 14/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28014504017920
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 14/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30211597893632
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 14/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30339956178944
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 14/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30464959021056
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 14/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48686022230016
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 11/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48839332429824
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 12/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49138759598080
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 15/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49207919476736
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 15/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49461280604160
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 15/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49561469943808
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 15/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49616331440128
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 15/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49737395830784
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 15/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49855205441536
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 16/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49934289043456
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 16/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50204624519168
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 16/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50878355570688
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 16/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53751281844224
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 16/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55163071987712
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 16/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55655042875392
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 13/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56629786542080
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 15/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57048520687616
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 16/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57263445213184
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 17/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57365337440256
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 17/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57632304889856
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 17/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57698302263296
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 17/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57777130012672
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 17/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57887637340160
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 17/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078739984384
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 18/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59121844846592
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 18/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59202543255552
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 18/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59270444843008
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 18/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59319748886528
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 18/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59480378146816
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 18/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59693583007744
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 19/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59749098815488
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 19/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60078666252288
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 19/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60138900652032
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 19/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60222128226304
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 19/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60280781373440
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 19/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60444195651584
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 17/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60664467914752
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 18/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61547561844736
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 20/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61772179406848
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 20/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61889334706176
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 20/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62310711263232
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 20/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64246445473792
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 20/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64367274983424
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 20/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64556601671680
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 19/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64675736682496
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 20/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65068579389440
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 21/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65306731970560
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 21/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65487661662208
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 21/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66012977266688
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 21/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66121857204224
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 21/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66230107996160
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 21/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66561290240000
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 21/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66639836971008
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 21/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66988962447360
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 22/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67966205919232
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 22/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68033277034496
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 22/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68111538552832
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 22/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68218505887744
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 22/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68366866808832
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 22/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68660971405312
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 23/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68720698294272
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 23/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68801132462080
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 23/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68862658707456
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 23/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68961480704000
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 23/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69023380242432
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 23/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69412385161216
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 23/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70034001985536
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 24/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70190072037376
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 24/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70250784587776
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 24/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70387376291840
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 24/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70513700339712
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 24/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70574354169856
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 24/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70744089264128
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 25/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71078975078400
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 25/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71170264104960
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 25/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71271267139584
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 25/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71339781095424
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 25/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71385675169792
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 25/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71471591292928
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 25/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71636133838848
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 26/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71804170240000
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 27/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72730641661952
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 26/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72851710246912
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 26/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72940226838528
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 26/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73254355042304
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 26/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73334483025920
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 26/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73429022638080
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 26/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73572652384256
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/page 28/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74341313118208
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 27/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74443360534528
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 27/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74525950574592
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 27/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74595521495040
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 27/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698315497472
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 27/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74762400268288
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 27/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74918067666944
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 28/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75006726864896
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 28/page/Wrong
+      Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75127531208704
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 28/page/Choice
+      A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75205377490944
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 28/page/Choice
+      B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75314722996224
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 28/page/Choice
+      C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75399368245248
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Book 1/Multiple choice 28/page/Correct
+      text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79598151761920
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/Volume/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79673775063040
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/Brightness/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79801592283136
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/Text Size/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79889068687360
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83864920752128
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/Chinese Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83899930607616
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/English Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83952392962048
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/SaveButton/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84002141601792
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Settings/Settings panel variant
+      actual/MenuButton/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2330313300046774869
+  references:
+    version: 2
+    RefIds:
+    - rid: 2330313300046774869
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1777436506874

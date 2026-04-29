@@ -506,6 +506,10 @@ MonoBehaviour:
     m_Localized: db1df3a825955634e9b073e773bd362d[NotoSansTC-Medium Atlas Material]
     m_Metadata:
       m_Items: []
+  - m_Id: 27110644088832
+    m_Localized: 0cc0d120c6d65d74b890b69f533d53a0[English cover]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

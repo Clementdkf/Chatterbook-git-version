@@ -536,10 +536,15 @@ MonoBehaviour:
     m_Key: "\u7FBD\u6BDB/Canvas/Book 2/Multiple choice 6/page/Correct text 1"
     m_Metadata:
       m_Items: []
+  - m_Id: 27110644088832
+    m_Key: "\u98A8/Canvas/Book 2/Cover page/English cover"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 2330313299389841427
     - rid: 2330313299389841430
+    - rid: 2330313300046774864
   m_KeyGenerator:
     rid: 2330313299389841417
   references:
@@ -1048,4 +1053,14 @@ MonoBehaviour:
           - zh-Hant
           - en
         m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 2330313300046774864
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 27110644088832
+          m_TableCodes:
+          - zh-Hant
+          - en
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

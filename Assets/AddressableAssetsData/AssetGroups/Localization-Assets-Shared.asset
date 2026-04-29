@@ -17,6 +17,19 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 052019f80c823b04a98858c0b4751996
   m_SerializeEntries:
+  - m_GUID: 0cc0d120c6d65d74b890b69f533d53a0
+    m_Address: English cover
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4961a0f6124244747b9046709334f43b
+    m_Address: "Assets/Localization/Tables/\u6CE2\u5B50\u751F\u6C23\u4E86font Shared
+      Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4e0d3b8ed3e056c4b8a0e90fa3039b23
     m_Address: "Assets/Localization/Tables/\u98A8text Shared Data.asset"
     m_ReadOnly: 1
@@ -29,6 +42,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e6ecbebc46d58c4eb96467a0619f848
     m_Address: "Assets/Localization/Tables/\u98A8FontTable Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6095a43ac18a7b4aaa246f15cc72267
+    m_Address: "Assets/Localization/Tables/\u6CE2\u5B50\u751F\u6C23\u4E86text Shared
+      Data.asset"
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

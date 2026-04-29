@@ -506,6 +506,10 @@ MonoBehaviour:
     m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
     m_Metadata:
       m_Items: []
+  - m_Id: 27110644088832
+    m_Localized: 0cc0d120c6d65d74b890b69f533d53a0[English cover]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

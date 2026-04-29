@@ -1,0 +1,875 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "\u6CE2\u5B50\u751F\u6C23\u4E86text_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e6095a43ac18a7b4aaa246f15cc72267, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 309825863680
+    m_Localized: "In a classroom, Ms. Owl wrote all the athletes' names on the blackboard.\r\nIsbert,
+      Orange, and Bos were very satisfied with the results. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1526807363584
+    m_Localized: What is Ms. Owl doing on the blackboard?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1707896438784
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1875995754496
+    m_Localized: Teaching students to write
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2307501555712
+    m_Localized: Writing the list of athletes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2908004253696
+    m_Localized: Drawing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3063105421312
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3536386490368
+    m_Localized: How do the students feel about the results?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3671497605120
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3775486984192
+    m_Localized: angry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853870137344
+    m_Localized: Dissatisfied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3941245878272
+    m_Localized: Satisfied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4039229014016
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4419388145664
+    m_Localized: "Bos desired to win at sporting events. \r\nHe thought it would
+      be easy to compete with the Antelope brothers. \r\nAs soon as the bell rang,
+      Bos rushed out of the classroom.  \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4562472632320
+    m_Localized: "Isbert, Jimmie, and Orange were baffled by Bos\u2019s behavior."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581906608128
+    m_Localized: Can you guess why Bos rushed out of the classroom as soon as the
+      bell rang?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171332149248
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6570009133056
+    m_Localized: To buy fish balls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6667837079552
+    m_Localized: To study at home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6860494045184
+    m_Localized: To practice long jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7371695816704
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8348817653760
+    m_Localized: How do Isbert, Jimmie, and Orange feel about Bos' behavior?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8538433748992
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8738271363072
+    m_Localized: baffled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8798795169792
+    m_Localized: Proud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8848543809536
+    m_Localized: embarrassed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8937517580288
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9400157700096
+    m_Localized: "Isbert set up the railing to practice the high jump. \r\nOrange
+      practiced running laps on the track.\r\nJimmie practiced a cheering dance.
+      \r\nThey found out that Bos was not there.\r\nAt this moment, a strange sound
+      came from the rooftop. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9548447318016
+    m_Localized: "Bos put a large rock on his feet to make the jumping exercise more
+      challenging.\r\nEach jump made a loud noise. \r\nIsbert, Orange, and Jimmie
+      heard the sound and walked to the rooftop. \r\nThey saw Bos was devoted to
+      the exercise, so they did not want to disturb him from practice. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9942154051584
+    m_Localized: What is Isbert practicing?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10418396299264
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10523723661312
+    m_Localized: High jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10629000691712
+    m_Localized: Long Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10719815761920
+    m_Localized: Running
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10822874005504
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11126650667008
+    m_Localized: What is Orange practicing?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11520076382208
+    m_Localized: High Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11606323855360
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11684757340160
+    m_Localized: Long Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11754823188480
+    m_Localized: Running
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11819012816896
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12075670667264
+    m_Localized: Can you guess what the strange noise from the rooftop is?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12178494029824
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12313932300288
+    m_Localized: Bos practicing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12472586043392
+    m_Localized: Bos singing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12584829812736
+    m_Localized: Bos dancing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12697014861824
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13629182148608
+    m_Localized: What is Bos doing on the rooftop?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13773185187840
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13888822149120
+    m_Localized: Practice jumping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13999602106368
+    m_Localized: Playing with rocks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14168116658176
+    m_Localized: Kicking a ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14278363938816
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14744548245504
+    m_Localized: What do other animals think when they see Bos practicing so diligently?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14881550991360
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14979387326464
+    m_Localized: Thinking Bos is impolite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15547942010880
+    m_Localized: not willing to disturb Bos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15728406134784
+    m_Localized: Thinking Bos is strong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15843879518208
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16896914063360
+    m_Localized: "\u5EE3\u64AD\u4E2D\u50B3\u4F86\u8001\u5E2B\u7684\u547C\u53EB\uFF0C\u53EC\u96C6\u53C3\u8207\u8DD1\u6B65\u7684\u9078\u624B\u6E96\u5099\u3002\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17589821472768
+    m_Localized: "The stadium was filled with cheers. \r\nA flock of birds flew in
+      a V-formation over the sports field to kick off the games.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17717353480192
+    m_Localized: "\u201CRunners get ready!\u201D a teacher called through the radio.  "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18418586583040
+    m_Localized: Do you remember who participated in the run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18480809082880
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18557124444160
+    m_Localized: Isbert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18638493941760
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18711739072512
+    m_Localized: Bos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18780861202432
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19020544704512
+    m_Localized: How do you think Orange felt when preparing for the competition?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19107849142272
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19180100222976
+    m_Localized: nervous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19230595448832
+    m_Localized: angry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19305174368256
+    m_Localized: sad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19360950222848
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20442594115584
+    m_Localized: "Orange looked very excited. \r\nAs soon as the horn sounded, Orange
+      ran forward as hard as she could. \r\nJimmie cheered her on in the stadium
+      auditorium.\r\nFinally, Orange won third place successfully.  \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20796857614336
+    m_Localized: "Isbert was getting ready for the high jump competition. \r\nEveryone
+      in the auditorium focused on Isbert.\r\nIsbert jumped hard and managed to jump
+      the highest record. \r\nEveryone cheered for him. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21353370451968
+    m_Localized: What is Jimmie doing in the stands?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21453874364416
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21514519805952
+    m_Localized: Drinking water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21647684763648
+    m_Localized: sleeping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21801229844480
+    m_Localized: cheering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21939557990400
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22740238041088
+    m_Localized: Can you guess how Orange feels after winning?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22836602175488
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22909616619520
+    m_Localized: Worried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22978386427904
+    m_Localized: Excited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23031909941248
+    m_Localized: Scared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23084632342528
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27672693407744
+    m_Localized: Why is everyone cheering for Isbert?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27774547886080
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28014504017920
+    m_Localized: Isbert broke the record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30211597893632
+    m_Localized: Isbert danced beautifully
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30339956178944
+    m_Localized: Isbert is very beautiful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30464959021056
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48686022230016
+    m_Localized: Bos felt pressure when he saw that his two friends had won awards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48839332429824
+    m_Localized: "The in-course broadcast announced the final call for the long jump
+      event. \r\nBos felt nervous, and his skin was covered with a cold sweat. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49138759598080
+    m_Localized: How did Bos feel when he saw his two friends win awards?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49207919476736
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49461280604160
+    m_Localized: Happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49561469943808
+    m_Localized: Stressed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49616331440128
+    m_Localized: Angry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49737395830784
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49855205441536
+    m_Localized: Why does he feel stressed?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49934289043456
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50204624519168
+    m_Localized: He felt hungry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50878355570688
+    m_Localized: He feared he can't win the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53751281844224
+    m_Localized: felt that no one liked him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55163071987712
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55655042875392
+    m_Localized: "Bos ran hard to the sand to win a medal. \r\nHe focused on the
+      sand when he jumped. \r\nAt that moment, the world goes silent. \r\n\nHe lifts
+      clouds of sand and dust when jumping.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56629786542080
+    m_Localized: "Bos stared at the scoreboard, which showed that he was in second
+      place, a 0.2-meter difference from the best score. \r\nHe shouted with joy,
+      thinking that he must get the award. \r\nHowever, the Antelope brothers broke
+      the record.\r\nUnluckily, Bos dropped out of the top three.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57048520687616
+    m_Localized: 'Isbert and Orange took photos together and were so happy to get
+      the award. However, Bos left the sports ground angrily as he was upset.
+
+      Isbert,
+      Jimmie, and Orange did not notice that Bos had left.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57263445213184
+    m_Localized: What were Bos' feelings when he looked at his results after jumping?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57365337440256
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57632304889856
+    m_Localized: Excited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57698302263296
+    m_Localized: Disappointed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57777130012672
+    m_Localized: Worried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57887637340160
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59078739984384
+    m_Localized: What place did Bozi ultimately get?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59121844846592
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59202543255552
+    m_Localized: 'First '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59270444843008
+    m_Localized: Third
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59319748886528
+    m_Localized: Fourth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59480378146816
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59693583007744
+    m_Localized: How did he feel after he found out his final ranking?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59749098815488
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60078666252288
+    m_Localized: shy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60138900652032
+    m_Localized: Disappointed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60222128226304
+    m_Localized: Happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60280781373440
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60444195651584
+    m_Localized: "\u201CBang!\u201D There was a loud noise outside the sports ground.
+      \r\nThe door was smashed down by Bos. \r\nBos kept moving forward and kept
+      charging, kept charging. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60664467914752
+    m_Localized: "Isbert, Orange, and Jimmie finally realized that Bos was missing.\r\nThey
+      wondered \u201CWhat should we do?\u201D\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61547561844736
+    m_Localized: If you were Isbert, and you saw Bos leave after he became unhappy,
+      what would you do?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61772179406848
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61889334706176
+    m_Localized: Ignore him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62310711263232
+    m_Localized: Concerned for him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64246445473792
+    m_Localized: cry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64367274983424
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64556601671680
+    m_Localized: "Isbert, Orange, and Jimmie went to Bos\u2019s house.  \r\nBos\u2019s
+      mum said Bos had not come back yet. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64675736682496
+    m_Localized: "They went out to find Bos but could only see many office workers
+      on the street. \r\nThey walked into a cave to find Bos, but a flock of bats
+      scared Jimmie away. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65068579389440
+    m_Localized: Where did the animals go first to look for the Bos?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65306731970560
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65487661662208
+    m_Localized: Bos' house
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66012977266688
+    m_Localized: rooftop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66121857204224
+    m_Localized: Garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66230107996160
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66561290240000
+    m_Localized: "Bos was on the beach. Ms. Owl flew to Bos when she saw him. \r\nMs.
+      Owl stayed with Bos, and they watched the sunset together. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66639836971008
+    m_Localized: "Suddenly, a school of dolphins jumped out of the sea. \r\nThen,
+      Ms. Owl said to Bos that everyone had different talents, just like dolphins
+      can swim in the sea freely. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66988962447360
+    m_Localized: Where did Bos actually go?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67966205919232
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68033277034496
+    m_Localized: Garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68111538552832
+    m_Localized: Beach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68218505887744
+    m_Localized: playground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68366866808832
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68660971405312
+    m_Localized: Who did he meet?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68720698294272
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68801132462080
+    m_Localized: His mother
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68862658707456
+    m_Localized: Ms. Owl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68961480704000
+    m_Localized: Isbert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69023380242432
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69412385161216
+    m_Localized: "Ms. Owl swam into the deep sea with Bos and told him different
+      stories. \r\nThey swam through different coral reefs and schools of fish, just
+      like the dolphins. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70034001985536
+    m_Localized: Where did Ms.Owl take Bos?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70190072037376
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70250784587776
+    m_Localized: Garden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70387376291840
+    m_Localized: Sky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70513700339712
+    m_Localized: Seabed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70574354169856
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70744089264128
+    m_Localized: "Bos was surprised by everything in the sea.\r\nThen, they joined
+      the dolphins and jumped out of the sea with the dolphins. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71078975078400
+    m_Localized: How does Bos feel when he swims in the sea?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71170264104960
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71271267139584
+    m_Localized: joyful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71339781095424
+    m_Localized: sad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71385675169792
+    m_Localized: Disappointed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71471591292928
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71636133838848
+    m_Localized: 'Isbert, Orange, and Jimmie went to the beach, and they saw Bos. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71804170240000
+    m_Localized: "Isbert, Orange, and Jimmie ran to Bos together. \r\nThey wanted
+      to say sorry to Bos, but they hesitated. \r\nBefore they spoke, Bos said sorry
+      to them. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72730641661952
+    m_Localized: What did Bos do when he saw his friends?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72851710246912
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72940226838528
+    m_Localized: Gave them a seashell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73254355042304
+    m_Localized: Ignore them
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73334483025920
+    m_Localized: apologized to them
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73429022638080
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73572652384256
+    m_Localized: "In the end, Bos, Orange, Isbert and Jimmie  become friends again
+      as before.\r\nThey enjoyed various fruits and watched the sunset together.
+      \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74341313118208
+    m_Localized: In the end, what did they do on the beach?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74443360534528
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74525950574592
+    m_Localized: Picnic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74595521495040
+    m_Localized: Playing ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698315497472
+    m_Localized: Swimming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74762400268288
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74918067666944
+    m_Localized: How are they feeling?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75006726864896
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75127531208704
+    m_Localized: joyful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75205377490944
+    m_Localized: nervous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75314722996224
+    m_Localized: Worried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75399368245248
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79598151761920
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79673775063040
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79801592283136
+    m_Localized: text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79889068687360
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83864920752128
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83899930607616
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83952392962048
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84002141601792
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

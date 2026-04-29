@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-zh-Hant
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e4ea1b75feb39c48a4389ae233990af
+    m_Address: "\u6CE2\u5B50\u751F\u6C23\u4E86text_zh-Hant"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 759901a1e3b7b844990a12cae7a3715b
     m_Address: "\u7FBD\u6BDBtext_zh-Hant"
     m_ReadOnly: 1

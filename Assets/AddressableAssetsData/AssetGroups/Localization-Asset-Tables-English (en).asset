@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: f416b763515f7fc4d858ffb239349d32
   m_SerializeEntries:
+  - m_GUID: 5b7d19fb87cb3ee4fac8157ecc7f4996
+    m_Address: "\u6CE2\u5B50\u751F\u6C23\u4E86font_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 832e3575dfbc3e0479aab4005a790e4c
     m_Address: "\u98A8FontTable_en"
     m_ReadOnly: 1
