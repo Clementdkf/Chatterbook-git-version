@@ -1070,6 +1070,18 @@ MonoBehaviour:
       and use different ways to relieve stress when encountering difficulties.  '
     m_Metadata:
       m_Items: []
+  - m_Id: 3255767705550848
+    m_Localized: Charatcer Introduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3255884244287488
+    m_Localized: Character Introduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3256032038977536
+    m_Localized: Character Introduction
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

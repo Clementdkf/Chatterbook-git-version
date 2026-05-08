@@ -1150,6 +1150,18 @@ MonoBehaviour:
     m_Key: SampleScene/Canvas/Info/InfoPanel 4/Isbert/Text (TMP) (1)
     m_Metadata:
       m_Items: []
+  - m_Id: 3255767705550848
+    m_Key: SampleScene/Canvas/Info/InfoPanel 2/title/Set
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3255884244287488
+    m_Key: SampleScene/Canvas/Info/InfoPanel 3/title/Set
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3256032038977536
+    m_Key: SampleScene/Canvas/Info/InfoPanel 4/title/Set
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
