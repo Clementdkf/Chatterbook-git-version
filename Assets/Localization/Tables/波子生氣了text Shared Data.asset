@@ -971,6 +971,185 @@ MonoBehaviour:
       actual/MenuButton/Text (TMP)"
     m_Metadata:
       m_Items: []
+  - m_Id: 3229906658885632
+    m_Key: SampleScene/Canvas/Pages/Page1/FilterDropdown1/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3230030277607424
+    m_Key: SampleScene/Canvas/Pages/Page1/FilterDropdown2/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3230244816257024
+    m_Key: SampleScene/Canvas/minigame Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3231160067915776
+    m_Key: SampleScene/Canvas/Drawing game button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3233235233374208
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Help Variant/Help Panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3233607993753600
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Help Variant/Help Panel/Text (TMP)
+      1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3234041017892864
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Help Variant/Help Panel/Text (TMP)
+      (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3234171884371968
+    m_Key: "\u6CE2\u5B50\u751F\u6C23\u4E86/Canvas/Help Variant/Help Panel 2/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3234927559540736
+    m_Key: "\u7FBD\u6BDB/Canvas/Help Variant 1/Help Panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3235088058777600
+    m_Key: "\u7FBD\u6BDB/Canvas/Help Variant 1/Help Panel/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3235427566714880
+    m_Key: "\u7FBD\u6BDB/Canvas/Help Variant 1/Help Panel/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3235533934264320
+    m_Key: "\u7FBD\u6BDB/Canvas/Help Variant 1/Help Panel 2/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236319602900992
+    m_Key: "\u8A79\u5C0F\u5C0F\u7684\u523A\u8EB2\u8D77\u4F86/Canvas/Help Variant
+      1/Help Panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236456895053824
+    m_Key: "\u8A79\u5C0F\u5C0F\u7684\u523A\u8EB2\u8D77\u4F86/Canvas/Help Variant
+      1/Help Panel/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236522854678528
+    m_Key: "\u8A79\u5C0F\u5C0F\u7684\u523A\u8EB2\u8D77\u4F86/Canvas/Help Variant
+      1/Help Panel/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236660369129472
+    m_Key: "\u8A79\u5C0F\u5C0F\u7684\u523A\u8EB2\u8D77\u4F86/Canvas/Help Variant
+      1/Help Panel 2/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236853084815360
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Help Variant
+      1/Help Panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237324197429248
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Help Variant
+      1/Help Panel/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237381332238336
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Help Variant
+      1/Help Panel/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237528946573312
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Help Variant
+      1/Help Panel 2/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237799353352192
+    m_Key: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F/Canvas/Help
+      Variant 1/Help Panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237849110380544
+    m_Key: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F/Canvas/Help
+      Variant 1/Help Panel/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237906853363712
+    m_Key: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F/Canvas/Help
+      Variant 1/Help Panel/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238000289873920
+    m_Key: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F/Canvas/Help
+      Variant 1/Help Panel 2/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238525391568896
+    m_Key: SampleScene/Canvas/Help/Help Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238658971762688
+    m_Key: SampleScene/Canvas/Help/Help Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238723773759488
+    m_Key: SampleScene/Canvas/Help/Help Panel/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240629720023040
+    m_Key: SampleScene/Canvas/Help/Help Panel 2/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240897023016960
+    m_Key: SampleScene/Canvas/Help/Help Panel 2/Text (TMP) (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241258630742016
+    m_Key: SampleScene/Canvas/Help/Help Panel 2/Text (TMP) (3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245737744760832
+    m_Key: SampleScene/Canvas/Settings/Settings panel/Volume/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245835258134528
+    m_Key: 'SampleScene/Canvas/Settings/Settings panel/Brightness/Text (TMP) '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245952144998400
+    m_Key: SampleScene/Canvas/Settings/Settings panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246153979101184
+    m_Key: SampleScene/Canvas/Settings/Settings panel/Chinese Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246200837865472
+    m_Key: SampleScene/Canvas/Settings/Settings panel/English button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246274468872192
+    m_Key: SampleScene/Canvas/Settings/Settings panel/Log out button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251055161737216
+    m_Key: SampleScene/Canvas/Info/InfoPanel/title/Set
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251487409930240
+    m_Key: SampleScene/Canvas/Info/InfoPanel/Bos/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251655383416832
+    m_Key: SampleScene/Canvas/Info/InfoPanel 2/Orange/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251868084961280
+    m_Key: SampleScene/Canvas/Info/InfoPanel 3/Jimmie/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251977149448192
+    m_Key: SampleScene/Canvas/Info/InfoPanel 4/Isbert/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

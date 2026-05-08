@@ -870,6 +870,206 @@ MonoBehaviour:
     m_Localized: Main Menu
     m_Metadata:
       m_Items: []
+  - m_Id: 3229906658885632
+    m_Localized: 'Filter:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3230030277607424
+    m_Localized: 'Theme:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3230244816257024
+    m_Localized: Matching game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3231160067915776
+    m_Localized: Stroke game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3233235233374208
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3233607993753600
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3234041017892864
+    m_Localized: The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3234171884371968
+    m_Localized: You can also use the bookmark button to bookmark pages so that when
+      you return to the book later, you can start reading from the page you bookmarked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3234927559540736
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3235088058777600
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3235427566714880
+    m_Localized: 'The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3235533934264320
+    m_Localized: You can also use the bookmark button to bookmark pages so that when
+      you return to the book later, you can start reading from the page you bookmarked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236319602900992
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236456895053824
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236522854678528
+    m_Localized: The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236660369129472
+    m_Localized: You can also use the bookmark button to bookmark pages so that when
+      you return to the book later, you can start reading from the page you bookmarked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3236853084815360
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237324197429248
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237381332238336
+    m_Localized: The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237528946573312
+    m_Localized: You can also use the bookmark button to bookmark pages so that when
+      you return to the book later, you can start reading from the page you bookmarked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237799353352192
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237849110380544
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3237906853363712
+    m_Localized: The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238000289873920
+    m_Localized: You can also use the bookmark button to bookmark pages so that when
+      you return to the book later, you can start reading from the page you bookmarked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238525391568896
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238658971762688
+    m_Localized: When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238723773759488
+    m_Localized: The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240629720023040
+    m_Localized: On the bottom left, you can press the           button to open the
+      record page and see the number of questions you answered correctly or incorrectly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240897023016960
+    m_Localized: On the right, you can press the            button to open the settings
+      panel and customize your reading experience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241258630742016
+    m_Localized: At the bottom of the homepage, you can press the corresponding buttons
+      to play matching games and stroke games.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245737744760832
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245835258134528
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245952144998400
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246153979101184
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246200837865472
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3246274468872192
+    m_Localized: Log out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251055161737216
+    m_Localized: Character introduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251487409930240
+    m_Localized: 'Bos is an elephant who can tell right from wrong. Also, he has
+      a down-to-earth attitude towards work. His body will change to different colors
+      when he feels different emotions. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251655383416832
+    m_Localized: "Orange is a penguin with orange hair. She is energetic and likes
+      to make friends. \r\nAlso, she is very kind. However, she is impatient and
+      cannot sit still in class. \r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251868084961280
+    m_Localized: 'Jimmie is a hedgehog with round glasses. His hair is generally
+      round and furry. Although he is introverted and shy, he is cautious and patient.
+      When frightened, he contracted his body into a ball and rolled on the ground. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3251977149448192
+    m_Localized: 'Isbert is a giraffe who is introverted and considerate. His hobby
+      is collecting stickers and putting them on his body. Also, he can stay calm
+      and use different ways to relieve stress when encountering difficulties.  '
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -4889,7 +4889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6711136681847018062, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 11.000004
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7771054659954421919, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       propertyPath: m_Pivot.x
@@ -5027,6 +5027,11 @@ PrefabInstance:
 --- !u!224 &472350903 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8628607173119658047, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
+  m_PrefabInstance: {fileID: 472350902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &472350904 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6711136681847018062, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
   m_PrefabInstance: {fileID: 472350902}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &472567600 stripped
@@ -9730,6 +9735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackedObjects:
   - rid: 2330313186597929058
+  - rid: 7889123655829946406
   references:
     version: 2
     RefIds:
@@ -9809,6 +9815,24 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: zh-Hant
           value: 34
+        - localeIdentifier:
+            m_Code: en
+          value: 30
+    - rid: 7889123655829946406
+      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 472350904}
+        m_TrackedProperties:
+          items:
+          - rid: 7889123655829946407
+    - rid: 7889123655829946407
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_AnchoredPosition.y
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: zh-Hant
+          value: 11.000004
         - localeIdentifier:
             m_Code: en
           value: 30
