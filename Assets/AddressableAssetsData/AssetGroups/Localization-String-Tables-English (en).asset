@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: e163543659f1e4148bf84b653529d29e
   m_SerializeEntries:
+  - m_GUID: 017c723afda154d41b2d2f7df0d6252e
+    m_Address: Drawing text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: adc8fc0925193264f9fb8ea138174f62
     m_Address: "\u7FBD\u6BDBtext_en"
     m_ReadOnly: 1

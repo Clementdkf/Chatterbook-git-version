@@ -2330,6 +2330,240 @@ MonoBehaviour:
     m_Key: SampleScene/Canvas/Info/InfoPanel 4/title/Set 1
     m_Metadata:
       m_Items: []
+  - m_Id: 5857923499524096
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5857923700850688
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858260411187200
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858260553793536
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858676515504128
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858676653916160
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861658707591168
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861658866974720
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861733101961216
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861733248761856
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861959950893056
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861960089305088
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862184555872256
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862184694284288
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862220635275264
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862220782075904
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862281830170624
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862281972776960
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862405096570880
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864096059588608
+    m_Key: Drawing/Canvas/Reconstruct button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864096260915200
+    m_Key: Drawing/Canvas/Reconstruct button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864167429865472
+    m_Key: Drawing/Canvas/Reset Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864167564083200
+    m_Key: Drawing/Canvas/Reset Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864217845399552
+    m_Key: Drawing/Canvas/Save button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864217983811584
+    m_Key: Drawing/Canvas/Save button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865247475728384
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865247643500544
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865332460716032
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel/Text
+      (TMP) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865332599128064
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel/Text
+      (TMP) 3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866284743884800
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel 2/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866284886491136
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel 2/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866375630258176
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel 2/Text
+      (TMP) 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866375777058816
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel 2/Text
+      (TMP) 3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866921602809856
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Bos Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866921745416192
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Bos Button/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866996416610304
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Orange Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866996567605248
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Orange Button/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5868948131119104
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Volume/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5868948265336832
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Volume/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869085486186496
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Brightness/Text
+      (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869085628792832
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Brightness/Text
+      (TMP) (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869202368856064
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869202515656704
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Text (TMP)
+      1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869398326738944
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Chinese
+      Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869398465150976
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Chinese
+      Button/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869434758463488
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/English
+      Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869434901069824
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/English
+      Button/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869504950140928
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/MenuButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869505105330176
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/MenuButton/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5870907001110528
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP) 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5870907353432064
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP) 3
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 2330313300046774875
@@ -3327,6 +3561,106 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 5857923499524096
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5858260411187200
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5858676515504128
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5861658707591168
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5861733101961216
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5861959950893056
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5862184555872256
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5862220635275264
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5862281830170624
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5864096059588608
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5864167429865472
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5864217845399552
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5865247475728384
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5865332460716032
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866284743884800
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866375630258176
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866921602809856
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866996416610304
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5868948131119104
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869085486186496
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869202368856064
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869398326738944
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869434758463488
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869504950140928
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5870907001110528
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 2330313300046774878
@@ -4310,6 +4644,106 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 3255945011363840
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5857923700850688
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5858260553793536
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5858676653916160
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5861658866974720
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5861733248761856
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5861960089305088
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5862184694284288
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5862220782075904
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5862281972776960
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5864096260915200
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5864167564083200
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5864217983811584
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5865247643500544
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5865332599128064
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866284886491136
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866375777058816
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866921745416192
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5866996567605248
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5868948265336832
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869085628792832
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869202515656704
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869398465150976
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869434901069824
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5869505105330176
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 5870907353432064
           m_TableCodes:
           - zh-Hant
           - en

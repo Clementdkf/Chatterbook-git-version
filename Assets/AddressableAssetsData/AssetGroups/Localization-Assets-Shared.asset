@@ -40,6 +40,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bcd957ce0993284db7600adcb1256e4
+    m_Address: Assets/Localization/Tables/Drwaing text Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e6ecbebc46d58c4eb96467a0619f848
     m_Address: "Assets/Localization/Tables/\u98A8FontTable Shared Data.asset"
     m_ReadOnly: 1

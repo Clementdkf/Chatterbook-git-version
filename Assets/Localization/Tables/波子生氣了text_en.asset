@@ -1082,6 +1082,114 @@ MonoBehaviour:
     m_Localized: Character Introduction
     m_Metadata:
       m_Items: []
+  - m_Id: 5858037249048576
+    m_Localized: In this mini-game, you can write on the right and learn the strokes
+      of the words shown on the left. (You can press the play button to learn the
+      strokes.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858378342432768
+    m_Localized: You can use the reset button to clear the handwriting pad and the
+      replay button to replay the text you just wrote.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858784111984640
+    m_Localized: You can also use the slider below the writing pad to speed up or
+      slow down the font reconstruction process.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861771525980160
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861840253845504
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862056998699008
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862292894744576
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862328286281728
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862388239663104
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864200313208832
+    m_Localized: Reconstruct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864280747376640
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864329539715072
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865361820844032
+    m_Localized: In this matching game, you need to identify a feature and match
+      it with the corresponding button.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865448189952000
+    m_Localized: For example, if you press a button that says "blue", then you need
+      to find and press the button that is blue in color.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866402779987968
+    m_Localized: If an incorrect pairing occurs, the button and the paired item will
+      be highlighted with a red border, allowing you to select and pair again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866490973618176
+    m_Localized: If the pairing is correct, the button and the paired item will display
+      a green border.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867033980796928
+    m_Localized: Bos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867106965880832
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869062367182848
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869135855583232
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869314776203264
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869502060265472
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869541788712960
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869610759847936
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5871017390997504
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

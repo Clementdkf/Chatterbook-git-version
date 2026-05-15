@@ -1162,6 +1162,120 @@ MonoBehaviour:
     m_Key: SampleScene/Canvas/Info/InfoPanel 4/title/Set
     m_Metadata:
       m_Items: []
+  - m_Id: 5858037249048576
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858378342432768
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5858784111984640
+    m_Key: Drawing/Canvas/Help Variant 1/Help Panel/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861771525980160
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Volume/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5861840253845504
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Brightness/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862056998699008
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862292894744576
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862328286281728
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/English Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5862388239663104
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/MenuButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864200313208832
+    m_Key: Drawing/Canvas/Reconstruct button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864280747376640
+    m_Key: Drawing/Canvas/Reset Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5864329539715072
+    m_Key: Drawing/Canvas/Save button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865361820844032
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5865448189952000
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866402779987968
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel 2/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5866490973618176
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Help Variant 1/Help Panel 2/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867033980796928
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Bos Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867106965880832
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Orange Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869062367182848
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Volume/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869135855583232
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Brightness/Text
+      (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869314776203264
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869502060265472
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/Chinese
+      Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869541788712960
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/English
+      Button/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869610759847936
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Settings/Settings panel/MenuButton/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5871017390997504
+    m_Key: Drawing/Canvas/Settings/Settings panel variant actual/Chinese Button/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
