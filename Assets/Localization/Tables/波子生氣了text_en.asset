@@ -1190,6 +1190,18 @@ MonoBehaviour:
     m_Localized: Chinese
     m_Metadata:
       m_Items: []
+  - m_Id: 7581647789588480
+    m_Localized: 'Angry Bos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7582209134264320
+    m_Localized: correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7582271826526208
+    m_Localized: wrong
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

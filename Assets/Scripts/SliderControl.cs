@@ -106,14 +106,30 @@ public class SliderControl : MonoBehaviour
         Debug.Log("Text scale updated to: " + scale);
     }
     // Call this when instantiating a new text prefab
-    public void RegisterDynamicText(TextMeshProUGUI text)
+    public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
     {
+        if (text == null) return;
+        dynamicTextInstances.RemoveAll(t => t == null);
         if (text != null && !dynamicTextInstances.Contains(text))
         {
-            text.fontSize = textsizeSlider.value;
             dynamicTextInstances.Add(text);
+
+            // Store base size for consistency
+            if (!baseFontSizes.ContainsKey(text))
+            {
+                baseFontSizes[text] = text.fontSize;
+            }
+
+            // Only apply scaling if allowed
+            if (allowScaling)
+            {
+                float scale = textsizeSlider.value;
+                text.fontSize = baseFontSizes[text] * scale;
+            }
         }
     }
+
+
 
     // Optional: Clear dynamic list when switching pages
     public void ClearDynamicText()

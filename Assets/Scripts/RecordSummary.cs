@@ -1,12 +1,17 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
+using TMPro;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Components;
+using UnityEngine.Localization.Settings;
+using UnityEditor.Localization.Plugins.XLIFF.V20;
 
 public class RecordSummary : MonoBehaviour
 {
     public SliderControl sliderControl;
-    
+
     [Header("Individual text prefabs")]
     public GameObject sceneNamePrefab;
     public GameObject correctTextPrefab;
@@ -20,7 +25,10 @@ public class RecordSummary : MonoBehaviour
 
     [Header("Buttons")]
     public Button PreviousButton;
-    public Button NextButton; 
+    public Button NextButton;
+
+    [Header("Dynamic font")]
+    public DynamicFontManager fontManager;
     private int currentPage = 0;
     private const int itemsPerPage = 4;
 
@@ -36,91 +44,155 @@ public class RecordSummary : MonoBehaviour
         ReceivingRecords.OnQuizDataReset -= UpdateSceneResults;
     }
 
+    void OnEnable()
+    {
+        LocalizationSettings.SelectedLocaleChanged += OnLocaleChanged;
+    }
+
+    private void OnLocaleChanged(Locale newLocale)
+    {
+        UpdateSceneResults();
+    }
+
+    void OnDisable()
+    {
+        
+    }
+
     void UpdateRecordPage()
     {
         PreviousButton.gameObject.SetActive(currentPage > 0);
         NextButton.gameObject.SetActive(currentPage < (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage);
     }
 
-
-    //controlling the record data for each scene and show them in the record panel
+    // controlling the record data for each scene and show them in the record panel
     public void UpdateSceneResults()
     {
-        var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData; // Get all quiz data
+        fontManager.ClearTexts();
+        sliderControl.ClearDynamicText();
+        var allSceneQuizData = ReceivingRecords.Instance.allSceneQuizData;
 
         // Clear previous text elements
         foreach (var textElement in recordGroups)
         {
-            Destroy(textElement.gameObject); // Destroy the GameObjects
+            Destroy(textElement.gameObject);
         }
-        recordGroups.Clear(); // Clear the list
+        recordGroups.Clear();
 
         // Display current page items
         for (int i = 0; i < itemsPerPage; i++)
         {
-            int dataIndex = currentPage * itemsPerPage + i; // Calculate the index in the full data list
+            int dataIndex = currentPage * itemsPerPage + i;
             if (dataIndex >= allSceneQuizData.Count) break;
 
             var sceneData = allSceneQuizData[dataIndex];
 
-            //Create a new group empty row container
+            // Create a new group empty row container
             GameObject row = new GameObject("SceneRow", typeof(RectTransform));
             row.transform.SetParent(contentContainer, false);
             var rowRect = row.GetComponent<RectTransform>();
-            rowRect.sizeDelta = new UnityEngine.Vector2(600, 40); //adjust width/height
+            rowRect.sizeDelta = new Vector2(600, 40);
             recordGroups.Add(row);
 
-            //formatting for the scene name prefab
+            // Scene name (localized)
             GameObject nameObj = Instantiate(sceneNamePrefab, row.transform);
             var nameText = nameObj.GetComponent<TextMeshProUGUI>();
-            sliderControl.RegisterDynamicText(nameText);
+            sliderControl.RegisterDynamicText(nameText, false);
+            fontManager.RegisterText(nameText);
             nameText.fontSize = 28;
-            nameText.text = sceneData.sceneName + ": ";
 
-            //formatting for the correct text prefab
+            // Bind localized scene name
+            sceneData.LocalizedSceneName.StringChanged += (val) =>
+            {
+                nameText.text = val;
+            };
+
+            // Correct text (localized)
             GameObject correctObj = Instantiate(correctTextPrefab, row.transform);
             var correctText = correctObj.GetComponent<TextMeshProUGUI>();
-            sliderControl.RegisterDynamicText(correctText);
+            sliderControl.RegisterDynamicText(correctText, false);
+            fontManager.RegisterText(correctText);
             correctText.fontSize = 28;
-            correctText.text = $"正確: ";
 
-            //formatting for the correct number prefab
+            sceneData.localizedCorrectLabel.StringChanged += (val) =>
+            {
+                correctText.text = val + ": ";
+            };
+
+            // Correct number
             GameObject correctNumberObj = Instantiate(correctNumberPrefab, row.transform);
             var correctNumber = correctNumberObj.GetComponent<TextMeshProUGUI>();
-            sliderControl.RegisterDynamicText(correctNumber);
+            sliderControl.RegisterDynamicText(correctNumber, false);
+            //fontManager.RegisterText()
             correctNumber.fontSize = 28;
             correctNumber.text = $"{sceneData.correctCount}";
 
-            //formatting for the wrong text prefab
+            // Wrong text (localized)
             GameObject wrongObj = Instantiate(wrongTextPrefab, row.transform);
             var wrongText = wrongObj.GetComponent<TextMeshProUGUI>();
-            sliderControl.RegisterDynamicText(wrongText);
+            sliderControl.RegisterDynamicText(wrongText, false);
+            fontManager.RegisterText(wrongText);
             wrongText.fontSize = 28;
-            wrongText.text = $"錯誤: ";
 
-            //formatting for the wrong number prefab
+            sceneData.localizedWrongLabel.StringChanged += (val) =>
+            {
+                wrongText.text = val + ": ";
+            };
+
+            // Wrong number
             GameObject wrongNumberObj = Instantiate(wrongNumberPrefab, row.transform);
             var wrongNumber = wrongNumberObj.GetComponent<TextMeshProUGUI>();
-            sliderControl.RegisterDynamicText(wrongNumber);
+            sliderControl.RegisterDynamicText(wrongNumber, false);
             wrongNumber.fontSize = 28;
             wrongNumber.text = $"{sceneData.wrongCount}";
 
-            //Manual Positioning
+            fontManager.OnLocaleChanged(LocalizationSettings.SelectedLocale);
+
+            // Manual Positioning
             var nameRect = nameObj.GetComponent<RectTransform>();
             var correctRect = correctObj.GetComponent<RectTransform>();
             var correctNumberRect = correctNumberObj.GetComponent<RectTransform>();
             var wrongRect = wrongObj.GetComponent<RectTransform>();
             var WrongNumberRect = wrongNumberObj.GetComponent<RectTransform>();
 
-            nameRect.anchoredPosition = new UnityEngine.Vector2(-250, 0);
-            correctRect.anchoredPosition = new UnityEngine.Vector2(100, 0);
-            correctNumberRect.anchoredPosition = new UnityEngine.Vector2(250, 3);
-            wrongRect.anchoredPosition = new UnityEngine.Vector2(250, 0); 
-            WrongNumberRect.anchoredPosition = new UnityEngine.Vector2(400, 3);
-        }
-    } 
 
-    //move to the previous page of the record panel
+            var baseNamePos = new Vector2(-250, 0);
+            var baseCorrectPos = new Vector2(100, 0);
+            var baseCorrectNumPos = new Vector2(250, 3);
+            var baseWrongPos = new Vector2(250, 0);
+            var baseWrongNumPos = new Vector2(400, 3);
+
+            Vector2 instanceOffset = Vector2.zero;
+            var code = LocalizationSettings.SelectedLocale.Identifier.Code;
+            Debug.Log("Locale code: " + code);
+            if (code.Contains("zh"))
+            {
+                baseNamePos = new Vector2(-250, 0);
+                baseCorrectPos = new Vector2(100, 0);
+                baseCorrectNumPos = new Vector2(250, 3);
+                baseWrongPos = new Vector2(255, 0);
+                baseWrongNumPos = new Vector2(400, 3);
+            }
+            else if (code.Contains("en"))
+            {
+                baseNamePos = new Vector2(-250, -3);   // shift scene name right
+                baseCorrectPos = new Vector2(50, -3);    // move "Correct" label further right
+                baseCorrectNumPos = new Vector2(250, 3);  // adjust number position
+                baseWrongPos = new Vector2(220, -3);    // move "Wrong" label
+                baseWrongNumPos = new Vector2(400, 3);    // adjust wrong number
+            }
+
+            nameRect.anchoredPosition = baseNamePos;
+            correctRect.anchoredPosition = baseCorrectPos + instanceOffset;
+            correctNumberRect.anchoredPosition = baseCorrectNumPos;
+            wrongRect.anchoredPosition = baseWrongPos;
+            WrongNumberRect.anchoredPosition = baseWrongNumPos;
+
+            
+        }
+        
+    }
+
     public void PreviousPage()
     {
         if (currentPage > 0)
@@ -131,7 +203,6 @@ public class RecordSummary : MonoBehaviour
         }
     }
 
-    //move to the next page of the record panel
     public void NextPage()
     {
         int maxPage = (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage;
@@ -142,6 +213,4 @@ public class RecordSummary : MonoBehaviour
             UpdateSceneResults();
         }
     }
-
-
 }

@@ -1276,6 +1276,18 @@ MonoBehaviour:
       (TMP) 1
     m_Metadata:
       m_Items: []
+  - m_Id: 7581647789588480
+    m_Key: SampleScene.AngryBos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7582209134264320
+    m_Key: SampleScene.CorrectLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7582271826526208
+    m_Key: SampleScene.WrongLabel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
