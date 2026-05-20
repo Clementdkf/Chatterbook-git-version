@@ -7922,8 +7922,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ee8b734fcc9d04f94cf3d3412a2ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chiCover: {fileID: 0}
-  engCover: {fileID: 0}
+  chiCover: {fileID: 5110837889951038695}
+  engCover: {fileID: 1235867769}
 --- !u!1 &1007831977
 GameObject:
   m_ObjectHideFlags: 0
@@ -10889,6 +10889,81 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 200
+--- !u!1 &1235867769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235867770}
+  - component: {fileID: 1235867772}
+  - component: {fileID: 1235867771}
+  m_Layer: 5
+  m_Name: 'English Cover Image '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1235867770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235867769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9036551980175613594}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 480, y: 530}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1235867771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235867769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6dc9e135761e44242b0b97173e5511f3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1235867772
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235867769}
+  m_CullTransparentMesh: 1
 --- !u!224 &1249347523 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6160953393556558064, guid: d802277ed1606344c838649d87c1ccf4, type: 3}
@@ -12474,7 +12549,6 @@ RectTransform:
   - {fileID: 1189200205}
   - {fileID: 419584391}
   - {fileID: 991552334}
-  - {fileID: 2011820937}
   - {fileID: 1750919200}
   - {fileID: 724629339}
   m_Father: {fileID: 0}
@@ -19855,7 +19929,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1374494973}
+    m_TransformParent: {fileID: 419584391}
     m_Modifications:
     - target: {fileID: 4561585828042701143, guid: 91f60b306c3427442889e38ab20b4bd5, type: 3}
       propertyPath: m_Name
@@ -26760,6 +26834,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7771054659954421919, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1575797365}
+    - targetCorrespondingSourceObject: {fileID: 7771054659954421919, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2011820937}
     - targetCorrespondingSourceObject: {fileID: 8628607173119658047, guid: c2f5eae513a1d4341a5202152493b0b2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1696225148}
@@ -37673,7 +37750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &4845848217175627308
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37780,7 +37857,7 @@ GameObject:
   - component: {fileID: 1640843620413489181}
   - component: {fileID: 352745935891574423}
   m_Layer: 5
-  m_Name: Cover image
+  m_Name: Chinese Cover Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48938,6 +49015,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4896768811118833617}
+  - {fileID: 1235867770}
   m_Father: {fileID: 4267117261172277022}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
