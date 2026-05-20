@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1Ftext_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0f7a968483fd2a34e970503a6fe32ec8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 561949671424
+    m_Localized: Mandy the Penguin has a secret hidden in her feet. Whenever she
+      feels nervous, worried, or overwhelmed, her feet start moving all on their
+      own.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 716438470656
+    m_Localized: During storytime at the library, everyone was sitting quietly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 824697651200
+    m_Localized: "But inside Mandy, it felt like butterflies were fluttering in her
+      stomach. \"What if I can\u2019t sit properly? Will everyone think I\u2019m
+      weird?\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1795607724032
+    m_Localized: What were Mandy's feelings during the story time at the library?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2045785374720
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2240363331584
+    m_Localized: Butterflies fluttering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2476641058816
+    m_Localized: Bees buzzing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2597546065920
+    m_Localized: Small fish swimming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2696867184640
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2898583846912
+    m_Localized: "The more she worried, the more her anxiety bubbled up like a soda
+      about to overflow. \n\r\nHer anxious feet began to shake, making a rhythmic
+      \"tap-tap-tap\" sound."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3160107089920
+    m_Localized: "Bos signaled to her, \"Shhh\u2014Mandy, good kids stay quiet.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3362410954752
+    m_Localized: 'This only made Mandy more panicked. She desperately told herself,
+      "Stop it, now!" '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3543059628032
+    m_Localized: But her tense muscles suddenly jerked, and she accidentally kicked
+      over a toy block castle!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3786379591680
+    m_Localized: What did Mandy kick over because she was nervous?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3839689195520
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3989740421120
+    m_Localized: Books
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4187619295232
+    m_Localized: Block castle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4299808538624
+    m_Localized: Chair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4434156290048
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4678768099328
+    m_Localized: "\"I'm sorry...\" Mandy\u2019s eyes welled up with tears. A wave
+      of anxiety washed over her."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4813786939392
+    m_Localized: Just then, Hegie handed her a colorful balloon. "Mandy, take all
+      that nervousness inside you and blow it into this."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5878334849024
+    m_Localized: What did the Hegie give Mandy to help her?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6027903729664
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6133491138560
+    m_Localized: a candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6211593273344
+    m_Localized: a cup of water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6402706735104
+    m_Localized: a balloon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6533615157248
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7337227026432
+    m_Localized: Mandy took the balloon, took a deep breath, and blew hard. As the
+      balloon grew bigger, the butterflies in her stomach disappeared, and her little
+      feet finally settled down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26102182412288
+    m_Localized: "Hegie smiled and said, \"When you\u2019re ready, say goodbye to
+      the tension!\" Mandy let go, and the balloon went \"whoosh!\"\u2014dancing
+      through the air before landing softly in the corner.\n\nWatching the balloon
+      fly away, Mandy finally felt at ease and smiled."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28388250058752
+    m_Localized: What were Mandy's feelings when she watched the balloon fly away?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28507745779712
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28676964974592
+    m_Localized: felt at ease
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29023414484992
+    m_Localized: Cried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29137679908864
+    m_Localized: still nervous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29393440178176
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30066886017024
+    m_Localized: In Animomo's small group, Mandy the penguin is always the most energetic
+      and restless member. Her feet seem to have a never-stopping little motor, constantly
+      jumping and running around. But behind this endless "energy" lies Mandy's deep-seated
+      anxiety and unease.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31579880521728
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31632468705280
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31808881131520
+    m_Localized: text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31870138941440
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33346492006400
+    m_Localized: Chinese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33401097650176
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33437562929152
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33515811864576
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

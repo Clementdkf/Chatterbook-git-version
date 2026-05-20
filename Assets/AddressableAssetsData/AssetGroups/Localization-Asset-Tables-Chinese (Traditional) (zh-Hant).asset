@@ -17,6 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: cc2ed9c58b6bcf945933ecd074075993
   m_SerializeEntries:
+  - m_GUID: 345c6a663d448b74d98b0a05e6352a6a
+    m_Address: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1Ffont_zh-Hant"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 46d6dad74b25e994c95841ac5c5b9a2e
     m_Address: "\u98A8FontTable_zh-Hant"
     m_ReadOnly: 1
