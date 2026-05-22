@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1Ffont_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f761aa914e7ab7a4d83f810a37275f6d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1071243034624
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1071347892224
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1543370670080
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1543408418816
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2213817581568
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2213838553088
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312207564800
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312228536320
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2722326609920
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2722347581440
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2964933541888
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2964954513408
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3100938043392
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3100959014912
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3854327316480
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3854348288000
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4192845398016
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4192895729664
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276865695744
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4276878278656
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5275076493312
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5275139407872
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5434506182656
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5434543931392
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5526604709888
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5526655041536
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5616425730048
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5616446701568
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6188688179200
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6188704956416
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7132721152000
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7132754706432
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8346921828352
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8346951188480
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8627902447616
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8627944390656
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8851467239424
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8851496599552
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8934975832064
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8935009386496
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9003309432832
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9003330404352
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9432814551040
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9432839716864
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12713175515136
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12713209069568
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12922836189184
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12922873937920
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13027593125888
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13027626680320
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13600744767488
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13600778321920
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14227222790144
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14227256344576
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14408337031168
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14408378974208
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14553606750208
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14553627721728
+    m_Localized: c126f7cfe62c2d84cab54feda244ca9b[SuperPlayful-e91WO Atlas Material]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

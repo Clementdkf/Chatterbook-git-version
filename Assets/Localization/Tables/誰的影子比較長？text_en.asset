@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1Ftext_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7c343185fa3849e498acf1bd58a9152a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1029341937664
+    m_Localized: In the Animomo forest, the giraffe Isbert always managed to easily
+      reach the highest point. His friends exclaimed in amazement, "Wow! That popsicle
+      is amazing!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1546554146816
+    m_Localized: What ability does the giraffe Isbert possess that amazes hs friends?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1642851172352
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2366993563648
+    m_Localized: Runs faster than other animals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2754782134272
+    m_Localized: can reach the highest point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3021971881984
+    m_Localized: can create beautiful shadows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3098538901504
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3888636723200
+    m_Localized: 'A sour feeling welled up inside Orange: "It''s so unfair, why is
+      he so tall?" This little monster of "comparison" was quietly growing in her
+      heart.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4192321110016
+    m_Localized: How did Orange feel when she saw Isbert being praised?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311061856256
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4643091349504
+    m_Localized: felt jealous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5449299492864
+    m_Localized: Felt proud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5569818624000
+    m_Localized: Felt inferior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5655151738880
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6181037768704
+    m_Localized: Jimmie whispered, "Even if I jump, I'm only as high as Isbert's
+      toes. Will we always be this insignificant?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6572034981888
+    m_Localized: his thorns might hurt his friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8293343789056
+    m_Localized: felt so insignificant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8560944578560
+    m_Localized: cannot jump high enough
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8833356234752
+    m_Localized: What negative thoughts does Jimmie have about his body?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8960867270656
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9045147615232
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9489420877824
+    m_Localized: 'As the sun began to set, Isbert suggested, "Let''s go up the hillside
+      to watch the sunset!"
+
+
+      Orange walked dejectedly, completely unaware
+      of the change in the ground.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12768297058304
+    m_Localized: 'When Isbert suggested going to the hillside to watch the sunset,
+      Orange''s state of mind was:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12935440072704
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13046995976192
+    m_Localized: Running with  enthusiasm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13553646927872
+    m_Localized: too tired to hike up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14222848131072
+    m_Localized: walking dejectedly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14403979149312
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14576457318400
+    m_Localized: '"Oh my god! Who is that?" Orange couldn''t help but exclaim in
+      surprise.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

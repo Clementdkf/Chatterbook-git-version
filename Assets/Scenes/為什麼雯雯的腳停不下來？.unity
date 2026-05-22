@@ -1095,53 +1095,6 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 512
---- !u!114 &167876905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623547870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7889123928535729077
-  references:
-    version: 2
-    RefIds:
-    - rid: 7889123928535729077
-      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 623547869}
-        m_TrackedProperties:
-          items:
-          - rid: 7889123928535729078
-          - rid: 7889123928535729079
-    - rid: 7889123928535729078
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 0.49999994
-        - localeIdentifier:
-            m_Code: en
-          value: 0.49999994
-    - rid: 7889123928535729079
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.y
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
 --- !u!114 &205357789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2257,53 +2210,6 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 21
---- !u!114 &414315546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623547874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7889123928535729070
-  references:
-    version: 2
-    RefIds:
-    - rid: 7889123928535729070
-      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 623547873}
-        m_TrackedProperties:
-          items:
-          - rid: 7889123928535729071
-          - rid: 7889123928535729072
-    - rid: 7889123928535729071
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 0.6666667
-        - localeIdentifier:
-            m_Code: en
-          value: 0.6666667
-    - rid: 7889123928535729072
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.y
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
 --- !u!1001 &488349661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3101,7 +3007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 503513622}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 80441591}
+        m_TargetAssemblyTypeName: Translation, Assembly-CSharp
+        m_MethodName: EngLocale
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &503513622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3975,66 +3893,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &623547867 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2749455250411929099, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623547868 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1564126906798188224, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &623547869 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7990305749043038008, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623547870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2673554200602310414, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &623547871 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8215544417426575586, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623547872 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7436073730878270155, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &623547873 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5838053940696693105, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623547874 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8802399042276982657, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &623547875 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3439032693445419319, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623547876 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3176943886168084260, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &623547877 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3477977250922327273, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &623547878 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2173289244549347913, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-  m_PrefabInstance: {fileID: 1621885452}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &623547879 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8409396641775946355, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
@@ -4429,65 +4287,6 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 28
---- !u!114 &648053692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623547872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7889123928535729073
-  references:
-    version: 2
-    RefIds:
-    - rid: 7889123928535729073
-      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 623547871}
-        m_TrackedProperties:
-          items:
-          - rid: 7889123928535729074
-          - rid: 7889123928535729075
-          - rid: 7889123928535729076
-    - rid: 7889123928535729074
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMin.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 0.6666667
-        - localeIdentifier:
-            m_Code: en
-          value: 0.6666667
-    - rid: 7889123928535729075
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 0.6666667
-        - localeIdentifier:
-            m_Code: en
-          value: 0.6666667
-    - rid: 7889123928535729076
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.y
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
 --- !u!1001 &665715121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4958,7 +4757,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 799127446}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 80441591}
+        m_TargetAssemblyTypeName: Translation, Assembly-CSharp
+        m_MethodName: ChiLocale
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &799127446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5682,7 +5493,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.98}
+  m_AnchoredPosition: {x: 0, y: 2.9799995}
   m_SizeDelta: {x: 0, y: -5.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013088879
@@ -9186,7 +8997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 3.65}
+  m_AnchoredPosition: {x: 0, y: 3.6499996}
   m_SizeDelta: {x: 0, y: -7.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590978017
@@ -9557,65 +9368,6 @@ MonoBehaviour:
           m_Key: 
         m_FallbackState: 0
         m_WaitForCompletion: 0
---- !u!114 &1592249385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623547868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7889123928535729080
-  references:
-    version: 2
-    RefIds:
-    - rid: 7889123928535729080
-      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 623547867}
-        m_TrackedProperties:
-          items:
-          - rid: 7889123928535729081
-          - rid: 7889123928535729082
-          - rid: 7889123928535729083
-    - rid: 7889123928535729081
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMin.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 0.49999994
-        - localeIdentifier:
-            m_Code: en
-          value: 0.49999994
-    - rid: 7889123928535729082
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 0.49999994
-        - localeIdentifier:
-            m_Code: en
-          value: 0.49999994
-    - rid: 7889123928535729083
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.y
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
 --- !u!114 &1606194772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10215,15 +9967,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2749455250411929099, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.49999994
       objectReference: {fileID: 0}
     - target: {fileID: 2749455250411929099, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2749455250411929099, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.49999994
       objectReference: {fileID: 0}
     - target: {fileID: 2917088866674424822, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10235,23 +9987,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3439032693445419319, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3439032693445419319, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3439032693445419319, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3477977250922327273, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3477977250922327273, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3536804997556243544, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_text
@@ -10399,11 +10151,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5838053940696693105, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 5838053940696693105, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6204662530920290868, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_text
@@ -10515,23 +10267,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7990305749043038008, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.49999994
       objectReference: {fileID: 0}
     - target: {fileID: 7990305749043038008, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8215544417426575586, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 8215544417426575586, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8215544417426575586, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 8409396641775946355, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -10555,30 +10307,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 503513620}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2173289244549347913, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2124018499}
-    - targetCorrespondingSourceObject: {fileID: 3176943886168084260, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2027419041}
     - targetCorrespondingSourceObject: {fileID: 5516476149511009462, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 623547895}
-    - targetCorrespondingSourceObject: {fileID: 8802399042276982657, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 414315546}
-    - targetCorrespondingSourceObject: {fileID: 7436073730878270155, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 648053692}
     - targetCorrespondingSourceObject: {fileID: 3473351632985881869, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 623547894}
-    - targetCorrespondingSourceObject: {fileID: 2673554200602310414, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 167876905}
-    - targetCorrespondingSourceObject: {fileID: 1564126906798188224, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1592249385}
     - targetCorrespondingSourceObject: {fileID: 7024690839040726191, guid: 93cf65b1c80afea4fb66f3f244b41cad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 623547893}
@@ -12331,65 +12065,6 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 28
---- !u!114 &2027419041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623547876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7889123928535729066
-  references:
-    version: 2
-    RefIds:
-    - rid: 7889123928535729066
-      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 623547875}
-        m_TrackedProperties:
-          items:
-          - rid: 7889123928535729067
-          - rid: 7889123928535729068
-          - rid: 7889123928535729069
-    - rid: 7889123928535729067
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMin.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
-    - rid: 7889123928535729068
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
-    - rid: 7889123928535729069
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.y
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
 --- !u!1 &2049326999
 GameObject:
   m_ObjectHideFlags: 0
@@ -13804,53 +13479,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2124018499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623547878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7889123928535729063
-  references:
-    version: 2
-    RefIds:
-    - rid: 7889123928535729063
-      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 623547877}
-        m_TrackedProperties:
-          items:
-          - rid: 7889123928535729064
-          - rid: 7889123928535729065
-    - rid: 7889123928535729064
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.x
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
-    - rid: 7889123928535729065
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_AnchorMax.y
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: zh-Hant
-          value: 1
-        - localeIdentifier:
-            m_Code: en
-          value: 1
 --- !u!1 &2125360644
 GameObject:
   m_ObjectHideFlags: 0
