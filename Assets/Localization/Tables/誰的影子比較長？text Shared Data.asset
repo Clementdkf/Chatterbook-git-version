@@ -160,6 +160,86 @@ MonoBehaviour:
       (TMP)"
     m_Metadata:
       m_Items: []
+  - m_Id: 623064925569024
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 7/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623573459763200
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 8/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624247299866624
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 9/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 625783086219264
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 625882348617728
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626495727828992
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626830487814144
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627231672991744
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627935330402304
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 628150045212672
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 10/Image
+      (1)/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630339325100032
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Volume/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630580153647104
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Brightness/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630645349908480
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Text Size/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630694913998848
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631218363138048
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/SaveButton/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631408444801024
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/MenuButton/Text (TMP)"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -4656,6 +4656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackedObjects:
   - rid: 2330313142293758540
+  - rid: 7889123973001904322
   references:
     version: 2
     RefIds:
@@ -4726,7 +4727,7 @@ MonoBehaviour:
           value: 28
         - localeIdentifier:
             m_Code: en
-          value: 15
+          value: 17
     - rid: 2330313142293758547
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -4737,7 +4738,37 @@ MonoBehaviour:
           value: 28
         - localeIdentifier:
             m_Code: en
-          value: 15
+          value: 17
+    - rid: 7889123973001904322
+      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 435105987}
+        m_TrackedProperties:
+          items:
+          - rid: 7889123973001904323
+          - rid: 7889123973001904324
+    - rid: 7889123973001904323
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_AnchoredPosition.y
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: zh-Hant
+          value: 184
+        - localeIdentifier:
+            m_Code: en
+          value: 149.9
+    - rid: 7889123973001904324
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_SizeDelta.y
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: zh-Hant
+          value: 50
+        - localeIdentifier:
+            m_Code: en
+          value: 118.2
 --- !u!1 &454610278
 GameObject:
   m_ObjectHideFlags: 0
@@ -16198,7 +16229,7 @@ MonoBehaviour:
           value: 26
         - localeIdentifier:
             m_Code: en
-          value: 2
+          value: 20
     - rid: 2330313142293758429
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16209,7 +16240,7 @@ MonoBehaviour:
           value: 26
         - localeIdentifier:
             m_Code: en
-          value: 2
+          value: 20
 --- !u!1 &1616636933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5099650188754272254, guid: d802277ed1606344c838649d87c1ccf4, type: 3}
@@ -21629,7 +21660,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 1fcc18d8ba22cae4c911e63c608b45b2, type: 3}
     - target: {fileID: 1307773730986659764, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1408567441870983644, guid: 23bac1e8a08b91a48b6449f830db3281, type: 3}
       propertyPath: m_Sprite

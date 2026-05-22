@@ -305,6 +305,166 @@ MonoBehaviour:
       (TMP) 1"
     m_Metadata:
       m_Items: []
+  - m_Id: 623013511790592
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 7/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623013956386816
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 7/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623527255310336
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 8/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623527272087552
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 8/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624396633866240
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 9/Text
+      (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624396667420672
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 9/Text
+      (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 625769240821760
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Question"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 625769274376192
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Question 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626039580491776
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Wrong Text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626039609851904
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Wrong Text 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626465457537024
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice A/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626465491091456
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice A/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626820123688960
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice B/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626820157243392
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice B/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627254464839680
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice C/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627254502588416
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Choice C/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627936634830848
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Correct text"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627936655802368
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/Multiple
+      choice 5/page/Correct text 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 628230361939968
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 10/Image
+      (1)/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 628230403883008
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Book 1/page 10/Image
+      (1)/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630290180440064
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Volume/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630290209800192
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Volume/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630530103017472
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Brightness/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630530136571904
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Brightness/Text (TMP) (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630596310106112
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Text Size/Text (TMP) (1)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630596343660544
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Text Size/Text (TMP) (1) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630662957596672
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630662995345408
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631164806070272
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/SaveButton/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631164848013312
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/SaveButton/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631517081468928
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/MenuButton/Text (TMP)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631517123411968
+    m_Key: "\u8AB0\u7684\u5F71\u5B50\u6BD4\u8F03\u9577\uFF1F/Canvas/Settings/Settings
+      panel variant actual/MenuButton/Text (TMP) 1"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 7889123934124638211
@@ -438,6 +598,70 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 623013511790592
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 623527255310336
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 624396633866240
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 625769240821760
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 626039580491776
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 626465457537024
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 626820123688960
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 627254464839680
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 627936634830848
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 628230361939968
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630290180440064
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630530103017472
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630596310106112
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630662957596672
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 631164806070272
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 631517081468928
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 7889123934124638214
@@ -557,6 +781,70 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 14553627721728
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 623013956386816
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 623527272087552
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 624396667420672
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 625769274376192
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 626039609851904
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 626465491091456
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 626820157243392
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 627254502588416
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 627936655802368
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 628230403883008
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630290209800192
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630530136571904
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630596343660544
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 630662995345408
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 631164848013312
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 631517123411968
           m_TableCodes:
           - zh-Hant
           - en

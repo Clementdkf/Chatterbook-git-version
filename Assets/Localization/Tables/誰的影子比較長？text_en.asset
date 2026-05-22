@@ -146,6 +146,88 @@ MonoBehaviour:
       surprise.'
     m_Metadata:
       m_Items: []
+  - m_Id: 623064925569024
+    m_Localized: A gigantic black shadow appeared on the screen. The shadow's legs
+      stretched out incredibly long, and when it waved its hand, it seemed as if
+      it could touch the distant clouds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623573459763200
+    m_Localized: '"Is that...me?"
+
+      
+
+      Jimmie discovered that her shadow
+      resembled a continuous mountain range, and the thorns had transformed into
+      a giant crown.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624247299866624
+    m_Localized: 'It turns out that advantages aren''t absolute.
+
+      
+
+      While
+      Isbert can see distant clouds, Orange can explore tree hollows, and Jimmi can
+      curl up into the warmest ball.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 625783086219264
+    m_Localized: What are Orange's unique advantages?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 625882348617728
+    m_Localized: Incorrect! Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626495727828992
+    m_Localized: Can explore the tree cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 626830487814144
+    m_Localized: shrink into a warm ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627231672991744
+    m_Localized: see the clouds from afar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 627935330402304
+    m_Localized: You are correct!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 628150045212672
+    m_Localized: "In the world of Animomo, the best friends encounter a common problem
+      in growing up\u2014jealousy and comparison. Giraffe Isbert naturally possesses
+      an enviable height advantage, always easily reaching for high places. This
+      makes the other friends, especially the petite Orange and Jimmie, feel a pang
+      of envy and a sense of comparison."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630339325100032
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630580153647104
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630645349908480
+    m_Localized: Text size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630694913998848
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631218363138048
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 631408444801024
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
