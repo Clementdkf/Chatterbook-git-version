@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization.Settings;
-using UnityEditor.Localization.Plugins.XLIFF.V20;
 
 public class RecordSummary : MonoBehaviour
 {

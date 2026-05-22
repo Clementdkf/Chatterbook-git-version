@@ -9,7 +9,7 @@ using UnityEngine.UI;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
+//using UnityEditor.Localization.Plugins.XLIFF.V12;
 
 public class LoginOrRegisterForm : MonoBehaviour
 {
