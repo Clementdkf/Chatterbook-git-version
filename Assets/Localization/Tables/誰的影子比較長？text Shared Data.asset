@@ -240,6 +240,10 @@ MonoBehaviour:
       panel variant actual/MenuButton/Text (TMP)"
     m_Metadata:
       m_Items: []
+  - m_Id: 2471530379313152
+    m_Key: Login and Register Page/Strapi
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

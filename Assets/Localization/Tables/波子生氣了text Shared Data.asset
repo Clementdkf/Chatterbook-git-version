@@ -1571,6 +1571,34 @@ MonoBehaviour:
       panel variant actual/MenuButton/Text (TMP)"
     m_Metadata:
       m_Items: []
+  - m_Id: 10154166396616704
+    m_Key: SampleScene.Mandy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10186058105847808
+    m_Key: SampleScene.Jimmie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10186993142038528
+    m_Key: SampleScene.Shadow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10187697474732032
+    m_Key: SampleScene.Matching
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10187990975348736
+    m_Key: SampleScene.Astronaut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10188820730314752
+    m_Key: SampleScene.Picnic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10189409124057088
+    m_Key: SampleScene.Duck
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

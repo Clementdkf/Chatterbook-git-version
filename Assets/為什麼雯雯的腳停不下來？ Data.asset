@@ -16,3 +16,33 @@ MonoBehaviour:
   correctCount: 0
   wrongCount: 0
   sceneName: "\u70BA\u4EC0\u9EBC\u96EF\u96EF\u7684\u8173\u505C\u4E0D\u4E0B\u4F86\uFF1F"
+  LocalizedSceneName:
+    m_TableReference:
+      m_TableCollectionName: GUID:e6095a43ac18a7b4aaa246f15cc72267
+    m_TableEntryReference:
+      m_KeyId: 10154166396616704
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedCorrectLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:e6095a43ac18a7b4aaa246f15cc72267
+    m_TableEntryReference:
+      m_KeyId: 7582209134264320
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedWrongLabel:
+    m_TableReference:
+      m_TableCollectionName: GUID:e6095a43ac18a7b4aaa246f15cc72267
+    m_TableEntryReference:
+      m_KeyId: 7582271826526208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

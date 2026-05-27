@@ -1560,7 +1560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2833816374372811013, guid: 7c0b78d8c362c26429f19b5480824023, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 85
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339767190888342839, guid: 7c0b78d8c362c26429f19b5480824023, type: 3}
+      propertyPath: m_margin.z
+      value: -11.222534
       objectReference: {fileID: 0}
     - target: {fileID: 4200730680917711429, guid: 7c0b78d8c362c26429f19b5480824023, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1672,7 +1676,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: b494fd284c8edee48b21db3814d98840, type: 3}
     - target: {fileID: 8879672966807743045, guid: 7c0b78d8c362c26429f19b5480824023, type: 3}
       propertyPath: m_Spacing
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8879672966807743045, guid: 7c0b78d8c362c26429f19b5480824023, type: 3}
       propertyPath: m_Padding.m_Top

@@ -98,7 +98,7 @@ public class RecordSummary : MonoBehaviour
             var nameText = nameObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(nameText, false);
             fontManager.RegisterText(nameText);
-            nameText.fontSize = 28;
+            nameText.fontSize = 25;
 
             // Bind localized scene name
             sceneData.LocalizedSceneName.StringChanged += (val) =>
@@ -111,7 +111,7 @@ public class RecordSummary : MonoBehaviour
             var correctText = correctObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(correctText, false);
             fontManager.RegisterText(correctText);
-            correctText.fontSize = 28;
+            correctText.fontSize = 25;
 
             sceneData.localizedCorrectLabel.StringChanged += (val) =>
             {
@@ -123,7 +123,7 @@ public class RecordSummary : MonoBehaviour
             var correctNumber = correctNumberObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(correctNumber, false);
             //fontManager.RegisterText()
-            correctNumber.fontSize = 28;
+            correctNumber.fontSize = 25;
             correctNumber.text = $"{sceneData.correctCount}";
 
             // Wrong text (localized)
@@ -131,7 +131,7 @@ public class RecordSummary : MonoBehaviour
             var wrongText = wrongObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(wrongText, false);
             fontManager.RegisterText(wrongText);
-            wrongText.fontSize = 28;
+            wrongText.fontSize = 25;
 
             sceneData.localizedWrongLabel.StringChanged += (val) =>
             {
@@ -142,7 +142,7 @@ public class RecordSummary : MonoBehaviour
             GameObject wrongNumberObj = Instantiate(wrongNumberPrefab, row.transform);
             var wrongNumber = wrongNumberObj.GetComponent<TextMeshProUGUI>();
             sliderControl.RegisterDynamicText(wrongNumber, false);
-            wrongNumber.fontSize = 28;
+            wrongNumber.fontSize = 25;
             wrongNumber.text = $"{sceneData.wrongCount}";
 
             fontManager.OnLocaleChanged(LocalizationSettings.SelectedLocale);
