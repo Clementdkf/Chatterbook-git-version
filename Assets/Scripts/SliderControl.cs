@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,7 +5,6 @@ using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using TMPro;
-using Unity.VisualScripting;
 
 public class SliderControl : MonoBehaviour
 {
@@ -16,21 +14,25 @@ public class SliderControl : MonoBehaviour
     public Slider brightnessSlider;
     public Slider textsizeSlider;
 
-    [Header("Text Prefab")]
-    public GameObject textPrefab;
-
-    [Header("Static Text Elements")]
-    public TextMeshProUGUI[] textElements;
-
     [Header("Post Processing")]
     public Volume volume;
 
     private ColorAdjustments colorAdjustments;
 
-    // Track all dynamic text instances (e.g., record summaries)
     private List<TextMeshProUGUI> dynamicTextInstances = new List<TextMeshProUGUI>();
     private Dictionary<TextMeshProUGUI, float> baseFontSizes = new Dictionary<TextMeshProUGUI, float>();
-    private float newScale;
+
+    void Awake()
+    {
+        // Subscribe to scene load event
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDestroy()
+    {
+        // Unsubscribe to avoid leaks
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
     void Start()
     {
@@ -49,18 +51,7 @@ public class SliderControl : MonoBehaviour
             colorAdjustments.postExposure.value = savedBrightness;
         }
 
-        textElements = FindTMPWithTagInHierarchy(targetTag).ToArray();
-
-        // Store base sizes BEFORE applying scaling
-        foreach (var text in textElements)
-        {
-            if (text != null && !baseFontSizes.ContainsKey(text))
-            {
-                baseFontSizes[text] = text.fontSize; // keep the original design size
-            }
-        }
-
-        // Apply saved scale factor
+        // Initial refresh
         UpdateAllFontSizes(savedScale);
 
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
@@ -69,17 +60,27 @@ public class SliderControl : MonoBehaviour
 
         Debug.Log($"Volume: {savedVolume}, Brightness: {savedBrightness}, Text Scale: {savedScale}");
     }
+
+    void OnEnable()
+    {
+        float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
+        UpdateAllFontSizes(savedScale);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
+        UpdateAllFontSizes(savedScale);
+    }
+
     public void OnVolumeChanged(float value)
     {
         AudioListener.volume = value;
-        //PlayerPrefs.SetFloat("volume", value);
-        //PlayerPrefs.Save();
         SettingsManager.Instance.SetVolume(value);
     }
 
     public void SetBrightness(float value)
     {
-        //Debug.Log("Set brightness: " + value);
         if (colorAdjustments != null)
         {
             colorAdjustments.postExposure.value = value;
@@ -91,11 +92,27 @@ public class SliderControl : MonoBehaviour
 
     public void UpdateAllFontSizes(float scale)
     {
-        foreach (var kvp in baseFontSizes)
+        // Refresh static texts each time
+        var textElements = FindTMPWithTagInHierarchy(targetTag);
+
+        foreach (var text in textElements)
         {
-            kvp.Key.fontSize = kvp.Value * scale; // scale relative to original
+            if (text != null && !baseFontSizes.ContainsKey(text))
+            {
+                baseFontSizes[text] = text.fontSize;
+            }
         }
 
+        // Apply scaling to all static texts
+        foreach (var text in textElements)
+        {
+            if (text != null && baseFontSizes.ContainsKey(text))
+            {
+                text.fontSize = baseFontSizes[text] * scale;
+            }
+        }
+
+        // Apply scaling to dynamic texts
         foreach (var text in dynamicTextInstances)
         {
             if (text != null && baseFontSizes.ContainsKey(text))
@@ -105,33 +122,29 @@ public class SliderControl : MonoBehaviour
         SettingsManager.Instance.SetTextScale(scale);
         Debug.Log("Text scale updated to: " + scale);
     }
-    // Call this when instantiating a new text prefab
+
     public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
     {
         if (text == null) return;
         dynamicTextInstances.RemoveAll(t => t == null);
-        if (text != null && !dynamicTextInstances.Contains(text))
+
+        if (!dynamicTextInstances.Contains(text))
         {
             dynamicTextInstances.Add(text);
 
-            // Store base size for consistency
             if (!baseFontSizes.ContainsKey(text))
             {
                 baseFontSizes[text] = text.fontSize;
             }
 
-            // Only apply scaling if allowed
             if (allowScaling)
             {
-                float scale = textsizeSlider.value;
+                float scale = SettingsManager.Instance?.CurrentTextScale ?? textsizeSlider.value;
                 text.fontSize = baseFontSizes[text] * scale;
             }
         }
     }
 
-
-
-    // Optional: Clear dynamic list when switching pages
     public void ClearDynamicText()
     {
         dynamicTextInstances.Clear();

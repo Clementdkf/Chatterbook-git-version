@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System;
 //using UnityEngine.UIElements;
 using UnityEngine.Localization.SmartFormat.Utilities;
+using System.Collections;
 
 public class PageScroller : MonoBehaviour
 {
@@ -35,6 +36,8 @@ public class PageScroller : MonoBehaviour
             obj.SetActive(false);
         }
         pages[0].SetActive(true);
+
+        //StartCoroutine(RefreshTextScaleNextFrame());
 
         string bookmarkKey = SceneManager.GetActiveScene().name + "_BookmarkedPage";
 
@@ -112,7 +115,32 @@ public class PageScroller : MonoBehaviour
         {
             progressBar.value = index;
         }
+
+        /*var sliderControl = FindObjectOfType<SliderControl>();
+        if (sliderControl != null)
+        {
+            float savedScale = SettingsManager.Instance?.CurrentTextScale
+                               ?? PlayerPrefs.GetFloat("textScale", 1f);
+            sliderControl.UpdateAllFontSizes(savedScale);
+        }*/
+
+        StartCoroutine(RefreshTextScaleNextFrame());
     }
+
+    private IEnumerator RefreshTextScaleNextFrame()
+    {
+        yield return null; // wait one frame
+        Canvas.ForceUpdateCanvases();
+        var sliderControl = FindObjectOfType<SliderControl>();
+        if (sliderControl != null)
+        {
+            float savedScale = SettingsManager.Instance?.CurrentTextScale
+                               ?? PlayerPrefs.GetFloat("textScale", 1f);
+            Debug.Log("Hi I am the thing u should be looking at: " + savedScale);
+            sliderControl.UpdateAllFontSizes(savedScale);
+        }
+}
+
 
     //controlling the behaviour of the progress bar
     void OnProgressBarChanged(float value)
