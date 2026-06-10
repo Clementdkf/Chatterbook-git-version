@@ -4408,6 +4408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1255391986}
+  rawImage: {fileID: 1469075593}
 --- !u!4 &1719101290
 Transform:
   m_ObjectHideFlags: 0
@@ -4526,12 +4527,6 @@ MonoBehaviour:
   volumeSlider: {fileID: 1127224532}
   brightnessSlider: {fileID: 786017562}
   textsizeSlider: {fileID: 596703225}
-  textPrefab: {fileID: 0}
-  textElements:
-  - {fileID: 2134884602}
-  - {fileID: 2134884601}
-  - {fileID: 0}
-  - {fileID: 2134884599}
   volume: {fileID: 1724148149}
 --- !u!114 &1802087518
 MonoBehaviour:
