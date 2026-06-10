@@ -9,6 +9,7 @@ using TMPro;
 public class SliderControl : MonoBehaviour
 {
     public string targetTag = "Book Text";
+
     [Header("UI Sliders")]
     public Slider volumeSlider;
     public Slider brightnessSlider;
@@ -16,21 +17,19 @@ public class SliderControl : MonoBehaviour
 
     [Header("Post Processing")]
     public Volume volume;
-
     private ColorAdjustments colorAdjustments;
 
+    // Track dynamic and static texts
     private List<TextMeshProUGUI> dynamicTextInstances = new List<TextMeshProUGUI>();
     private Dictionary<TextMeshProUGUI, float> baseFontSizes = new Dictionary<TextMeshProUGUI, float>();
 
     void Awake()
     {
-        // Subscribe to scene load event
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnDestroy()
     {
-        // Unsubscribe to avoid leaks
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
@@ -40,23 +39,21 @@ public class SliderControl : MonoBehaviour
         float savedBrightness = PlayerPrefs.GetFloat("brightness", 0f);
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
 
-        volumeSlider.value = savedVolume;
-        brightnessSlider.value = savedBrightness;
-        textsizeSlider.value = savedScale;
+        if (volumeSlider != null) volumeSlider.value = savedVolume;
+        if (brightnessSlider != null) brightnessSlider.value = savedBrightness;
+        if (textsizeSlider != null) textsizeSlider.value = savedScale;
 
         AudioListener.volume = savedVolume;
 
-        if (volume.profile.TryGet(out colorAdjustments))
+        if (volume != null && volume.profile.TryGet(out colorAdjustments))
         {
             colorAdjustments.postExposure.value = savedBrightness;
         }
 
-        // Initial refresh
-        UpdateAllFontSizes(savedScale);
-
-        volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
-        brightnessSlider.onValueChanged.AddListener(SetBrightness);
-        textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
+        // Register listeners
+        if (volumeSlider != null) volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        if (brightnessSlider != null) brightnessSlider.onValueChanged.AddListener(SetBrightness);
+        if (textsizeSlider != null) textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
 
         Debug.Log($"Volume: {savedVolume}, Brightness: {savedBrightness}, Text Scale: {savedScale}");
     }
@@ -70,13 +67,16 @@ public class SliderControl : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
+        if (textsizeSlider != null)
+            textsizeSlider.value = savedScale; // restore slider position
         UpdateAllFontSizes(savedScale);
     }
+
 
     public void OnVolumeChanged(float value)
     {
         AudioListener.volume = value;
-        SettingsManager.Instance.SetVolume(value);
+        SettingsManager.Instance?.SetVolume(value);
     }
 
     public void SetBrightness(float value)
@@ -86,30 +86,26 @@ public class SliderControl : MonoBehaviour
             colorAdjustments.postExposure.value = value;
             PlayerPrefs.SetFloat("brightness", value);
             PlayerPrefs.Save();
-            Debug.Log("brightness: " + value);
+            Debug.Log("Brightness: " + value);
         }
     }
 
     public void UpdateAllFontSizes(float scale)
     {
-        // Refresh static texts each time
+        // Refresh static texts
         var textElements = FindTMPWithTagInHierarchy(targetTag);
 
         foreach (var text in textElements)
         {
             if (text != null && !baseFontSizes.ContainsKey(text))
-            {
                 baseFontSizes[text] = text.fontSize;
-            }
         }
 
-        // Apply scaling to all static texts
+        // Apply scaling to static texts
         foreach (var text in textElements)
         {
             if (text != null && baseFontSizes.ContainsKey(text))
-            {
                 text.fontSize = baseFontSizes[text] * scale;
-            }
         }
 
         // Apply scaling to dynamic texts
@@ -119,8 +115,7 @@ public class SliderControl : MonoBehaviour
                 text.fontSize = baseFontSizes[text] * scale;
         }
 
-        SettingsManager.Instance.SetTextScale(scale);
-        Debug.Log("Text scale updated to: " + scale);
+        SettingsManager.Instance?.SetTextScale(scale);
     }
 
     public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
@@ -133,9 +128,7 @@ public class SliderControl : MonoBehaviour
             dynamicTextInstances.Add(text);
 
             if (!baseFontSizes.ContainsKey(text))
-            {
                 baseFontSizes[text] = text.fontSize;
-            }
 
             if (allowScaling)
             {
@@ -157,9 +150,8 @@ public class SliderControl : MonoBehaviour
         GameObject[] rootObjects = activeScene.GetRootGameObjects();
 
         foreach (GameObject rootObj in rootObjects)
-        {
             TraverseHierarchyAndAddTMP(rootObj.transform, tag, foundTexts);
-        }
+
         return foundTexts;
     }
 
@@ -168,15 +160,17 @@ public class SliderControl : MonoBehaviour
         if (parent.CompareTag(tag))
         {
             TextMeshProUGUI tmp = parent.GetComponent<TextMeshProUGUI>();
-            if (tmp != null)
-            {
-                list.Add(tmp);
-            }
+            if (tmp != null) list.Add(tmp);
         }
 
         for (int i = 0; i < parent.childCount; i++)
-        {
             TraverseHierarchyAndAddTMP(parent.GetChild(i), tag, list);
-        }
+    }
+
+    // 🔑 Ensure scaling always applies after TMP updates
+    void LateUpdate()
+    {
+        float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
+        UpdateAllFontSizes(savedScale);
     }
 }

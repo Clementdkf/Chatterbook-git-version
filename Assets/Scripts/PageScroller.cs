@@ -6,6 +6,7 @@ using System;
 //using UnityEngine.UIElements;
 using UnityEngine.Localization.SmartFormat.Utilities;
 using System.Collections;
+using TMPro;
 
 public class PageScroller : MonoBehaviour
 {
@@ -55,7 +56,6 @@ public class PageScroller : MonoBehaviour
                 isPressed = false;
                 bookMarkButton.GetComponent<Image>().color = Color.white;
             }
-            ShowPage(currentPage);
         }
         
         audioSource = GetComponent<AudioSource>();
@@ -69,7 +69,6 @@ public class PageScroller : MonoBehaviour
         }
 
     }
-
     void Update()
     {
         if (currentPage == pages.Length - 1)
@@ -107,39 +106,40 @@ public class PageScroller : MonoBehaviour
     void ShowPage(int index)
     {
         for (int i = 0; i < pages.Length; i++)
-        {
-            pages[i].SetActive(i == index);
-        }
+            pages[i].SetActive(false);
 
         if (progressBar != null)
-        {
             progressBar.value = index;
+
+        pages[index].SetActive(true);
+
+        // Hide texts temporarily
+        var texts = pages[index].GetComponentsInChildren<TextMeshProUGUI>(true);
+        if (texts.Length > 0)
+        {
+            foreach (var t in texts) t.enabled = false;
+            StartCoroutine(RefreshTextScaleNextFrame(texts));
         }
 
-        /*var sliderControl = FindObjectOfType<SliderControl>();
-        if (sliderControl != null)
-        {
-            float savedScale = SettingsManager.Instance?.CurrentTextScale
-                               ?? PlayerPrefs.GetFloat("textScale", 1f);
-            sliderControl.UpdateAllFontSizes(savedScale);
-        }*/
-
-        StartCoroutine(RefreshTextScaleNextFrame());
     }
 
-    private IEnumerator RefreshTextScaleNextFrame()
+    private IEnumerator RefreshTextScaleNextFrame(TMPro.TextMeshProUGUI[] texts)
     {
         yield return null; // wait one frame
         Canvas.ForceUpdateCanvases();
+
         var sliderControl = FindObjectOfType<SliderControl>();
         if (sliderControl != null)
         {
             float savedScale = SettingsManager.Instance?.CurrentTextScale
                                ?? PlayerPrefs.GetFloat("textScale", 1f);
-            Debug.Log("Hi I am the thing u should be looking at: " + savedScale);
             sliderControl.UpdateAllFontSizes(savedScale);
         }
-}
+
+        // Show texts only after scaling
+        foreach (var t in texts) t.enabled = true;
+    }
+
 
 
     //controlling the behaviour of the progress bar
