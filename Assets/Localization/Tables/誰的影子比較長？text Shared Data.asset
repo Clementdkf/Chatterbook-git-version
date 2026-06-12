@@ -244,6 +244,34 @@ MonoBehaviour:
     m_Key: Login and Register Page/Strapi
     m_Metadata:
       m_Items: []
+  - m_Id: 8314377384984576
+    m_Key: SampleScene/Canvas/Help (1)/Menu Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314475393286144
+    m_Key: SampleScene/Canvas/Help (1)/Menu Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314520716935168
+    m_Key: SampleScene/Canvas/Help (1)/Book Buton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314559375835136
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8315560216461312
+    m_Key: SampleScene/Canvas/Help (1)/Book Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317578968530944
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317746300289024
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

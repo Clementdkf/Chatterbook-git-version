@@ -231,6 +231,71 @@ MonoBehaviour:
     m_Localized: https://chatterbooksapi.dctit.hk/
     m_Metadata:
       m_Items: []
+  - m_Id: 8314377384984576
+    m_Localized: In the main menu, you can select the book you want to read from
+      the catalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314475393286144
+    m_Localized: Menu Navigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314520716935168
+    m_Localized: Book Navigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314559375835136
+    m_Localized: Minigame Navigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8315560216461312
+    m_Localized: 'When you are on an ebook page, you can use the left and right buttons
+      to browse books.
+
+      The book includes interactive elements, including multiple-choice
+      questions and scenarios of interaction between parents and children.
+
+
+      You
+      can also use the bookmark button to bookmark pages so that when you return
+      to the book later, you can start reading from the page you bookmarked.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317578968530944
+    m_Localized: 'In the matching game, you need to identify a feature and match
+      it with the corresponding button.
+
+      For example, if you press a button
+      that says "blue", then you need to find and press the button that is blue in
+      color.
+
+      If an incorrect pairing occurs, the button and the paired item
+      will be highlighted with a red border, allowing you to select and pair again.
+
+      If
+      the pairing is correct, the button and the paired item will display a green
+      border.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317746300289024
+    m_Localized: 'In the drawing mini-game, you can write on the right and learn
+      the strokes of the words shown on the left. (You can press the play button
+      to learn the strokes.)
+
+      You can use the reset button to clear the handwriting
+      pad and the replay button to replay the text you just wrote.
+
+      You can
+      also use the slider below the writing pad to speed up or slow down the font
+      reconstruction process.
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

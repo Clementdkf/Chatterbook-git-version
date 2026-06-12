@@ -465,6 +465,62 @@ MonoBehaviour:
       panel variant actual/MenuButton/Text (TMP) 1"
     m_Metadata:
       m_Items: []
+  - m_Id: 8314323421069312
+    m_Key: SampleScene/Canvas/Help (1)/Menu Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314323811139584
+    m_Key: SampleScene/Canvas/Help (1)/Menu Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314438676348928
+    m_Key: SampleScene/Canvas/Help (1)/Menu Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314438709903360
+    m_Key: SampleScene/Canvas/Help (1)/Menu Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314477809205248
+    m_Key: SampleScene/Canvas/Help (1)/Book Buton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314477851148288
+    m_Key: SampleScene/Canvas/Help (1)/Book Buton/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314520557551616
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8314520603688960
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8315504230891520
+    m_Key: SampleScene/Canvas/Help (1)/Book Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8315504272834560
+    m_Key: SampleScene/Canvas/Help (1)/Book Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317521951162368
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317521997299712
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317695352078336
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP) 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8317695394021376
+    m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP) 3
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 7889123934124638211
@@ -662,6 +718,34 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 8314323421069312
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314438676348928
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314477809205248
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314520557551616
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8315504230891520
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8317521951162368
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8317695352078336
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 7889123934124638214
@@ -845,6 +929,34 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 631517123411968
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314323811139584
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314438709903360
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314477851148288
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8314520603688960
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8315504272834560
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8317521997299712
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 8317695394021376
           m_TableCodes:
           - zh-Hant
           - en
