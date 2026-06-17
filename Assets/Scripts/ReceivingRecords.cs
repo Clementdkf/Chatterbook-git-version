@@ -1,13 +1,26 @@
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class ReceivingRecords : MonoBehaviour
 {
+    //public List<SceneQuizData> allScenes;
     public static ReceivingRecords Instance;
     public List<SceneQuizData> allSceneQuizData = new List<SceneQuizData>();
     public delegate void QuizDataRestHandler();
     public static event QuizDataRestHandler OnQuizDataReset;
+    private HashSet<string> excludedSceneNames = new HashSet<string> {"Login and Register Page", "配對小遊戲", "Drawing"};
+    private HashSet<int> excludedSceneIDs = new HashSet<int> {9};
 
+    void Start()
+    {
+        Dictionary<string, int> filteredScenes = GetSceneNameandID(allSceneQuizData);
+        foreach (var kvp in filteredScenes)
+        {
+            Debug.Log($"Scene: {kvp.Key}, ID: {kvp.Value}");
+        }
+    }
     private void Awake()
     {
         if (Instance == null)
@@ -43,5 +56,15 @@ public class ReceivingRecords : MonoBehaviour
         }
         OnQuizDataReset?.Invoke();
         Debug.Log("All quiz data has been reset.");
+    }
+
+    private Dictionary<string, int> GetSceneNameandID(List<SceneQuizData> allSceneQuizData) 
+    {
+        return allSceneQuizData
+            .Where(scene => scene.isEnabled)
+            .Where(scene => !excludedSceneNames.Contains(scene.sceneName))
+            .Where(scene => !excludedSceneIDs.Contains(scene.sceneID))
+            .ToDictionary(scene => scene.sceneName, scene => scene.sceneID);
+
     }
 }

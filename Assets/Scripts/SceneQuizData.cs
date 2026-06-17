@@ -9,6 +9,8 @@ public class SceneQuizData : ScriptableObject
     public int correctCount = 0;
     public int wrongCount = 0;
     public string sceneName;
+    public int sceneID;
+    public bool isEnabled = true;
     public LocalizedString LocalizedSceneName;
     public LocalizedString localizedCorrectLabel;
     public LocalizedString localizedWrongLabel;

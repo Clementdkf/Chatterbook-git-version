@@ -15,6 +15,8 @@ MonoBehaviour:
   correctCount: 0
   wrongCount: 0
   sceneName: "\u7FBD\u6BDB"
+  sceneID: 4
+  isEnabled: 1
   LocalizedSceneName:
     m_TableReference:
       m_TableCollectionName: GUID:e6095a43ac18a7b4aaa246f15cc72267
