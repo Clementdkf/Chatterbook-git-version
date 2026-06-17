@@ -20,7 +20,8 @@ public class SliderControl : MonoBehaviour
     private ColorAdjustments colorAdjustments;
 
     // Track dynamic and static texts
-    private List<TextMeshProUGUI> dynamicTextInstances = new List<TextMeshProUGUI>();
+    private List<TextMeshProUGUI> scalableDynamicTexts = new List<TextMeshProUGUI>();
+    private List<TextMeshProUGUI> fixedDynamicTexts = new List<TextMeshProUGUI>();
     private Dictionary<TextMeshProUGUI, float> baseFontSizes = new Dictionary<TextMeshProUGUI, float>();
 
     void Awake()
@@ -109,7 +110,7 @@ public class SliderControl : MonoBehaviour
         }
 
         // Apply scaling to dynamic texts
-        foreach (var text in dynamicTextInstances)
+        foreach (var text in scalableDynamicTexts)
         {
             if (text != null && baseFontSizes.ContainsKey(text))
                 text.fontSize = baseFontSizes[text] * scale;
@@ -118,7 +119,7 @@ public class SliderControl : MonoBehaviour
         SettingsManager.Instance?.SetTextScale(scale);
     }
 
-    public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
+    /*public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
     {
         if (text == null) return;
         dynamicTextInstances.RemoveAll(t => t == null);
@@ -136,11 +137,36 @@ public class SliderControl : MonoBehaviour
                 text.fontSize = baseFontSizes[text] * scale;
             }
         }
+    }*/
+
+    public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
+    {
+        if (text == null) return;
+
+        if (allowScaling)
+        {
+            if (!scalableDynamicTexts.Contains(text))
+                scalableDynamicTexts.Add(text);
+        }
+        else
+        {
+            if (!fixedDynamicTexts.Contains(text))
+                fixedDynamicTexts.Add(text);
+        }
+
+        if (!baseFontSizes.ContainsKey(text))
+            baseFontSizes[text] = text.fontSize;
+
+        if (allowScaling)
+        {
+            float scale = SettingsManager.Instance?.CurrentTextScale ?? textsizeSlider.value;
+            text.fontSize = baseFontSizes[text] * scale;
+        }
     }
 
     public void ClearDynamicText()
     {
-        dynamicTextInstances.Clear();
+        scalableDynamicTexts.Clear();
     }
 
     public static List<TextMeshProUGUI> FindTMPWithTagInHierarchy(string tag)
@@ -167,7 +193,7 @@ public class SliderControl : MonoBehaviour
             TraverseHierarchyAndAddTMP(parent.GetChild(i), tag, list);
     }
 
-    // 🔑 Ensure scaling always applies after TMP updates
+    //Ensure scaling always applies after TMP updates
     void LateUpdate()
     {
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);

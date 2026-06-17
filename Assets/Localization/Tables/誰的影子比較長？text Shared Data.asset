@@ -272,6 +272,14 @@ MonoBehaviour:
     m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP) 1
     m_Metadata:
       m_Items: []
+  - m_Id: 10053925827739648
+    m_Key: Drawing/Canvas/Simple Instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10055196546662400
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Simple Instructions"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

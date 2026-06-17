@@ -521,6 +521,22 @@ MonoBehaviour:
     m_Key: SampleScene/Canvas/Help (1)/Minigame Panel/Text (TMP) 3
     m_Metadata:
       m_Items: []
+  - m_Id: 10053899881775104
+    m_Key: Drawing/Canvas/Simple Instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10053900158599168
+    m_Key: Drawing/Canvas/Simple Instruction 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10055138631712768
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Simple Instructions"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10055138686238720
+    m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Simple Instructions 1"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 7889123934124638211
@@ -746,6 +762,14 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 10053899881775104
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 10055138631712768
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 7889123934124638214
@@ -957,6 +981,14 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 8317695394021376
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 10053900158599168
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 10055138686238720
           m_TableCodes:
           - zh-Hant
           - en
