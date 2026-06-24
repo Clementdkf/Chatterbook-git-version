@@ -36,7 +36,7 @@ public class PageScroller : MonoBehaviour
         {
             obj.SetActive(false);
         }
-        pages[0].SetActive(true);
+        ShowPage(currentPage);
 
         //StartCoroutine(RefreshTextScaleNextFrame());
 
@@ -49,6 +49,7 @@ public class PageScroller : MonoBehaviour
                 currentPage = PlayerPrefs.GetInt(bookmarkKey);
                 isPressed = true;
                 bookMarkButton.GetComponent<Image>().color = new Color(100f/255f, 230f/255f, 255f/255f);
+                ShowPage(currentPage);
             }
             else
             {
