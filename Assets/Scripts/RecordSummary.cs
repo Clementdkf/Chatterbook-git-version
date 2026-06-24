@@ -168,17 +168,17 @@ public class RecordSummary : MonoBehaviour
             {
                 baseNamePos = new Vector2(-250, 0);
                 baseCorrectPos = new Vector2(100, 0);
-                baseCorrectNumPos = new Vector2(250, 3);
+                baseCorrectNumPos = new Vector2(250, 5);
                 baseWrongPos = new Vector2(255, 0);
-                baseWrongNumPos = new Vector2(400, 3);
+                baseWrongNumPos = new Vector2(400, 5);
             }
             else if (code.Contains("en"))
             {
                 baseNamePos = new Vector2(-250, -3);   // shift scene name right
                 baseCorrectPos = new Vector2(50, -3);    // move "Correct" label further right
-                baseCorrectNumPos = new Vector2(250, 3);  // adjust number position
+                baseCorrectNumPos = new Vector2(250, 5);  // adjust number position
                 baseWrongPos = new Vector2(220, -3);    // move "Wrong" label
-                baseWrongNumPos = new Vector2(400, 3);    // adjust wrong number
+                baseWrongNumPos = new Vector2(400, 5);    // adjust wrong number
             }
 
             nameRect.anchoredPosition = baseNamePos;
