@@ -4658,12 +4658,6 @@ MonoBehaviour:
   volumeSlider: {fileID: 472158648}
   brightnessSlider: {fileID: 472158647}
   textsizeSlider: {fileID: 472158646}
-  textPrefab: {fileID: 0}
-  textElements:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   volume: {fileID: 1383670505}
 --- !u!114 &1050190565
 MonoBehaviour:
@@ -5912,9 +5906,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackedObjects:
   - rid: 7889123973001904325
+  - rid: 6714847800718786564
   references:
     version: 2
     RefIds:
+    - rid: 6714847800718786564
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1548002341}
+        m_TrackedProperties:
+          items:
+          - rid: 6714847800718786565
+          - rid: 6714847800718786566
+          - rid: 6714847800718786568
+          - rid: 6714847800718786570
+        m_UpdateType: 0
+    - rid: 6714847800718786565
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:7c343185fa3849e498acf1bd58a9152a
+          m_TableEntryReference:
+            m_KeyId: 12646138747256832
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: m_text
+    - rid: 6714847800718786566
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 6714847800718786567
+        m_PropertyPath: m_fontAsset
+    - rid: 6714847800718786567
+      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:f761aa914e7ab7a4d83f810a37275f6d
+        m_TableEntryReference:
+          m_KeyId: 12646093683654656
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 6714847800718786568
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 6714847800718786569
+        m_PropertyPath: m_sharedMaterial
+    - rid: 6714847800718786569
+      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:f761aa914e7ab7a4d83f810a37275f6d
+        m_TableEntryReference:
+          m_KeyId: 12646094056947712
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 6714847800718786570
+      type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_VerticalAlignment
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: zh-Hant
+          value: 256
+        - localeIdentifier:
+            m_Code: en
+          value: 512
     - rid: 7889123973001904325
       type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
       data:

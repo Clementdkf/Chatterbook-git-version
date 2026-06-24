@@ -280,6 +280,10 @@ MonoBehaviour:
     m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Simple Instructions"
     m_Metadata:
       m_Items: []
+  - m_Id: 12646138747256832
+    m_Key: Login and Register Page/Canvas/Pages/Container/Log in title
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

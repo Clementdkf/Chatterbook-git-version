@@ -537,6 +537,14 @@ MonoBehaviour:
     m_Key: "\u914D\u5C0D\u5C0F\u904A\u6232/Canvas/Simple Instructions 1"
     m_Metadata:
       m_Items: []
+  - m_Id: 12646093683654656
+    m_Key: Login and Register Page/Canvas/Pages/Container/Log in title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12646094056947712
+    m_Key: Login and Register Page/Canvas/Pages/Container/Log in title 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 7889123934124638211
@@ -770,6 +778,10 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hant
           - en
+        - m_KeyId: 12646093683654656
+          m_TableCodes:
+          - zh-Hant
+          - en
         m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
     - rid: 7889123934124638214
@@ -989,6 +1001,10 @@ MonoBehaviour:
           - zh-Hant
           - en
         - m_KeyId: 10055138686238720
+          m_TableCodes:
+          - zh-Hant
+          - en
+        - m_KeyId: 12646094056947712
           m_TableCodes:
           - zh-Hant
           - en
