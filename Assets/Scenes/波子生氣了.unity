@@ -8762,6 +8762,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6631101829792126813, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      propertyPath: panelManager
+      value: 
+      objectReference: {fileID: 1780615635}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8783,6 +8787,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4ce44c37f5cfea4ba87aba11c8fd7eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1091924729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4982720020863657538, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 1091924726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1091924730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7784558115645192604, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 1091924726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1091924731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2147004402793664493, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 1091924726}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1098858785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17826,6 +17845,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: helpPanels.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -17833,6 +17856,18 @@ PrefabInstance:
       propertyPath: helpPanels.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1091924731}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1091924730}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 1091924729}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

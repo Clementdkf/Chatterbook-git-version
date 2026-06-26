@@ -684,6 +684,28 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 28
+--- !u!1 &107678797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5529082152292184608, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 3897789370393785319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &107678801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107678797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b37c4c888ac9e4482ce77f1594e122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelManager: {fileID: 548621724}
+  helpPanels: []
+  settingsPanel: {fileID: 1196468535}
+  helpButtons: []
+  currentSceneData: {fileID: 0}
 --- !u!1 &154146684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2431,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244543482}
   m_CullTransparentMesh: 1
+--- !u!1 &265130898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4075919488893953271, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 3897789370393785319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &265130902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265130898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b37c4c888ac9e4482ce77f1594e122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelManager: {fileID: 548621724}
+  helpPanels: []
+  settingsPanel: {fileID: 1196468535}
+  helpButtons: []
+  currentSceneData: {fileID: 0}
 --- !u!1 &316129229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,6 +3210,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7558084509421817549, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
+      propertyPath: m_TagString
+      value: UIPanels
+      objectReference: {fileID: 0}
     - target: {fileID: 7628139360484490798, guid: ee04f20143e3533438ab49feb8cf6aed, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -74
@@ -3795,6 +3843,9 @@ MonoBehaviour:
   panels:
   - {fileID: 1196468535}
   - {fileID: 184904638}
+  - {fileID: 1402270599}
+  - {fileID: 265130898}
+  - {fileID: 107678797}
 --- !u!4 &548621725
 Transform:
   m_ObjectHideFlags: 0
@@ -5702,6 +5753,22 @@ PrefabInstance:
       propertyPath: panelManager
       value: 
       objectReference: {fileID: 548621724}
+    - target: {fileID: 113632986174821664, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
+      propertyPath: helpPanels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 113632986174821664, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
+      propertyPath: helpPanels.Array.data[0]
+      value: 
+      objectReference: {fileID: 1402270599}
+    - target: {fileID: 113632986174821664, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
+      propertyPath: helpPanels.Array.data[1]
+      value: 
+      objectReference: {fileID: 265130898}
+    - target: {fileID: 113632986174821664, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
+      propertyPath: helpPanels.Array.data[2]
+      value: 
+      objectReference: {fileID: 107678797}
     - target: {fileID: 766902767089018653, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
       propertyPath: m_Name
       value: SettingsButton
@@ -6482,7 +6549,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0589d3eb4e6ef4d269663222f1a92efa, type: 3}
     - target: {fileID: 6653686420148594999, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6653686420148594999, guid: b8ecddbd4c507634d9c5e68fa987398f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -7176,6 +7243,28 @@ Transform:
   - {fileID: 1868430390}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1402270599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 419124865096427487, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 3897789370393785319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1402270603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402270599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b37c4c888ac9e4482ce77f1594e122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelManager: {fileID: 548621724}
+  helpPanels: []
+  settingsPanel: {fileID: 1196468535}
+  helpButtons: []
+  currentSceneData: {fileID: 0}
 --- !u!1 &1476001067
 GameObject:
   m_ObjectHideFlags: 0
@@ -8021,7 +8110,7 @@ GameObject:
   - component: {fileID: 1630318683}
   m_Layer: 5
   m_Name: Settings
-  m_TagString: Untagged
+  m_TagString: UIPanels
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11207,9 +11296,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 154146685}
     m_Modifications:
+    - target: {fileID: 419124865096427487, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      propertyPath: m_TagString
+      value: UIPanels
+      objectReference: {fileID: 0}
     - target: {fileID: 1198991180827003102, guid: 169052533eb648842929fcbbdb008806, type: 3}
       propertyPath: m_Name
       value: Instructions
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075919488893953271, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      propertyPath: m_TagString
+      value: UIPanels
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529082152292184608, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      propertyPath: m_TagString
+      value: UIPanels
       objectReference: {fileID: 0}
     - target: {fileID: 6147202779481445214, guid: 169052533eb648842929fcbbdb008806, type: 3}
       propertyPath: m_Pivot.x
@@ -11291,11 +11392,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6631101829792126813, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      propertyPath: panelManager
+      value: 
+      objectReference: {fileID: 548621724}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 419124865096427487, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1402270603}
+    - targetCorrespondingSourceObject: {fileID: 4075919488893953271, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 265130902}
+    - targetCorrespondingSourceObject: {fileID: 5529082152292184608, guid: 169052533eb648842929fcbbdb008806, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 107678801}
   m_SourcePrefab: {fileID: 100100000, guid: 169052533eb648842929fcbbdb008806, type: 3}
+--- !u!1 &3897789370393785320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4982720020863657538, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 3897789370393785319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3897789370393785321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7784558115645192604, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 3897789370393785319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3897789370393785322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2147004402793664493, guid: 169052533eb648842929fcbbdb008806, type: 3}
+  m_PrefabInstance: {fileID: 3897789370393785319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3961588851406563507
 GameObject:
   m_ObjectHideFlags: 0
@@ -11697,13 +11826,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2095070368}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpPanels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: helpPanels.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1402270599}
     - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
       propertyPath: helpPanels.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 265130898}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpPanels.Array.data[2]
+      value: 
+      objectReference: {fileID: 107678797}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 3897789370393785322}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 3897789370393785321}
+    - target: {fileID: 7753973231897320550, guid: 70ef043f33eeebf4b8396528f7a0ce6e, type: 3}
+      propertyPath: helpButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 3897789370393785320}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12446,6 +12599,7 @@ MonoBehaviour:
   panelManager: {fileID: 0}
   helpPanels: []
   settingsPanel: {fileID: 0}
+  helpButtons: []
   currentSceneData: {fileID: 0}
 --- !u!224 &7918049770861242645 stripped
 RectTransform:

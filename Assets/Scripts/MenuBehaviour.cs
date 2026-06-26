@@ -17,6 +17,9 @@ public class MenuBehaviour : MonoBehaviour
     [Header("Panels")]
     public GameObject[] helpPanels;
     public GameObject settingsPanel;
+
+    [Header("Help Buttons")]
+    public GameObject[] helpButtons;
     [SerializeField] private SceneQuizData currentSceneData;
 
     private StrapiComponent strapiComponent;
@@ -59,8 +62,13 @@ public class MenuBehaviour : MonoBehaviour
     public void Toggle() //toggling settings panel 
     {
         panelManager.OpenPanel(settingsPanel);
-        //settingsUIButton.gameObject.SetActive(true);
-        //helpUIButton.gameObject.SetActive(true);   
+        foreach (GameObject obj in helpButtons)
+        {
+            if (obj != null)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 
     //change scenes 
@@ -76,6 +84,13 @@ public class MenuBehaviour : MonoBehaviour
     public void OpenUI(GameObject panel)
     {
         panelManager.OpenPanel(panel);
+        foreach (GameObject obj in helpButtons)
+        {
+            if (obj != null)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 
 

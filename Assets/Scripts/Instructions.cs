@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Instructions : MonoBehaviour
 {
+    public PanelManager panelManager;
     public GameObject menuPanel;
     public GameObject bookPanel;
     public GameObject minigamePanel;
@@ -13,23 +14,17 @@ public class Instructions : MonoBehaviour
     // Start is called before the first frame update
     public void MenuPanel()
     {
-        menuPanel.SetActive(true);
-        bookPanel.SetActive(false);
-        minigamePanel.SetActive(false);
+        panelManager.OpenPanel(menuPanel);
     }
 
     public void BookPanel()
     {
-        menuPanel.SetActive(false);
-        bookPanel.SetActive(true);
-        minigamePanel.SetActive(false);
+        panelManager.OpenPanel(bookPanel);
     }
 
     public void MinigamePanel()
     {
-        menuPanel.SetActive(false);
-        bookPanel.SetActive(false);
-        minigamePanel.SetActive(true);
+        panelManager.OpenPanel(minigamePanel);
         for (int i = 0; i < minigameText.Length; i ++)
         {
             minigameText[i].SetActive(i == 0);
@@ -62,8 +57,8 @@ public class Instructions : MonoBehaviour
 
     public void HelpButton()
     {
-        menuPanel.SetActive(true);
-                foreach (GameObject obj in Buttons)
+        panelManager.OpenPanel(menuPanel);
+        foreach (GameObject obj in Buttons)
         {
             if (obj != null)
             {
