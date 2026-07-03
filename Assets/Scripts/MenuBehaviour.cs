@@ -99,7 +99,7 @@ public class MenuBehaviour : MonoBehaviour
         panel.SetActive(false); 
     }
 
-    public void SettingsUI()
+    public void SettingsUI() //controlling the opening of settings panel 
     {
         panelManager.OpenPanel(settingsPanel);
         foreach (GameObject panel in helpPanels)

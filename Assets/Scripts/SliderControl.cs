@@ -43,6 +43,7 @@ public class SliderControl : MonoBehaviour
 
     void Start()
     {
+        //Initialzing sliders with saved values from settingsManager or PlayerPrefs
         float savedVolume = SettingsManager.Instance.CurrentVolume;
         float savedBrightness = PlayerPrefs.GetFloat("brightness", 0f);
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
@@ -53,6 +54,7 @@ public class SliderControl : MonoBehaviour
 
         AudioListener.volume = savedVolume;
 
+        //applying brightness to the post-procesing profile
         if (volume != null && volume.profile.TryGet(out colorAdjustments))
         {
             colorAdjustments.postExposure.value = savedBrightness;
@@ -60,6 +62,7 @@ public class SliderControl : MonoBehaviour
 
         CacheBaseFontSizes();
 
+        //configuring the volume slider 
         if (volumeSlider != null)
         {
             volumeSlider.onValueChanged.RemoveListener(OnVolumeChanged);
@@ -71,13 +74,14 @@ public class SliderControl : MonoBehaviour
             volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         }
 
+        //attaching event listeners to sliders
         if (brightnessSlider != null) brightnessSlider.onValueChanged.AddListener(SetBrightness);
         if (textsizeSlider != null) textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
 
         Debug.Log($"Volume: {savedVolume}, Brightness: {savedBrightness}, Text Scale: {savedScale}");
     }
 
-    void OnEnable()
+    void OnEnable() //refreshing text scaling when the text object is enabled
     {
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
         UpdateAllFontSizes(savedScale);
@@ -85,21 +89,19 @@ public class SliderControl : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        CacheBaseFontSizes();
+        CacheBaseFontSizes(); //Refreshing cached font sizes
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
         if (textsizeSlider != null)
-            textsizeSlider.value = savedScale;
+            textsizeSlider.value = savedScale; //applies scaling
         UpdateAllFontSizes(savedScale);
 
+        //Restores volume slider and AudioListener.volume from SettingsManager
         float savedVolume = SettingsManager.Instance.CurrentVolume;
         if (volumeSlider != null)
         {
             volumeSlider.onValueChanged.RemoveListener(OnVolumeChanged);
             volumeSlider.value = savedVolume;
             AudioListener.volume = savedVolume;
-            Debug.Log("I am in OnSceneLoaded and volumeSlider.value is: " + volumeSlider.value);
-            Debug.Log("I am in OnSceneLoaded and savedVolume is: " + savedVolume);
-            Debug.Log("I am in OnSceneLoaded and AudioListener.volume is: " + AudioListener.volume);
             volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
         }
     }
@@ -131,19 +133,19 @@ public class SliderControl : MonoBehaviour
         }
     }
 
-    public void OnVolumeChanged(float value)
+    public void OnVolumeChanged(float value) //method for volume slider
     {
         AudioListener.volume = value;
         //SettingsManager.Instance.SetVolume(value);
         Debug.Log("I am in the OnVolumeChanged method and the value is: " + value);
     }
 
-    public void OnVolumeSet()
+    public void OnVolumeSet() //method for volumne slider to be consistent through all scenes (volumeSliderHandler)
     {
         SettingsManager.Instance.SetVolume(volumeSlider.value);
     }
 
-    public void SetBrightness(float value)
+    public void SetBrightness(float value) //method for brightness slider
     {
         if (colorAdjustments != null)
         {
@@ -154,7 +156,7 @@ public class SliderControl : MonoBehaviour
         }
     }
 
-    public void UpdateAllFontSizes(float scale)
+    public void UpdateAllFontSizes(float scale) //method for text size slider
     {
         // Apply scaling to static texts
         foreach (var kvp in baseFontSizes)
@@ -190,7 +192,7 @@ public class SliderControl : MonoBehaviour
         SettingsManager.Instance?.SetTextScale(scale);
     }
 
-    public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true)
+    public void RegisterDynamicText(TextMeshProUGUI text, bool allowScaling = true) //method for updating text size for dynamic texts (e.g. record panel texts)
     {
         if (text == null) return;
 
@@ -216,13 +218,13 @@ public class SliderControl : MonoBehaviour
         }
     }
 
-    public void ClearDynamicText()
+    public void ClearDynamicText() //clears dynamic text lists
     {
         scalableDynamicTexts.Clear();
         fixedDynamicTexts.Clear();
     }
 
-    public static List<TextMeshProUGUI> FindTMPWithTagInHierarchy(string tag)
+    public static List<TextMeshProUGUI> FindTMPWithTagInHierarchy(string tag) //find text objects in the hierarchy with the given tag 
     {
         List<TextMeshProUGUI> foundTexts = new List<TextMeshProUGUI>();
         Scene activeScene = SceneManager.GetActiveScene();
@@ -234,7 +236,7 @@ public class SliderControl : MonoBehaviour
         return foundTexts;
     }
 
-    private static void TraverseHierarchyAndAddTMP(Transform parent, string tag, List<TextMeshProUGUI> list)
+    private static void TraverseHierarchyAndAddTMP(Transform parent, string tag, List<TextMeshProUGUI> list) //adds tagged text components to the list
     {
         if (parent.CompareTag(tag))
         {

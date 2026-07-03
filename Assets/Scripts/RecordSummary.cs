@@ -58,7 +58,7 @@ public class RecordSummary : MonoBehaviour
         
     }
 
-    void UpdateRecordPage()
+    void UpdateRecordPage() //controls the visibility of the next and previous buttons on the record page
     {
         PreviousButton.gameObject.SetActive(currentPage > 0);
         NextButton.gameObject.SetActive(currentPage < (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage);
@@ -192,7 +192,7 @@ public class RecordSummary : MonoBehaviour
         
     }
 
-    public void PreviousPage()
+    public void PreviousPage() //controls the previous button on the record page
     {
         if (currentPage > 0)
         {
@@ -202,7 +202,7 @@ public class RecordSummary : MonoBehaviour
         }
     }
 
-    public void NextPage()
+    public void NextPage() //controls the next button on the record page
     {
         int maxPage = (ReceivingRecords.Instance.allSceneQuizData.Count - 1) / itemsPerPage;
         if (currentPage < maxPage)

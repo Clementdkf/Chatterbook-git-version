@@ -14,7 +14,7 @@ public class MusicToggle : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void ToggleMusic(bool isOn)
+    public void ToggleMusic(bool isOn) //Function for music toggle
     {
         if (BackgroundMusic.Instance != null)
         {

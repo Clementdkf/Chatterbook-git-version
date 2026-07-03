@@ -31,8 +31,8 @@ public class PageScroller : MonoBehaviour
 
     void Start()
     {
-        pages = FindGameObjectsWithTagInHierarchy(targetTag).ToArray();
-        foreach (GameObject obj in pages)
+        pages = FindGameObjectsWithTagInHierarchy(targetTag).ToArray(); //finding all pages with the target tag
+        foreach (GameObject obj in pages) //deactivating all pages and show the current page
         {
             obj.SetActive(false);
         }
@@ -44,14 +44,14 @@ public class PageScroller : MonoBehaviour
 
         if (gameObject.tag != "UIPanels")
         {
-            if (PlayerPrefs.HasKey(bookmarkKey))
+            if (PlayerPrefs.HasKey(bookmarkKey)) //see if there is a bookmark key in playprefs, if yes then load that page
             {
                 currentPage = PlayerPrefs.GetInt(bookmarkKey);
                 isPressed = true;
                 bookMarkButton.GetComponent<Image>().color = new Color(100f/255f, 230f/255f, 255f/255f);
                 ShowPage(currentPage);
             }
-            else
+            else //if not, then load the first page
             {
                 currentPage = 0;
                 isPressed = false;
@@ -61,7 +61,7 @@ public class PageScroller : MonoBehaviour
         
         audioSource = GetComponent<AudioSource>();
 
-        if (progressBar != null)
+        if (progressBar != null) //controls the behaviour of the progress bar
         {
             progressBar.minValue = 0;
             progressBar.maxValue = pages.Length - 1;
@@ -72,7 +72,7 @@ public class PageScroller : MonoBehaviour
     }
     void Update()
     {
-        if (currentPage == pages.Length - 1)
+        if (currentPage == pages.Length - 1) //controlling the next and previous buttons' behaviour
         {
             NextButton.SetActive(false);
             homeButton.SetActive(true);
@@ -85,7 +85,7 @@ public class PageScroller : MonoBehaviour
     }
 
     //move to the next page of the book
-    public void NextPage()
+    public void NextPage() //function for next button
     {
         if (currentPage < pages.Length - 1)
         {
@@ -95,7 +95,7 @@ public class PageScroller : MonoBehaviour
     }
 
     //move to the previous page of the book
-    public void PreviousPage()
+    public void PreviousPage() //function for previous button
     {
         if (currentPage > 0)
         {
@@ -104,7 +104,7 @@ public class PageScroller : MonoBehaviour
         }
     }
 
-    void ShowPage(int index)
+    void ShowPage(int index) //showing the page with the corresponding interger
     {
         for (int i = 0; i < pages.Length; i++)
             pages[i].SetActive(false);
@@ -124,7 +124,7 @@ public class PageScroller : MonoBehaviour
 
     }
 
-    private IEnumerator RefreshTextScaleNextFrame(TMPro.TextMeshProUGUI[] texts)
+    private IEnumerator RefreshTextScaleNextFrame(TMPro.TextMeshProUGUI[] texts) //wait one frame to ensure the UI layout is updated
     {
         yield return null; // wait one frame
         Canvas.ForceUpdateCanvases();
@@ -167,12 +167,12 @@ public class PageScroller : MonoBehaviour
     public void BookMark()
     {
         Image buttonImage = bookMarkButton.GetComponent<Image>();
-        isPressed = !isPressed;
+        isPressed = !isPressed; //toggle the bookmark bool
 
         // Create a unique key based on the scene name
         string bookmarkKey = SceneManager.GetActiveScene().name + "_BookmarkedPage";
 
-        if (isPressed)
+        if (isPressed) //saves the current page index to PlayerPrefs if true
         {
             PlayerPrefs.SetInt(bookmarkKey, currentPage);
             PlayerPrefs.Save();
@@ -180,7 +180,7 @@ public class PageScroller : MonoBehaviour
 
             buttonImage.color = new Color(100f/255f, 230f/255f, 255f/255f); // light blue
         }
-        else
+        else //deletes bookmark key from PlayerPrefs and resets button color
         {
             PlayerPrefs.DeleteKey(bookmarkKey);
             PlayerPrefs.Save();

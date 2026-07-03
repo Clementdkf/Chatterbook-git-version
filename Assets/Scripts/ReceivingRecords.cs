@@ -34,7 +34,7 @@ public class ReceivingRecords : MonoBehaviour
         }
     }
 
-    public SceneQuizData GetQuizDataForScene(string sceneName)
+    public SceneQuizData GetQuizDataForScene(string sceneName) //Getting the corresponding scene's quiz data
     {
         foreach (var data in allSceneQuizData)
         {
@@ -46,7 +46,7 @@ public class ReceivingRecords : MonoBehaviour
         return null; // Return null if data for the scene isn't found
     }
 
-    public void ResetAllQuizData()
+    public void ResetAllQuizData() //used for the reset button on the record panel
     {
         Debug.Log("ResetAllQuizData called. Count: " + allSceneQuizData.Count);
         foreach (var data in allSceneQuizData)
@@ -58,7 +58,7 @@ public class ReceivingRecords : MonoBehaviour
         Debug.Log("All quiz data has been reset.");
     }
 
-    private Dictionary<string, int> GetSceneNameandID(List<SceneQuizData> allSceneQuizData) 
+    private Dictionary<string, int> GetSceneNameandID(List<SceneQuizData> allSceneQuizData) //getting the scene names and IDs except certain scenes
     {
         return allSceneQuizData
             .Where(scene => scene.isEnabled)
