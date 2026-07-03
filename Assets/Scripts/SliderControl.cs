@@ -43,7 +43,7 @@ public class SliderControl : MonoBehaviour
 
     void Start()
     {
-        float savedVolume = SettingsManager.Instance?.CurrentVolume ?? PlayerPrefs.GetFloat("volume", 1f);
+        float savedVolume = SettingsManager.Instance.CurrentVolume;
         float savedBrightness = PlayerPrefs.GetFloat("brightness", 0f);
         float savedScale = SettingsManager.Instance?.CurrentTextScale ?? PlayerPrefs.GetFloat("textScale", 1f);
 
@@ -60,7 +60,17 @@ public class SliderControl : MonoBehaviour
 
         CacheBaseFontSizes();
 
-        if (volumeSlider != null) volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        if (volumeSlider != null)
+        {
+            volumeSlider.onValueChanged.RemoveListener(OnVolumeChanged);
+            volumeSlider.value = savedVolume;
+            volumeSlider.minValue = 0f;
+            volumeSlider.maxValue = 1f;
+            volumeSlider.wholeNumbers = false;
+            AudioListener.volume = savedVolume;
+            volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        }
+
         if (brightnessSlider != null) brightnessSlider.onValueChanged.AddListener(SetBrightness);
         if (textsizeSlider != null) textsizeSlider.onValueChanged.AddListener(UpdateAllFontSizes);
 
@@ -80,6 +90,18 @@ public class SliderControl : MonoBehaviour
         if (textsizeSlider != null)
             textsizeSlider.value = savedScale;
         UpdateAllFontSizes(savedScale);
+
+        float savedVolume = SettingsManager.Instance.CurrentVolume;
+        if (volumeSlider != null)
+        {
+            volumeSlider.onValueChanged.RemoveListener(OnVolumeChanged);
+            volumeSlider.value = savedVolume;
+            AudioListener.volume = savedVolume;
+            Debug.Log("I am in OnSceneLoaded and volumeSlider.value is: " + volumeSlider.value);
+            Debug.Log("I am in OnSceneLoaded and savedVolume is: " + savedVolume);
+            Debug.Log("I am in OnSceneLoaded and AudioListener.volume is: " + AudioListener.volume);
+            volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        }
     }
 
     private void OnLocaleChanged(Locale locale)
@@ -112,7 +134,13 @@ public class SliderControl : MonoBehaviour
     public void OnVolumeChanged(float value)
     {
         AudioListener.volume = value;
-        SettingsManager.Instance?.SetVolume(value);
+        //SettingsManager.Instance.SetVolume(value);
+        Debug.Log("I am in the OnVolumeChanged method and the value is: " + value);
+    }
+
+    public void OnVolumeSet()
+    {
+        SettingsManager.Instance.SetVolume(volumeSlider.value);
     }
 
     public void SetBrightness(float value)
